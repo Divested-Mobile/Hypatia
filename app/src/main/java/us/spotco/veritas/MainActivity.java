@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,10 +25,15 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         TextView logView = findViewById(R.id.txtLogOutput);
+        logView.setMovementMethod(new ScrollingMovementMethod());
         logView.append("Copyright 2017 Spot Communications, Inc.\n");
         logView.append("License: GPLv3\n");
         logView.append("Powered by ClamAV signatures, License: GPLv3\n");
+        logView.append("\nDisclaimer: This is an extremely basic signature scanner\n\n");
 
+        MenuItem databaseUpdateCheckOption = findViewById(R.id.mnuUpdateDatabase);
+
+        final Database database = new Database(this, logView, databaseUpdateCheckOption);
         final MalwareScanner scanner = new MalwareScanner(this, logView);
 
         FloatingActionButton fab = findViewById(R.id.fab);
