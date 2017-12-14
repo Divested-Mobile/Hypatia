@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Veritas</string>
+    <string name="app_name">Theia</string>
     <string name="lblUpdateDatabase">Update database</string>
     <string name="lblScanSystem">Scan /system</string>
     <string name="lblScanApps">Scan App APKs</string>
