@@ -4,11 +4,6 @@
     tools:context="us.spotco.malwarescanner.MainActivity">
 
     <item
-        android:id="@+id/mnuUpdateDatabase"
-        android:title="@string/lblUpdateDatabase"
-        android:checkable="true"
-        android:checked="true" />
-    <item
         android:id="@+id/mnuScanSystem"
         android:title="@string/lblScanSystem"
         android:checkable="true"
