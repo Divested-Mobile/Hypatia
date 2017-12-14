@@ -12,10 +12,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    private boolean checkUpdates = true;
     private boolean scanSystem = true;
     private boolean scanApps = true;
     private boolean scanInternal = true;
-    private boolean scanExternal = true;
+    private boolean scanExternal = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,17 +59,25 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.mnuUpdateDatabase:
+                checkUpdates = !item.isChecked();
+                item.setChecked(checkUpdates);
+                break;
             case R.id.mnuScanSystem:
                 scanSystem = !item.isChecked();
+                item.setChecked(scanSystem);
                 break;
             case R.id.mnuScanApps:
                 scanApps = !item.isChecked();
+                item.setChecked(scanApps);
                 break;
             case R.id.mnuScanInternal:
                 scanInternal = !item.isChecked();
+                item.setChecked(scanInternal);
                 break;
             case R.id.mnuScanExternal:
                 scanExternal = !item.isChecked();
+                item.setChecked(scanExternal);
                 break;
         }
         return super.onOptionsItemSelected(item);

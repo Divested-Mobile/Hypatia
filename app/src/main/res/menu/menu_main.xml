@@ -27,6 +27,6 @@
         android:id="@+id/mnuScanExternal"
         android:title="@string/lblScanExternal"
         android:checkable="true"
-        android:checked="true" />
+        android:checked="false" />
 
 </menu>
