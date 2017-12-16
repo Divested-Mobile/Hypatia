@@ -30,8 +30,7 @@
             android:name=".MalwareScannerService"
             android:label="Theia Realtime Malware Scanner"
             android:enabled="true"
-            android:exported="false">
-        </service>
+            android:exported="false"/>
 
         <receiver
             android:name=".BootReceiver"
@@ -39,9 +38,8 @@
             android:enabled="true"
             android:exported="true">
             <intent-filter>
-                <category android:name="android.intent.category.DEFAULT"/>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
             </intent-filter>
         </receiver>
 
