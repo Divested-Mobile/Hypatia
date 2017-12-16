@@ -7,6 +7,10 @@
         android:title="@string/lblUpdateDatabase" />
 
     <item
+        android:id="@+id/mnuStartRealtime"
+        android:title="@string/lblStartRealtime" />
+
+    <item
         android:id="@+id/mnuScanSystem"
         android:title="@string/lblScanSystem"
         android:checkable="true"
