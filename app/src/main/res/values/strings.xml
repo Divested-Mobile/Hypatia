@@ -8,6 +8,6 @@
     <string name="lblScanExternal">Scan External Storage</string>
     <string name="lblNotificationRealtimeTitle">Realtime Scanner</string>
     <string name="lblNotificationRealtimeText">Malware will be detected in realtime</string>
-    <string name="lblNotificationRealtimeDetection">Malware Detected!</string>
+    <string name="lblNotificationRealtimeDetection">Malware Detected:</string>
     <string name="lblRealtimeScannerToggle">Realtime Scanner</string>
 </resources>
