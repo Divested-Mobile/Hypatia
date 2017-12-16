@@ -1,14 +1,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="us.spotco.malwarescanner.MainActivity">
 
     <item
         android:id="@+id/mnuUpdateDatabase"
         android:title="@string/lblUpdateDatabase" />
-
     <item
-        android:id="@+id/mnuStartRealtime"
-        android:title="@string/lblStartRealtime" />
+        android:id="@+id/toggleRealtime"
+        android:title="@string/lblRealtimeScannerToggle"
+        android:checkable="true" />
 
     <item
         android:id="@+id/mnuScanSystem"
