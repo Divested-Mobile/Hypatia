@@ -33,7 +33,7 @@
             android:exported="false"/>
 
         <receiver
-            android:name="EventReceiver"
+            android:name=".EventReceiver"
             android:label="Theia Persistence"
             android:enabled="true"
             android:exported="true">
