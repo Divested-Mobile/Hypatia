@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Theia</string>
-    <string name="lblUpdateDatabase">Update database</string>
+    <string name="lblUpdateDatabase">Update databases</string>
+    <string name="lblSelectDatabases">Select databases</string>
+    <string name="lblSelectDatabasesTitle">Select databases to enable</string>
     <string name="lblStartRealtime">Start realtime scanner</string>
     <string name="lblScanSystem">Scan /system</string>
     <string name="lblScanApps">Scan App APKs</string>

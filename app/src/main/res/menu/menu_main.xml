@@ -6,6 +6,9 @@
         android:id="@+id/mnuUpdateDatabase"
         android:title="@string/lblUpdateDatabase" />
     <item
+        android:id="@+id/mnuSelectDatabases"
+        android:title="@string/lblSelectDatabases" />
+    <item
         android:id="@+id/toggleRealtime"
         android:title="@string/lblRealtimeScannerToggle"
         android:checkable="true" />
