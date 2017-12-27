@@ -34,7 +34,7 @@
 
         <receiver
             android:name=".EventReceiver"
-            android:label="Theia Persistence"
+            android:label="Theia Event Handler"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -44,7 +44,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REPLACED" />
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
-
                 <data android:scheme="package" />
             </intent-filter>
         </receiver>
