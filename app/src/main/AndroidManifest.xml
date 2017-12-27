@@ -30,7 +30,7 @@
             android:name=".MalwareScannerService"
             android:label="Theia Realtime Malware Scanner"
             android:enabled="true"
-            android:exported="false"/>
+            android:exported="false" />
 
         <receiver
             android:name=".EventReceiver"
@@ -44,6 +44,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REPLACED" />
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
+
                 <data android:scheme="package" />
             </intent-filter>
         </receiver>
