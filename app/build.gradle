@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "us.spotco.malwarescanner"
-        minSdkVersion 21
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 27
         versionName "2.2"
