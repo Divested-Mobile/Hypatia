@@ -29,6 +29,8 @@ Technical Details
 
 Planned Updates
 ----------------
+- Option to scan on access
+- Option to delete on detection
 - Scan files via share intent
 - Scan newly installed/updated apps
 - Better GUI
