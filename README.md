@@ -27,13 +27,20 @@ Technical Details
 - Realtime scanner is multithreaded and will use half of the device's core count for scanning multiple files asynchronously
 - Realtime scanning powered by a recursive FileObserver
 
-To-Do
------
+Planned Updates
+----------------
 - Scan files via share intent
 - Scan newly installed/updated apps
 - Better GUI
 - Translations
 - Scanning entire system using root (low priority)
+
+Goals
+-----
+- Be fast
+- Don't eat batteries
+- Use minimal permissions
+- Use libraries only when necessary
 
 Credits
 -------
