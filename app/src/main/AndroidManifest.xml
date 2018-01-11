@@ -12,7 +12,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
 
         <activity
             android:name=".MainActivity"
@@ -30,7 +31,7 @@
             android:name=".MalwareScannerService"
             android:label="Theia Realtime Malware Scanner"
             android:enabled="true"
-            android:exported="false" />
+            android:exported="false"/>
 
         <receiver
             android:name=".EventReceiver"
