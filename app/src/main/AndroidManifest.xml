@@ -29,13 +29,13 @@
 
         <service
             android:name=".MalwareScannerService"
-            android:label="Theia Realtime Malware Scanner"
+            android:label="Realtime Malware Scanner"
             android:enabled="true"
             android:exported="false"/>
 
         <receiver
             android:name=".EventReceiver"
-            android:label="Theia Event Handler"
+            android:label="Event Handler"
             android:enabled="true"
             android:exported="true">
             <intent-filter>

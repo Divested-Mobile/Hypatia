@@ -46,6 +46,5 @@ Goals
 
 Credits
 -------
-- Trove (GPLv3): A memory efficient replacement for Java's Collections
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
 - Icons (Apache-2.0): Google/Android/AOSP

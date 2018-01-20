@@ -6,8 +6,8 @@ android {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 28
-        versionName "2.3"
+        versionCode 29
+        versionName "2.4"
     }
     buildTypes {
         debug {
@@ -31,5 +31,4 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support:design:26.1.0'
-    implementation 'net.sf.trove4j:trove4j:3.0.3'
 }
