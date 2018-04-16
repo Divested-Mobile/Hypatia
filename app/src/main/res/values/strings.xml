@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Hypatia</string>
+    <string name="lblOnionRoutingToggle">Download over Tor</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot is not installed!</string>
+    <string name="lblOnionRoutingNotRunning">Orbot is not running!</string>
     <string name="lblUpdateDatabase">Update databases</string>
     <string name="lblSelectDatabases">Select databases</string>
     <string name="lblSelectDatabasesTitle">Select databases to enable</string>

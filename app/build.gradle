@@ -6,8 +6,8 @@ android {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 32
-        versionName "2.6"
+        versionCode 33
+        versionName "2.7"
     }
     buildTypes {
         debug {
@@ -31,4 +31,5 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support:design:26.1.0'
+    implementation 'info.guardianproject.netcipher:netcipher:2.0.0-alpha1'
 }
