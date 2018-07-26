@@ -1,9 +1,9 @@
-Theia
-=====
+Hypatia
+=======
 
 Overview
 --------
-Theia is the worlds first FOSS malware scanner for Android. It is powered by ClamAV signature databases (GPLv3).
+Hypatia is the worlds first FOSS malware scanner for Android. It is powered by ClamAV signature databases (GPLv3).
 
 Features
 --------
@@ -30,7 +30,7 @@ Technical Details
 Planned Updates
 ----------------
 - Option to scan on access
-- Option to delete on detection
+- Option to quarantine/delete on detection
 - Scan files via share intent
 - Scan newly installed/updated apps
 - Better GUI
