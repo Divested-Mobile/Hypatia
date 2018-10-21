@@ -1,20 +1,12 @@
 <resources>
     <string name="app_name">Hypatia</string>
-    <string name="lblOnionRoutingToggle">Download over Tor</string>
-    <string name="lblOnionRoutingNotInstalled">Orbot is not installed!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot is not running!</string>
-    <string name="lblUpdateDatabase">Update databases</string>
-    <string name="lblSelectDatabases">Select databases</string>
-    <string name="lblSelectDatabasesTitle">Select databases to enable</string>
-    <string name="lblScanSystem">Scan /system</string>
-    <string name="lblScanApps">Scan App APKs</string>
-    <string name="lblScanInternal">Scan Internal Storage</string>
-    <string name="lblScanExternal">Scan External Storage</string>
-    <string name="lblNotificationMalwareDetectionTitle">Malware Detection</string>
-    <string name="lblNotificationMalwareDetectionDescription">Used to alert when malware is detected</string>
-    <string name="lblNotificationRealtimeTitle">Realtime Scanner</string>
-    <string name="lblNotificationRealtimeDescription">Used to show files scanned counter and maintain the background service</string>
-    <string name="lblNotificationRealtimeText">Malware will be detected in realtime</string>
-    <string name="lblNotificationRealtimeDetection">Malware Detected:</string>
-    <string name="lblRealtimeScannerToggle">Realtime Scanner</string>
+    <string name="title_activity_main">Hypatia</string>
+    <string name="title_scanner">Scanner</string>
+    <string name="title_log">History</string>
+    <string name="title_databases">Databases</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
