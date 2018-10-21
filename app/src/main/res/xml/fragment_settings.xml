@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="us.spotco.malwarescanner.SettingsFragment">
+
+    <PreferenceCategory android:title="@string/settings_category_scanner_realtime">
+        <CheckBoxPreference
+            android:key="scanner_realtime_path_system"
+            android:title="@string/settings_pref_scanner_realtime_path_system"
+            android:summary="@string/settings_pref_scanner_realtime_path_system_summary"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
+            android:key="scanner_realtime_path_internal"
+            android:title="@string/settings_pref_scanner_realtime_path_internal"
+            android:summary="@string/settings_pref_scanner_realtime_path_internal_summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="scanner_realtime_path_external"
+            android:title="@string/settings_pref_scanner_realtime_path_external"
+            android:summary="@string/settings_pref_scanner_realtime_path_external_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_optimizations">
+        <EditTextPreference
+            android:key="database_hash_length"
+            android:title="@string/settings_pref_optimizations_database_hash_length"
+            android:summary="@string/settings_pref_optimizations_database_hash_length_summary"
+            android:defaultValue="12"
+            android:inputType="number" />
+        <CheckBoxPreference
+            android:key="database_trim_variants"
+            android:title="@string/settings_pref_optimizations_database_trim"
+            android:summary="@string/settings_pref_optimizations_database_trim_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_category_network">
+        <CheckBoxPreference
+            android:key="network_use_tor"
+            android:title="@string/settings_pref_network_tor"
+            android:summary="@string/settings_pref_network_tor_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
