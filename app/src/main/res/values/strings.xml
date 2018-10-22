@@ -9,8 +9,14 @@
     <string name="title_settings">Settings</string>
     <!-- END MainActivity -->
 
+    <!-- START TOASTS -->
+    <string name="toast_orbot_unavailable">Orbot is required for this feature</string>
+    <!-- END TOASTS -->
+
     <!-- START SettingsFragment -->
     <string name="settings_category_scanner_realtime">Realtime Scanner</string>
+    <string name="settings_pref_scanner_realtime_enabled">Realtime Scanning</string>
+    <string name="settings_pref_scanner_realtime_enabled_summary">Monitor for threats in realtime using settings below</string>
     <string name="settings_pref_scanner_realtime_path_apps">Scan apps</string>
     <string name="settings_pref_scanner_realtime_path_apps_summary">Check apps on install</string>
     <string name="settings_pref_scanner_realtime_path_internal">Watch Internal storage</string>

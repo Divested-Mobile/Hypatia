@@ -4,6 +4,11 @@
 
     <PreferenceCategory android:title="@string/settings_category_scanner_realtime">
         <CheckBoxPreference
+            android:key="scanner_realtime_enabled"
+            android:title="@string/settings_pref_scanner_realtime_enabled"
+            android:summary="@string/settings_pref_scanner_realtime_enabled_summary"
+            android:defaultValue="false" />
+        <CheckBoxPreference
             android:key="scanner_realtime_path_apps"
             android:title="@string/settings_pref_scanner_realtime_path_apps"
             android:summary="@string/settings_pref_scanner_realtime_path_apps_summary"
