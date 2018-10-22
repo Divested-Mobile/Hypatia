@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">Hypatia</string>
+    <string name="app_name">Hypatia V3</string>
 
     <!-- START MainActivity -->
-    <string name="title_activity_main">Hypatia</string>
     <string name="title_scanner">Scanner</string>
     <string name="title_log">History</string>
     <string name="title_databases">Databases</string>
