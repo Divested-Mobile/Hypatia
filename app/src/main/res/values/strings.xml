@@ -11,12 +11,14 @@
 
     <!-- START SettingsFragment -->
     <string name="settings_category_scanner_realtime">Realtime Scanner</string>
-    <string name="settings_pref_scanner_realtime_path_system">Scan /system</string>
-    <string name="settings_pref_scanner_realtime_path_system_summary">Monitor system files</string>
-    <string name="settings_pref_scanner_realtime_path_internal">Scan Internal storage</string>
-    <string name="settings_pref_scanner_realtime_path_internal_summary">Monitor files on internal storage</string>
-    <string name="settings_pref_scanner_realtime_path_external">Scan External storage</string>
-    <string name="settings_pref_scanner_realtime_path_external_summary">Monitor files on external storage</string>
+    <string name="settings_pref_scanner_realtime_path_apps">Scan apps</string>
+    <string name="settings_pref_scanner_realtime_path_apps_summary">Check apps on install</string>
+    <string name="settings_pref_scanner_realtime_path_internal">Watch Internal storage</string>
+    <string name="settings_pref_scanner_realtime_path_internal_summary">Recursive monitor on internal storage</string>
+    <string name="settings_pref_scanner_realtime_path_external">Watch External storage</string>
+    <string name="settings_pref_scanner_realtime_path_external_summary">Recursive monitor on external storage</string>
+    <string name="settings_pref_scanner_realtime_path_system">Watch System</string>
+    <string name="settings_pref_scanner_realtime_path_system_summary">Alert on changes to /system</string>
 
     <string name="settings_category_optimizations">Optimizations</string>
     <string name="settings_pref_optimizations_database_hash_length">Max hash length</string>
@@ -27,5 +29,9 @@
     <string name="settings_category_network">Network</string>
     <string name="settings_pref_network_tor">Onion Routing</string>
     <string name="settings_pref_network_tor_summary">Perform all network requests over Tor</string>
+
+    <string name="settings_category_other">Other</string>
+    <string name="settings_pref_other_third_party">Enable third party access</string>
+    <string name="settings_pref_other_third_party_summary">Allow other apps to invoke the scanner on objects</string>
     <!-- END SettingsFragment -->
 </resources>

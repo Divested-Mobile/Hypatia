@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context="us.spotco.malwarescanner.MainActivity">
 
+    <!-- TODO: FIX SCROLLING! -->
     <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/main_fragment"
         android:layout_width="match_parent"
