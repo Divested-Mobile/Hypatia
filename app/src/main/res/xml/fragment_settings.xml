@@ -8,11 +8,12 @@
             android:title="@string/settings_pref_scanner_realtime_enabled"
             android:summary="@string/settings_pref_scanner_realtime_enabled_summary"
             android:defaultValue="false" />
-        <!--        <CheckBoxPreference
-                    android:key="scanner_realtime_path_apps"
-                    android:title="@string/settings_pref_scanner_realtime_path_apps"
-                    android:summary="@string/settings_pref_scanner_realtime_path_apps_summary"
-                    android:defaultValue="true" />-->
+        <CheckBoxPreference
+            android:key="scanner_realtime_path_apps"
+            android:title="@string/settings_pref_scanner_realtime_path_apps"
+            android:summary="@string/settings_pref_scanner_realtime_path_apps_summary"
+            android:defaultValue="true"
+            android:enabled="false" />
         <CheckBoxPreference
             android:key="scanner_realtime_path_internal"
             android:title="@string/settings_pref_scanner_realtime_path_internal"
@@ -23,11 +24,12 @@
             android:title="@string/settings_pref_scanner_realtime_path_external"
             android:summary="@string/settings_pref_scanner_realtime_path_external_summary"
             android:defaultValue="true" />
-        <!--        <CheckBoxPreference
-                    android:key="scanner_realtime_path_system"
-                    android:title="@string/settings_pref_scanner_realtime_path_system"
-                    android:summary="@string/settings_pref_scanner_realtime_path_system_summary"
-                    android:defaultValue="true" />-->
+        <CheckBoxPreference
+            android:key="scanner_realtime_path_system"
+            android:title="@string/settings_pref_scanner_realtime_path_system"
+            android:summary="@string/settings_pref_scanner_realtime_path_system_summary"
+            android:defaultValue="true"
+            android:enabled="false" />
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/settings_category_optimizations">
@@ -35,14 +37,12 @@
             android:key="scanner_max_file_size"
             android:title="@string/settings_pref_optimizations_scanner_max_size"
             android:summary="@string/settings_pref_optimizations_scanner_max_size_summary"
-            android:defaultValue="80"
             android:numeric="integer"
             android:inputType="number" />
         <EditTextPreference
             android:key="database_hash_length"
             android:title="@string/settings_pref_optimizations_database_hash_length"
             android:summary="@string/settings_pref_optimizations_database_hash_length_summary"
-            android:defaultValue="12"
             android:numeric="integer"
             android:inputType="number" />
         <CheckBoxPreference
@@ -66,12 +66,13 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
-    <!--    <PreferenceCategory android:title="@string/settings_category_other">
-            <CheckBoxPreference
-                android:key="access_third_party"
-                android:title="@string/settings_pref_other_third_party"
-                android:summary="@string/settings_pref_other_third_party_summary"
-                android:defaultValue="false" />
-        </PreferenceCategory>-->
+    <PreferenceCategory android:title="@string/settings_category_other">
+        <CheckBoxPreference
+            android:key="access_third_party"
+            android:title="@string/settings_pref_other_third_party"
+            android:summary="@string/settings_pref_other_third_party_summary"
+            android:defaultValue="false"
+            android:enabled="false" />
+    </PreferenceCategory>
 
 </PreferenceScreen>
