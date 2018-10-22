@@ -27,6 +27,12 @@
 
     <PreferenceCategory android:title="@string/settings_category_optimizations">
         <EditTextPreference
+            android:key="scanner_max_file_size"
+            android:title="@string/settings_pref_optimizations_scanner_max_size"
+            android:summary="@string/settings_pref_optimizations_scanner_max_size_summary"
+            android:defaultValue="80"
+            android:inputType="number" />
+        <EditTextPreference
             android:key="database_hash_length"
             android:title="@string/settings_pref_optimizations_database_hash_length"
             android:summary="@string/settings_pref_optimizations_database_hash_length_summary"

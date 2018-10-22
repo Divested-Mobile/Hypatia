@@ -21,13 +21,15 @@
     <string name="settings_pref_scanner_realtime_path_system_summary">Alert on changes to /system</string>
 
     <string name="settings_category_optimizations">Optimizations</string>
+    <string name="settings_pref_optimizations_scanner_max_size">Max file size</string>
+    <string name="settings_pref_optimizations_scanner_max_size_summary">Files larger than this in megabytes won\'t be scanned</string>
     <string name="settings_pref_optimizations_database_hash_length">Max hash length</string>
     <string name="settings_pref_optimizations_database_hash_length_summary">Memory savings at risk of increased false positives</string>
     <string name="settings_pref_optimizations_database_trim">Trim variant names</string>
     <string name="settings_pref_optimizations_database_trim_summary">Memory savings at cost of detailed detection names</string>
 
     <string name="settings_category_network">Network</string>
-    <string name="settings_pref_network_tor">Onion Routing</string>
+    <string name="settings_pref_network_tor">Onion routing</string>
     <string name="settings_pref_network_tor_summary">Perform all network requests over Tor</string>
 
     <string name="settings_category_other">Other</string>
