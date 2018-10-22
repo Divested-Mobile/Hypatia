@@ -35,5 +35,7 @@
     <string name="settings_category_other">Other</string>
     <string name="settings_pref_other_third_party">Enable third party access</string>
     <string name="settings_pref_other_third_party_summary">Allow other apps to invoke the scanner on objects</string>
+    <string name="settings_pref_network_database_repo">Database repo</string>
+    <string name="settings_pref_network_database_repo_summary">API to request databases from</string>
     <!-- END SettingsFragment -->
 </resources>

@@ -46,6 +46,12 @@
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/settings_category_network">
+        <EditTextPreference
+            android:key="database_repo"
+            android:title="@string/settings_pref_network_database_repo"
+            android:summary="@string/settings_pref_network_database_repo_summary"
+            android:defaultValue="https://spotco.us/MalwareScannerSignatures/api.php"
+            android:inputType="number" />
         <CheckBoxPreference
             android:key="network_use_tor"
             android:title="@string/settings_pref_network_tor"
