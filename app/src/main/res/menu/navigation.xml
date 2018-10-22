@@ -13,7 +13,7 @@
 
     <item
         android:id="@+id/navigation_databases"
-        android:icon="@drawable/ic_storage_24dp"
+        android:icon="@drawable/ic_cloud_download_24dp"
         android:title="@string/title_databases" />
 
     <item
