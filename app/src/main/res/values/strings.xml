@@ -8,6 +8,11 @@
     <string name="title_settings">Settings</string>
     <!-- END MainActivity -->
 
+    <!-- START NOTIFICATIONS -->
+    <string name="notif_scanner_realtime">Malware Detection</string>
+    <string name="notif_scanner_realtime_summary">Used to alert when malware is detected</string>
+    <!-- END NOTIFICATIONS -->
+
     <!-- START TOASTS -->
     <string name="toast_orbot_unavailable">Orbot is required for this feature</string>
     <!-- END TOASTS -->

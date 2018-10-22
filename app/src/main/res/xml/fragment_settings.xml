@@ -8,11 +8,11 @@
             android:title="@string/settings_pref_scanner_realtime_enabled"
             android:summary="@string/settings_pref_scanner_realtime_enabled_summary"
             android:defaultValue="false" />
-        <CheckBoxPreference
+<!--        <CheckBoxPreference
             android:key="scanner_realtime_path_apps"
             android:title="@string/settings_pref_scanner_realtime_path_apps"
             android:summary="@string/settings_pref_scanner_realtime_path_apps_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true" />-->
         <CheckBoxPreference
             android:key="scanner_realtime_path_internal"
             android:title="@string/settings_pref_scanner_realtime_path_internal"
@@ -23,11 +23,11 @@
             android:title="@string/settings_pref_scanner_realtime_path_external"
             android:summary="@string/settings_pref_scanner_realtime_path_external_summary"
             android:defaultValue="true" />
-        <CheckBoxPreference
+<!--        <CheckBoxPreference
             android:key="scanner_realtime_path_system"
             android:title="@string/settings_pref_scanner_realtime_path_system"
             android:summary="@string/settings_pref_scanner_realtime_path_system_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true" />-->
     </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/settings_category_optimizations">
@@ -64,12 +64,12 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
-    <PreferenceCategory android:title="@string/settings_category_other">
+<!--    <PreferenceCategory android:title="@string/settings_category_other">
         <CheckBoxPreference
             android:key="access_third_party"
             android:title="@string/settings_pref_other_third_party"
             android:summary="@string/settings_pref_other_third_party_summary"
             android:defaultValue="false" />
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
 </PreferenceScreen>
