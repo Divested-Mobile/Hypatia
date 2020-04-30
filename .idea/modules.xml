@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///mnt/Drive-1/Development/Java/Android_Workspace/Veritas/Veritas.iml" filepath="/mnt/Drive-1/Development/Java/Android_Workspace/Veritas/Veritas.iml" />
-      <module fileurl="file:///mnt/Drive-1/Development/Java/Android_Workspace/Veritas/app/app.iml" filepath="/mnt/Drive-1/Development/Java/Android_Workspace/Veritas/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Veritas.iml" filepath="$PROJECT_DIR$/Veritas.iml" group="Veritas" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Veritas/app" />
     </modules>
   </component>
 </project>
