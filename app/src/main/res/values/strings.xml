@@ -14,7 +14,7 @@
     <string name="lblNotificationMalwareDetectionDescription">Used to alert when malware is detected</string>
     <string name="lblNotificationRealtimeTitle">Realtime Scanner</string>
     <string name="lblNotificationRealtimeDescription">Used to show files scanned counter and maintain the background service</string>
-    <string name="lblNotificationRealtimeText">Malware will be detected in realtime</string>
+    <string name="lblNotificationRealtimeText">Known malware will be detected in realtime</string>
     <string name="lblNotificationRealtimeDetection">Malware Detected:</string>
     <string name="lblRealtimeScannerToggle">Realtime Scanner</string>
 </resources>
