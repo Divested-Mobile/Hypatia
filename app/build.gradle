@@ -6,7 +6,7 @@ android {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
         targetSdkVersion 29
-        versionCode 46
+        versionCode 47
         versionName "2.10"
         resConfigs "en"
     }
@@ -29,6 +29,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
 }

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Veritas.iml" filepath="$PROJECT_DIR$/Veritas.iml" group="Veritas" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Veritas/app" />
+      <module fileurl="file://$PROJECT_DIR$/Veritas.iml" filepath="$PROJECT_DIR$/Veritas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Veritas.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Veritas.app.iml" />
     </modules>
   </component>
 </project>
