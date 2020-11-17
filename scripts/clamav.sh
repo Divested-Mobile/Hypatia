@@ -1,4 +1,5 @@
 #!/bin/bash
+#License: GPLv3
 
 #sudo freshclam
 mkdir /tmp/mss

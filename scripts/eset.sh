@@ -1,3 +1,6 @@
+#!/bin/bash
+#License: GPLv3
+
 processHashes() {
 	local name=$(basename $1);
 	if [ -f $1/samples.$2 ]; then
