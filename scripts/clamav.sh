@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #License: GPLv3
 
 #sudo freshclam
