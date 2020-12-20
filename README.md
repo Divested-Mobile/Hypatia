@@ -26,6 +26,7 @@ Technical Details
 - Files have their MD5/SHA-1/SHA-256 hashes calculated in one pass
 - Realtime scanner is multithreaded and will use half of the device's core count for scanning multiple files asynchronously
 - Realtime scanning powered by a recursive FileObserver
+- Network connections will be made to the following: https://divested.dev/MalwareScannerSignatures/*.h*b.gz
 
 Planned Updates
 ----------------
