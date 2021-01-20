@@ -51,3 +51,8 @@ Credits
 - ESET for extra databases (BSD 2-Clause)
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
 - Icons (Apache-2.0): Google/Android/AOSP
+
+Notices
+-------
+- Divested Computing Group is not affiliated with Cisco or ESET
+- Hypatia is not sponsored or endorsed by Cisco or ESET
