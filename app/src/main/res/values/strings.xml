@@ -11,7 +11,7 @@
     <!-- START NOTIFICATIONS -->
     <string name="notif_scanner_realtime">Malware Detection</string>
     <string name="notif_scanner_realtime_channel">Used to alert when malware is detected</string>
-    <string name="notif_scanner_realtime_context">Malware will be detected in realtime</string>
+    <string name="notif_scanner_realtime_context">Known malware will be detected in realtime</string>
     <!-- END NOTIFICATIONS -->
 
     <!-- START TOASTS -->
