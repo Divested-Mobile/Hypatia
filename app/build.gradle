@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
-        targetSdkVersion 26
-        versionCode 42
+        targetSdkVersion 29
+        versionCode 43
         versionName "3.0"
         resConfigs "en"
         vectorDrawables.useSupportLibrary = true
@@ -30,9 +30,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.1.0-beta01'
-    implementation 'com.google.android.material:material:1.1.0-alpha07'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.appcompat:appcompat:1.3.0-beta01'
+    implementation 'com.google.android.material:material:1.3.0-rc01'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
-    implementation 'androidx.preference:preference:1.1.0-beta01'
+    implementation 'androidx.preference:preference:1.1.1'
 }
