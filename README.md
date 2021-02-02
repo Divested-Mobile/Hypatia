@@ -20,7 +20,7 @@ Features
 
 Technical Details
 ------------------
-- Signature databases are ClavAV .hdb (MD5 hashes) and .hsb (SHA-1/SHA-256) format
+- Signature databases are ClamAV .hdb (MD5 hashes) and .hsb (SHA-1/SHA-256) format
 - Signature databases will not be redownloaded if the file hasn't changed on the server (304 not modified)
 - Signatures are stored using HashMaps for O(1) lookup
 - Files have their MD5/SHA-1/SHA-256 hashes calculated in one pass
