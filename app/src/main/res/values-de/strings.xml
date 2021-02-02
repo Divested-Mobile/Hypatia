@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Hypatia V3</string>
+
+    <!-- START MainActivity -->
+    <string name="title_scanner">Scanner</string>
+    <string name="title_log">Verlauf</string>
+    <string name="title_databases">Datenbanken</string>
+    <string name="title_settings">Einstellungen</string>
+
+    <string name="main_database_updating">Update der %s Datenbank...</string>
+    <string name="main_database_downloading">Download von %s</string>
+    <string name="main_database_download_success">Erfolgreich heruntergeladen</string>
+    <string name="main_database_download_error">Datei wurde nicht heruntergeladen. Fehlercode %s</string>
+    <string name="main_no_database_available">Keine Datenbank verfügbar. Scan wird abgebrochen...</string>
+    <string name="main_database_not_changed">Datei wurd nicht geändert</string>
+    <string name="main_database_download_error_logcat">Download ist fehlgeschlagen. Für weitere Details bitte in logcat nachsehen</string>
+
+    <string name="main_starting_scan">Scan startet...</string>
+    <string name="main_files_pending_scan">%s Dateien, die zur Überprüfung vorgesehen sind</string>
+    <string name="main_database_loaded">Datenbank mit %s Signaturen geladen</string>
+    <string name="main_hashing_files">Generiere Hashes für Dateien...</string>
+    <string name="main_hashing_done">Hashes für alle Dateien generiert</string>
+    <string name="main_hash_scan_done">Alle %s Hashes wurden mit den Signatur-Datenbanken abgeglichen</string>
+    <string name="main_no_hashes_available">Keine %s Hash-Signaturen verfügbar</string>
+    <string name="main_scanning_done">Scan nach %s Sekunden abgeschlossen!</string>
+    <!-- END MainActivity -->
+
+    <!-- START NOTIFICATIONS -->
+    <string name="notif_scanner_realtime">Malware-Erkennung</string>
+    <string name="notif_scanner_realtime_channel">Dient zur Warnung in Echtzeit wenn Malware erkannt wird</string>
+    <string name="notif_scanner_realtime_context">Bekannte Malware wird in Echtzeit erkannt</string>
+    <!-- END NOTIFICATIONS -->
+
+    <!-- START TOASTS -->
+    <string name="toast_orbot_unavailable">Für dieses Feature wird Orbot benöntigt</string>
+    <!-- END TOASTS -->
+
+    <!-- START SettingsFragment -->
+    <string name="settings_category_scanner_realtime">Echtzeit-Scanner</string>
+    <string name="settings_pref_scanner_realtime_enabled">Echtzeit-Scannen</string>
+    <string name="settings_pref_scanner_realtime_enabled_summary">Überwachung auf Bedrohungen in Echtzeit mit den folgenden Einstellungen</string>
+    <string name="settings_pref_scanner_realtime_path_apps">Apps scannen</string>
+    <string name="settings_pref_scanner_realtime_path_apps_summary">Apps während der Installation scannen</string>
+    <string name="settings_pref_scanner_realtime_path_internal">Internen Speicher überwachen</string>
+    <string name="settings_pref_scanner_realtime_path_internal_summary">Rekursive Überwachung des internen Speichers</string>
+    <string name="settings_pref_scanner_realtime_path_external">Externen Speicher überwachen</string>
+    <string name="settings_pref_scanner_realtime_path_external_summary">Rekursive Überwachung des externen Speichers</string>
+    <string name="settings_pref_scanner_realtime_path_system">System überwachen</string>
+    <string name="settings_pref_scanner_realtime_path_system_summary">Warnung bei Änderungen an /system</string>
+
+    <string name="settings_category_optimizations">Optimierungen</string>
+    <string name="settings_pref_optimizations_scanner_max_size">Maximale Datei-Größe</string>
+    <string name="settings_pref_optimizations_scanner_max_size_summary">Dateien, die größer als diese Angabe in Megabyte sind, werden nicht gescannt</string>
+    <string name="settings_pref_optimizations_database_hash_length">Maximale Hash-Länge</string>
+    <string name="settings_pref_optimizations_database_hash_length_summary">Geringerer Belegung des Arbeitsspeicher bei Gefahr von vermehrten Fehlalarmen (false positives)</string>
+    <string name="settings_pref_optimizations_database_trim">Variantennamen abkürzen</string>
+    <string name="settings_pref_optimizations_database_trim_summary">Geringere Belastung des Arbeitsspeichers auf Kosten von detaillierten Erkennungsmeldungen</string>
+
+    <string name="settings_category_network">Netzwerk</string>
+    <string name="settings_pref_network_tor">Onion-Routing</string>
+    <string name="settings_pref_network_tor_summary">Alle Netzwerk-Requests über Tor leiten</string>
+
+    <string name="settings_category_other">Sonstiges</string>
+    <string name="settings_pref_other_third_party">Dritt-Anbieter-Zugriff erlauben</string>
+    <string name="settings_pref_other_third_party_summary">Anderen Apps erlauben das Scannen von Objekten aufzurufen</string>
+    <string name="settings_pref_network_database_repo">Datenbank-Repository</string>
+    <string name="settings_pref_network_database_repo_summary">API von der die Datenbanken bezogen werden sollen</string>
+    <!-- END SettingsFragment -->
+</resources>

@@ -6,6 +6,23 @@
     <string name="title_log">History</string>
     <string name="title_databases">Databases</string>
     <string name="title_settings">Settings</string>
+
+    <string name="main_database_updating">Updating %s databases...</string>
+    <string name="main_database_downloading">Downloading %s</string>
+    <string name="main_database_download_success">Successfully downloaded</string>
+    <string name="main_database_download_error">File not downloaded, response code %s</string>
+    <string name="main_no_database_available">No database available, not scanning...</string>
+    <string name="main_database_not_changed">File not changed</string>
+    <string name="main_database_download_error_logcat">Failed to download, check logcat</string>
+
+    <string name="main_starting_scan">Starting scan...</string>
+    <string name="main_files_pending_scan">%s files pending scan</string>
+    <string name="main_database_loaded">Loaded database with %s signatures</string>
+    <string name="main_hashing_files">Hashing files...</string>
+    <string name="main_hashing_done">Calculated hashes for all files</string>
+    <string name="main_hash_scan_done">Checked all %s hashes against signature databases</string>
+    <string name="main_no_hashes_available">No %s hashes signatures available</string>
+    <string name="main_scanning_done">Scan completed in %s seconds!</string>
     <!-- END MainActivity -->
 
     <!-- START NOTIFICATIONS -->
