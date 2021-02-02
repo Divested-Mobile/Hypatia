@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hypatia</string>
+    <string name="lblNotificationMalwareDetectionTitle">Malware-Erkennung</string>
+    <string name="lblNotificationMalwareDetectionDescription">Dient zur Warnung in Echtzeit wenn Malware erkannt wird</string>
+    <string name="lblNotificationRealtimeTitle">Echtzeit-Scanner</string>
+    <string name="lblNotificationRealtimeText">Bekannte Malware wird in Echtzeit erkannt</string>
+    <string name="lblRealtimeScannerToggle">Echtzeit-Scanner</string>
+
+    <string name="main_database_updating">Update der %s Datenbank...</string>
+    <string name="main_database_downloading">Download von %s</string>
+    <string name="main_database_download_success">Erfolgreich heruntergeladen</string>
+    <string name="main_database_download_error">Datei wurde nicht heruntergeladen. Fehlercode %s</string>
+    <string name="main_no_database_available">Keine Datenbank verfügbar. Scan wird abgebrochen...</string>
+    <string name="main_database_not_changed">Datei wurd nicht geändert</string>
+    <string name="main_database_download_error_logcat">Download ist fehlgeschlagen. Für weitere Details bitte in logcat nachsehen</string>
+
+    <string name="main_starting_scan">Scan startet...</string>
+    <string name="main_files_pending_scan">%s Dateien, die zur Überprüfung vorgesehen sind</string>
+    <string name="main_database_loaded">Datenbank mit %s Signaturen geladen</string>
+    <string name="main_hashing_files">Generiere Hashes für Dateien...</string>
+    <string name="main_hashing_done">Hashes für alle Dateien generiert</string>
+    <string name="main_hash_scan_done">Alle %s Hashes wurden mit den Signatur-Datenbanken abgeglichen</string>
+    <string name="main_no_hashes_available">Keine %s Hash-Signaturen verfügbar</string>
+    <string name="main_scanning_done">Scan nach %s Sekunden abgeschlossen!</string>
+</resources>
