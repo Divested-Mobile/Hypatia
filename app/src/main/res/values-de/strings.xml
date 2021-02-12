@@ -12,7 +12,7 @@
     <string name="main_database_download_success">Erfolgreich heruntergeladen</string>
     <string name="main_database_download_error">Datei wurde nicht heruntergeladen. Fehlercode %s</string>
     <string name="main_no_database_available">Keine Datenbank verfügbar. Scan wird abgebrochen...</string>
-    <string name="main_database_not_changed">Datei wurd nicht geändert</string>
+    <string name="main_database_not_changed">Datei wurde nicht geändert</string>
     <string name="main_database_download_error_logcat">Download ist fehlgeschlagen. Für weitere Details bitte in logcat nachsehen</string>
 
     <string name="main_starting_scan">Scan startet...</string>
