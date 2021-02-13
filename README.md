@@ -50,7 +50,7 @@ Credits
 - ClamAV for the databases (GPLv2)
 - ESET for extra databases (BSD 2-Clause)
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
-- Petra Mirelli for the German Translations
+- Petra Mirelli for the German Translations and the app banner/feature graphic.
 - Icons (Apache-2.0): Google/Android/AOSP
 
 Notices
