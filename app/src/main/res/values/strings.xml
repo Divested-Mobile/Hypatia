@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Hypatia</string>
+    <string name="app_copyright">Copyright 2017-2021 Divested Computing Group</string>
+    <string name="app_license">License: GPLv3</string>
+    <string name="app_db_type_clamav">Powered by ClamAV signatures</string>
+
     <string name="lblOnionRoutingToggle">Download over Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Downloading over Tor, this may take a while...</string>
     <string name="lblOnionRoutingNotInstalled">Orbot is not installed!</string>
     <string name="lblOnionRoutingNotRunning">Orbot is not running!</string>
     <string name="lblUpdateDatabase">Update databases</string>
@@ -18,12 +23,16 @@
     <string name="lblNotificationRealtimeDetection">Malware Detected:</string>
     <string name="lblRealtimeScannerToggle">Realtime Scanner</string>
 
+    <string name="simple_date_format_short">yyyy/MM/dd</string>
+
     <string name="main_database_updating">Updating %s databases...</string>
     <string name="main_database_downloading">Downloading %s</string>
     <string name="main_database_download_success">Successfully downloaded</string>
     <string name="main_database_download_error">File not downloaded, response code %s</string>
     <string name="main_no_database_available">No database available, not scanning...</string>
+    <string name="main_database_released_on">Released on %s</string>
     <string name="main_database_not_changed">File not changed</string>
+    <string name="main_database_not_modified_since">since %s</string>
     <string name="main_database_download_error_logcat">Failed to download, check logcat</string>
 
     <string name="main_starting_scan">Starting scan...</string>
@@ -34,4 +43,5 @@
     <string name="main_hash_scan_done">Checked all %s hashes against signature databases</string>
     <string name="main_no_hashes_available">No %s hashes signatures available</string>
     <string name="main_scanning_done">Scan completed in %s seconds!</string>
+    <string name="main_files_scanned_count">% files scanned</string>
 </resources>

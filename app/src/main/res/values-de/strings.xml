@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hypatia</string>
+    <string name="app_copyright">Copyright 2017-2021 Divested Computing Group</string>
+    <string name="app_license">Lizenz: GPLv3</string>
+    <string name="app_db_type_clamav">Basierend auf ClamAV-Signaturen</string>
+
+    <string name="lblOnionRoutingToggle">Download über Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Download über Tor wurde ausgewählt, das kann etwas länger dauern. Bitte haben sie Geduld...</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot ist nicht installiert!</string>
+    <string name="lblOnionRoutingNotRunning">Orbot läuft nicht!</string>
+    <string name="lblUpdateDatabase">Datenbanken aktualisieren</string>
+    <string name="lblSelectDatabases">Datenbanken auswählen</string>
+    <string name="lblSelectDatabasesTitle">Bitte gewünschte Datenbanken auswählen</string>
+    <string name="lblScanSystem">/system scannen</string>
+    <string name="lblScanApps">APK-Dateien scannen</string>
+    <string name="lblScanInternal">Internen Speicher scannen</string>
+    <string name="lblScanExternal">Externen Speicher scannen</string>
     <string name="lblNotificationMalwareDetectionTitle">Malware-Erkennung</string>
     <string name="lblNotificationMalwareDetectionDescription">Dient zur Warnung in Echtzeit wenn Malware erkannt wird</string>
     <string name="lblNotificationRealtimeTitle">Echtzeit-Scanner</string>
     <string name="lblNotificationRealtimeText">Bekannte Malware wird in Echtzeit erkannt</string>
     <string name="lblRealtimeScannerToggle">Echtzeit-Scanner</string>
 
-    <string name="main_database_updating">Update der %s Datenbank...</string>
+    <string name="simple_date_format_short">dd.MM.yyyy</string>
+
+    <string name="main_database_updating">Update von %s Datenbank(en) ...</string>
     <string name="main_database_downloading">Download von %s</string>
     <string name="main_database_download_success">Erfolgreich heruntergeladen</string>
     <string name="main_database_download_error">Datei wurde nicht heruntergeladen. Fehlercode %s</string>
     <string name="main_no_database_available">Keine Datenbank verfügbar. Scan wird abgebrochen...</string>
+    <string name="main_database_released_on">Veröffentlicht am %s</string>
     <string name="main_database_not_changed">Datei wurde nicht geändert</string>
+    <string name="main_database_not_modified_since">seit %s</string>
     <string name="main_database_download_error_logcat">Download ist fehlgeschlagen. Für weitere Details bitte in logcat nachsehen</string>
 
     <string name="main_starting_scan">Scan startet...</string>
@@ -23,4 +42,5 @@
     <string name="main_hash_scan_done">Alle %s Hashes wurden mit den Signatur-Datenbanken abgeglichen</string>
     <string name="main_no_hashes_available">Keine %s Hash-Signaturen verfügbar</string>
     <string name="main_scanning_done">Scan nach %s Sekunden abgeschlossen!</string>
+    <string name="main_files_scanned_count">% Datei(en) gescannt</string>
 </resources>
