@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     defaultConfig {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
-        targetSdkVersion 29
-        versionCode 54
-        versionName "2.13"
-        resConfigs "en", "de"
+        targetSdkVersion 30
+        versionCode 55
+        versionName "2.14"
+        resConfigs "en", "de", "fr"
     }
     buildTypes {
         debug {
