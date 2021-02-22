@@ -23,8 +23,6 @@
     <string name="lblNotificationRealtimeDetection">Malware détecté:</string>
     <string name="lblRealtimeScannerToggle">Scanner en temps réel</string>
 
-    <string name="simple_date_format_short">dd.MM.yyyy</string>
-
     <string name="main_database_updating">Mise à jour des %s bases de données ...</string>
     <string name="main_database_downloading">Télécharger %s</string>
     <string name="main_database_download_success">Télédéchargement réussi</string>

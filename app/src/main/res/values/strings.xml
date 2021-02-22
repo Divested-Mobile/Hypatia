@@ -23,8 +23,6 @@
     <string name="lblNotificationRealtimeDetection">Malware Detected:</string>
     <string name="lblRealtimeScannerToggle">Realtime Scanner</string>
 
-    <string name="simple_date_format_short">yyyy/MM/dd</string>
-
     <string name="main_database_updating">Updating %s databases...</string>
     <string name="main_database_downloading">Downloading %s</string>
     <string name="main_database_download_success">Successfully downloaded</string>
@@ -36,12 +34,15 @@
     <string name="main_database_download_error_logcat">Failed to download, check logcat</string>
 
     <string name="main_starting_scan">Starting scan...</string>
+    <string name="main_cancelling_scan">Cancelling scan...</string>
+    <string name="main_cancelled_scan">Cancelled scan</string>
     <string name="main_files_pending_scan">%s files pending scan</string>
+    <string name="main_database_loading">Loading database...</string>
     <string name="main_database_loaded">Loaded database with %s signatures</string>
     <string name="main_hashing_files">Hashing files...</string>
     <string name="main_hashing_done">Calculated hashes for all files</string>
     <string name="main_hash_scan_done">Checked all %s hashes against signature databases</string>
     <string name="main_no_hashes_available">No %s hashes signatures available</string>
     <string name="main_scanning_done">Scan completed in %s seconds!</string>
-    <string name="main_files_scanned_count">% files scanned</string>
+    <string name="main_files_scanned_count">%s files scanned</string>
 </resources>

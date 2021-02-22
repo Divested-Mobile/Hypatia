@@ -22,8 +22,6 @@
     <string name="lblNotificationRealtimeText">Bekannte Malware wird in Echtzeit erkannt</string>
     <string name="lblRealtimeScannerToggle">Echtzeit-Scanner</string>
 
-    <string name="simple_date_format_short">dd.MM.yyyy</string>
-
     <string name="main_database_updating">Update von %s Datenbank(en) ...</string>
     <string name="main_database_downloading">Download von %s</string>
     <string name="main_database_download_success">Erfolgreich heruntergeladen</string>

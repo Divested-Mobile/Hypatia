@@ -2,4 +2,5 @@
 <resources>
     <color name="colorPrimary">#4CAF50</color>
     <color name="light_blue">#03a9f4</color>
+    <color name="red">#f44336</color>
 </resources>
