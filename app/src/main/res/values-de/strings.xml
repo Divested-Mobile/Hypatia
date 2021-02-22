@@ -40,5 +40,5 @@
     <string name="main_hash_scan_done">Alle %s Hashes wurden mit den Signatur-Datenbanken abgeglichen</string>
     <string name="main_no_hashes_available">Keine %s Hash-Signaturen verfügbar</string>
     <string name="main_scanning_done">Scan nach %s Sekunden abgeschlossen!</string>
-    <string name="main_files_scanned_count">% Datei(en) gescannt</string>
+    <string name="main_files_scanned_count">%s Datei(en) gescannt</string>
 </resources>
