@@ -1,0 +1,15 @@
+<p>Hypatia is the worlds first FOSS malware scanner for Android. It is powered by ClamAV style signature databases.</p>
+
+<b>Features</b>
+<ul>
+<li>Near zero battery impact: you'll never notice any impact on battery at all</li>
+<li>Extremely fast: it can scan small files (1MB) in 20ms, and even large files (40MB) in 1000ms.</li>
+<li>Memory efficient: with the default databases enabled it uses under 120MB.</li>
+<li>Regular scan: allowing selection of /system, internal storage, external storage, and installed apps</li>
+<li>Realtime scanner: can detect malware in realtime on write/rename in internal storage</li>
+<li>Completely offline: Internet is only used to download signature databases, files will never ever leave your device</li>
+<li>Persistence: will automatically restart on boot/update</li>
+<li>Tiny codebase: coming in at under 1000 sloc, it can be audited by even someone with basic programming experience</li>
+<li>Minimal dependencies: the app only uses libraries when necessary</li>
+<li>Signature databases can be enabled/disabled at the users demand</li>
+</ul>
