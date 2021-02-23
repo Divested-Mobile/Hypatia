@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Hypatia</string>
     <string name="app_copyright">Copyright 2017-2021 Divested Computing Group</string>
-    <string name="app_license">Lizenz: GPLv3</string>
+    <string name="app_license">Lizenz: GPL-3.0</string>
     <string name="app_db_type_clamav">Basierend auf ClamAV-Signaturen</string>
 
     <string name="lblOnionRoutingToggle">Download über Tor</string>

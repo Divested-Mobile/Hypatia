@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Hypatia</string>
     <string name="app_copyright">Copyright 2017-2021 Divested Computing Group</string>
-    <string name="app_license">License: GPLv3</string>
-    <string name="app_db_type_clamav">Powered by ClamAV signatures</string>
+    <string name="app_license">License: GPL-3.0</string>
+    <string name="app_db_type_clamav">Powered by ClamAV style signatures</string>
 
     <string name="lblOnionRoutingToggle">Download over Tor</string>
     <string name="lblOnionRoutingEnabledHint">Downloading over Tor, this may take a while...</string>
