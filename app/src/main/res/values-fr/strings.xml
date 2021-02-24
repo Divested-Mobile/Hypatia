@@ -34,6 +34,8 @@
     <string name="main_database_download_error_logcat">Téléchargement échoué, vérifier le logcat</string>
 
     <string name="main_starting_scan">Démarrage du scan...</string>
+    <string name="main_cancelling_scan">Le scan est annulé...</string>
+    <string name="main_cancelled_scan">Le scan a été annulé</string>
     <string name="main_files_pending_scan">%s dossiers en attente de scan</string>
     <string name="main_database_loaded">Base de données chargée de %s signatures</string>
     <string name="main_hashing_files">Hachage de fichiers...</string>
