@@ -33,6 +33,8 @@
     <string name="main_database_download_error_logcat">Download ist fehlgeschlagen. Für weitere Details bitte in logcat nachsehen</string>
 
     <string name="main_starting_scan">Scan startet...</string>
+    <string name="main_cancelling_scan">Scan wird abgebrochen...</string>
+    <string name="main_cancelled_scan">Scan wurde abgebrochen</string>
     <string name="main_files_pending_scan">%s Dateien, die zur Überprüfung vorgesehen sind</string>
     <string name="main_database_loaded">Datenbank mit %s Signaturen geladen</string>
     <string name="main_hashing_files">Generiere Hashes für Dateien...</string>
