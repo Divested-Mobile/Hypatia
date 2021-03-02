@@ -20,6 +20,8 @@
     <string name="lblNotificationMalwareDetectionDescription">Dient zur Warnung in Echtzeit wenn Malware erkannt wird</string>
     <string name="lblNotificationRealtimeTitle">Echtzeit-Scanner</string>
     <string name="lblNotificationRealtimeText">Bekannte Malware wird in Echtzeit erkannt</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Echtzeit-Scanner wurde gestoppt</string>
+    <string name="lblNotificationRealtimeDetection">Malware gefunden:</string>
     <string name="lblRealtimeScannerToggle">Echtzeit-Scanner</string>
 
     <string name="main_database_updating">Update von %s Datenbank(en) ...</string>

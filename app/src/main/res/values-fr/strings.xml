@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Hypatia</string>
     <string name="app_copyright">Copyright 2017-2021 Divested Computing Group</string>
@@ -20,6 +21,7 @@
     <string name="lblNotificationRealtimeTitle">Scanner en temps réel</string>
     <string name="lblNotificationRealtimeDescription">Utilisé pour montrer les fichiers scannés compteur et maintenir le service de fond</string>
     <string name="lblNotificationRealtimeText">Les logiciels malveillants connus seront détectés en temps réel</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Scanner en temps réel a été arrêté</string>
     <string name="lblNotificationRealtimeDetection">Malware détecté:</string>
     <string name="lblRealtimeScannerToggle">Scanner en temps réel</string>
 
