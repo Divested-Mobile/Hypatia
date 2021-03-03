@@ -52,7 +52,7 @@ Credits
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
 - Petra Mirelli for the German translations and the app banner/feature graphic.
 - Jean-Luc Tibaux and Petra Mirelli for the French translations.
-- Icons (Apache-2.0): Google/Android/AOSP
+- Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices
 -------

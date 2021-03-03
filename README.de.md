@@ -50,7 +50,7 @@ Credits (Lizenzen in Klammern)
 - ClamAV für die Datenbanken (GPLv2)
 - ESET für die zusätzlichen Datenbanken (BSD 2-Clause)
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc. und Bartek Przybylski
-- Icons (Apache-2.0): Google/Android/AOSP
+- Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Hinweise
 -------
