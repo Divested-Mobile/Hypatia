@@ -36,5 +36,8 @@
         android:title="@string/lblScanExternal"
         android:checkable="true"
         android:checked="false" />
+    <item
+        android:id="@+id/mnuFullCredits"
+        android:title="@string/lblFullCredits" />
 
 </menu>

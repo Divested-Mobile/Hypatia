@@ -12,6 +12,7 @@
     <string name="lblUpdateDatabase">Update databases</string>
     <string name="lblSelectDatabases">Select databases</string>
     <string name="lblSelectDatabasesTitle">Select databases to enable</string>
+    <string name="lblFullCredits">Credits</string>
     <string name="lblScanSystem">Scan /system</string>
     <string name="lblScanApps">Scan App APKs</string>
     <string name="lblScanInternal">Scan Internal Storage</string>
