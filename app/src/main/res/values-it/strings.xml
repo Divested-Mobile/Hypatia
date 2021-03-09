@@ -9,7 +9,7 @@
     <string name="lblOnionRoutingEnabledHint">Aggiornamento tramite Tor, potrebbe volerci un po\'...</string>
     <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
     <string name="lblOnionRoutingNotRunning">Orbot non è in esecuzione!</string>
-    <string name="lblUpdateDatabase">Aggiorna database</string>
+    <string name="lblUpdateDatabase">Aggiorna i database</string>
     <string name="lblSelectDatabases">Seleziona un database</string>
     <string name="lblSelectDatabasesTitle">Database disponibili</string>
     <string name="lblFullCredits">Crediti</string>
@@ -22,7 +22,7 @@
     <string name="lblNotificationRealtimeTitle">Scansione in Tempo Reale</string>
     <string name="lblNotificationRealtimeDescription">Indica il numero di file scansionati e mantiene il servizio in esecuzione in background</string>
     <string name="lblNotificationRealtimeText">Il malware sarà rilevato in tempo reale</string>
-    <string name="lblNotificationRealtimeStopped">Hypatia: La Scansione in Tempo Reale è stata fermata</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: La Scansione in Tempo Reale è stata interrotta</string>
     <string name="lblNotificationRealtimeDetection">Malware Rilevato:</string>
     <string name="lblRealtimeScannerToggle">Scansione in Tempo Reale</string>
 
