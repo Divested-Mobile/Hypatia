@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Hypatia</string>
+    <string name="app_copyright">Copyright 2017-2021 Divested Computing Group</string>
+    <string name="app_license">Licenza: GPL-3.0</string>
+    <string name="app_version">Versione: %s</string>
+    <string name="app_db_type_clamav">Offerto dalle firme antivirali di ClamAV</string>
+
+    <string name="lblOnionRoutingToggle">Scarica tramite Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Scaricando tramite Tor, potrebbe volerci un po\'...</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
+    <string name="lblOnionRoutingNotRunning">Orbot non è in esecuzione!</string>
+    <string name="lblUpdateDatabase">Aggiorna il database</string>
+    <string name="lblSelectDatabases">Seleziona un database</string>
+    <string name="lblSelectDatabasesTitle">Seleziona il database da abilitare</string>
+    <string name="lblFullCredits">Crediti</string>
+    <string name="lblScanSystem">Scansiona /system</string>
+    <string name="lblScanApps">Scansiona le app</string>
+    <string name="lblScanInternal">Scansiona lo Storage Interno</string>
+    <string name="lblScanExternal">Scansiona lo Storage Esterno</string>
+    <string name="lblNotificationMalwareDetectionTitle">Malware Rilevato</string>
+    <string name="lblNotificationMalwareDetectionDescription">Indica quando il malware è rilevato</string>
+    <string name="lblNotificationRealtimeTitle">Scanner in Tempo Reale</string>
+    <string name="lblNotificationRealtimeDescription">Indica il numero di file scansionati e mantiene il servizio in esecuzione in background</string>
+    <string name="lblNotificationRealtimeText">Il malware noto sarà rilevato in Tempo Reale</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: La Scansione in Tempo Reale è stata annullata</string>
+    <string name="lblNotificationRealtimeDetection">Malware Rilevato:</string>
+    <string name="lblRealtimeScannerToggle">Scanner in Tempo Reale</string>
+
+    <string name="main_database_updating">Aggiornando %s il database...</string>
+    <string name="main_database_downloading">Scaricando %s</string>
+    <string name="main_database_download_success">Scaricato con successo</string>
+    <string name="main_database_download_error">Database non scaricato, codice di errore %s</string>
+    <string name="main_no_database_available">Nessun database disponibile, non sarà avviata alcuna scansione...</string>
+    <string name="main_database_released_on">Rilasciato il %s</string>
+    <string name="main_database_not_changed">Database non modificato</string>
+    <string name="main_database_not_modified_since">da %s</string>
+    <string name="main_database_download_error_logcat">Impossibile scaricare, controlla il logcat</string>
+
+    <string name="main_starting_scan">Avviamento scansione...</string>
+    <string name="main_cancelling_scan">Annullando la scansione...</string>
+    <string name="main_cancelled_scan">Scansione annullata</string>
+    <string name="main_files_pending_scan">%s file da scansionare</string>
+    <string name="main_database_loading">Caricando il database...</string>
+    <string name="main_database_loaded">Database caricato con %s firme</string>
+    <string name="main_hashing_files">Hashing dei file...</string>
+    <string name="main_hashing_done">Calcolando gli hash per tutti i file</string>
+    <string name="main_hash_scan_done">Controllati tutti gli %s hash con il database delle firme</string>
+    <string name="main_no_hashes_available">Nessuna %s firma hash disponibile</string>
+    <string name="main_scanning_done">Scansione completata in %s secondi!</string>
+    <string name="main_files_scanned_count">%s file scansionati</string>
+</resources>

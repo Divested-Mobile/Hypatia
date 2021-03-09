@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fullCredits">
+        <item>• Petra Mirelli: German + French Translations, App Banner, Small Tweaks</item>
+        <item>• Jean-Luc Tibaux: French Translations</item>
+        <item>• ClamAV by Cisco: Signature Databases</item>
+        <item>• ESET: Signature Databases</item>
+        <item>• RecursiveFileObserver.java: Daniel Gultsch, ownCloud Inc., Bartek Przybylski</item>
+        <item>• Google: App Icon</item>
+    </string-array>
+</resources>
