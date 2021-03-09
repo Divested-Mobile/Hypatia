@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hypatia</string>
+    <string name="app_name" translatable="false">Hypatia</string>
     <string name="app_copyright">Copyright 2017-2021 Divested Computing Group</string>
     <string name="app_license">License: GPL-3.0</string>
     <string name="app_version">Version: %s</string>

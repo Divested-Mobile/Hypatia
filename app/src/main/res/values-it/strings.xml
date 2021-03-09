@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_license">Licenza: GPL-3.0</string>
+    <string name="app_version">Versione: %s</string>
+
+    <string name="lblOnionRoutingToggle">Aggiorna tramite Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Aggiornamento tramite Tor, potrebbe volerci un po\'...</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
+    <string name="lblOnionRoutingNotRunning">Orbot non è in esecuzione!</string>
+    <string name="lblUpdateDatabase">Aggiorna i database</string>
+    <string name="lblSelectDatabases">Seleziona un database</string>
+    <string name="lblSelectDatabasesTitle">Database disponibili</string>
+    <string name="lblFullCredits">Crediti</string>
+    <string name="lblScanSystem">Scansiona /system</string>
+    <string name="lblScanApps">Scansiona le app</string>
+    <string name="lblScanInternal">Scansiona lo Storage Interno</string>
+    <string name="lblScanExternal">Scansiona lo Storage Esterno</string>
+    <string name="lblNotificationMalwareDetectionTitle">Malware Rilevato</string>
+    <string name="lblNotificationMalwareDetectionDescription">Indica quando il malware è rilevato</string>
+    <string name="lblNotificationRealtimeTitle">Scansione in Tempo Reale</string>
+    <string name="lblNotificationRealtimeDescription">Indica il numero di file scansionati e mantiene il servizio in esecuzione in background</string>
+    <string name="lblNotificationRealtimeText">Il malware sarà rilevato in tempo reale</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: La Scansione in Tempo Reale è stata interrotta</string>
+    <string name="lblNotificationRealtimeDetection">Malware Rilevato:</string>
+    <string name="lblRealtimeScannerToggle">Scansione in Tempo Reale</string>
+
+    <string name="main_database_updating">Aggiornamento database %s...</string>
+    <string name="main_database_downloading">Scaricando %s</string>
+    <string name="main_database_download_success">Scaricato con successo</string>
+    <string name="main_database_download_error">Database non scaricato, errore %s</string>
+    <string name="main_no_database_available">Nessun database selezionato, scansione annullata...</string>
+    <string name="main_database_released_on">Aggiornato il %s</string>
+    <string name="main_database_not_changed">Database non modificato</string>
+    <string name="main_database_not_modified_since">dal %s</string>
+    <string name="main_database_download_error_logcat">Impossibile aggiornare, controlla il logcat</string>
+
+    <string name="main_starting_scan">Avviamento scansione...</string>
+    <string name="main_cancelling_scan">Annullamento scansione...</string>
+    <string name="main_cancelled_scan">Scansione annullata</string>
+    <string name="main_files_pending_scan">%s file da scansionare</string>
+    <string name="main_database_loading">Caricamento database...</string>
+    <string name="main_database_loaded">Database caricato con %s firme</string>
+    <string name="main_hashing_files">Hashing dei file...</string>
+    <string name="main_hashing_done">Calcolando gli hash per tutti i file</string>
+    <string name="main_hash_scan_done">Confrontati tutti gli hash %s con il database delle firme</string>
+    <string name="main_no_hashes_available">Nessuna firma hash %s disponibile</string>
+    <string name="main_scanning_done">Scansione completata in %s secondi!</string>
+    <string name="main_files_scanned_count">%s file scansionati</string>
+</resources>
