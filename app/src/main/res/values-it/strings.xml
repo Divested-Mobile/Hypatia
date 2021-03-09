@@ -5,13 +5,13 @@
     <string name="app_version">Versione: %s</string>
     <string name="app_db_type_clamav">Powered by ClamAV style signatures</string>
 
-    <string name="lblOnionRoutingToggle">Scarica tramite Tor</string>
-    <string name="lblOnionRoutingEnabledHint">Scaricando tramite Tor, potrebbe volerci un po\'...</string>
+    <string name="lblOnionRoutingToggle">Aggiorna tramite Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Aggiornamento tramite Tor, potrebbe volerci un po\'...</string>
     <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
     <string name="lblOnionRoutingNotRunning">Orbot non è in esecuzione!</string>
     <string name="lblUpdateDatabase">Aggiorna i database</string>
     <string name="lblSelectDatabases">Seleziona un database</string>
-    <string name="lblSelectDatabasesTitle">Seleziona i database da abilitare</string>
+    <string name="lblSelectDatabasesTitle">Database disponibili</string>
     <string name="lblFullCredits">Crediti</string>
     <string name="lblScanSystem">Scansiona /system</string>
     <string name="lblScanApps">Scansiona le app</string>
@@ -31,16 +31,16 @@
     <string name="main_database_download_success">Scaricato con successo</string>
     <string name="main_database_download_error">Database non scaricato, errore %s</string>
     <string name="main_no_database_available">Nessun database selezionato, scansione annullata...</string>
-    <string name="main_database_released_on">Rilasciato il %s</string>
+    <string name="main_database_released_on">Aggiornato il %s</string>
     <string name="main_database_not_changed">Database non modificato</string>
     <string name="main_database_not_modified_since">dal %s</string>
-    <string name="main_database_download_error_logcat">Impossibile scaricare, controlla il logcat</string>
+    <string name="main_database_download_error_logcat">Impossibile aggiornare, controlla il logcat</string>
 
     <string name="main_starting_scan">Avviamento scansione...</string>
     <string name="main_cancelling_scan">Annullamento scansione...</string>
     <string name="main_cancelled_scan">Scansione annullata</string>
     <string name="main_files_pending_scan">%s file da scansionare</string>
-    <string name="main_database_loading">Caricando il database...</string>
+    <string name="main_database_loading">Caricamento database...</string>
     <string name="main_database_loaded">Database caricato con %s firme</string>
     <string name="main_hashing_files">Hashing dei file...</string>
     <string name="main_hashing_done">Calcolando gli hash per tutti i file</string>
