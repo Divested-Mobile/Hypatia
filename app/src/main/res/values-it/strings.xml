@@ -33,7 +33,7 @@
     <string name="main_no_database_available">Nessun database selezionato, scansione annullata...</string>
     <string name="main_database_released_on">Rilasciato il %s</string>
     <string name="main_database_not_changed">Database non modificato</string>
-    <string name="main_database_not_modified_since">da %s</string>
+    <string name="main_database_not_modified_since">dal %s</string>
     <string name="main_database_download_error_logcat">Impossibile scaricare, controlla il logcat</string>
 
     <string name="main_starting_scan">Avviamento scansione...</string>
