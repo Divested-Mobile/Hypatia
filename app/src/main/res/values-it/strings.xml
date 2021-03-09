@@ -10,7 +10,7 @@
     <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
     <string name="lblOnionRoutingNotRunning">Orbot non è in esecuzione!</string>
     <string name="lblUpdateDatabase">Aggiorna database</string>
-    <string name="lblSelectDatabases">Seleziona i database</string>
+    <string name="lblSelectDatabases">Seleziona un database</string>
     <string name="lblSelectDatabasesTitle">Seleziona i database da abilitare</string>
     <string name="lblFullCredits">Crediti</string>
     <string name="lblScanSystem">Scansiona /system</string>
@@ -26,7 +26,7 @@
     <string name="lblNotificationRealtimeDetection">Malware Rilevato:</string>
     <string name="lblRealtimeScannerToggle">Scanner in Tempo Reale</string>
 
-    <string name="main_database_updating">Aggiornando %s il database...</string>
+    <string name="main_database_updating">Aggiornamento database %s...</string>
     <string name="main_database_downloading">Scaricando %s</string>
     <string name="main_database_download_success">Scaricato con successo</string>
     <string name="main_database_download_error">Database non scaricato, codice di errore %s</string>
