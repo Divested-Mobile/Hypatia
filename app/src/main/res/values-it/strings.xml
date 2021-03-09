@@ -9,7 +9,7 @@
     <string name="lblOnionRoutingEnabledHint">Scaricando tramite Tor, potrebbe volerci un po\'...</string>
     <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
     <string name="lblOnionRoutingNotRunning">Orbot non è in esecuzione!</string>
-    <string name="lblUpdateDatabase">Aggiorna il database</string>
+    <string name="lblUpdateDatabase">Aggiorna database</string>
     <string name="lblSelectDatabases">Seleziona un database</string>
     <string name="lblSelectDatabasesTitle">Seleziona il database da abilitare</string>
     <string name="lblFullCredits">Crediti</string>
@@ -30,7 +30,7 @@
     <string name="main_database_downloading">Scaricando %s</string>
     <string name="main_database_download_success">Scaricato con successo</string>
     <string name="main_database_download_error">Database non scaricato, codice di errore %s</string>
-    <string name="main_no_database_available">Nessun database disponibile, non sarà avviata alcuna scansione...</string>
+    <string name="main_no_database_available">Nessun database disponibile, non sarà avviata la scansione...</string>
     <string name="main_database_released_on">Rilasciato il %s</string>
     <string name="main_database_not_changed">Database non modificato</string>
     <string name="main_database_not_modified_since">da %s</string>
