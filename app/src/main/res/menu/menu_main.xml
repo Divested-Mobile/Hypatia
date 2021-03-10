@@ -5,7 +5,7 @@
     <item
         android:id="@+id/toggleOnionRouting"
         android:title="@string/lblOnionRoutingToggle"
-        android:checkable="true"/>
+        android:checkable="true" />
     <item
         android:id="@+id/mnuUpdateDatabase"
         android:title="@string/lblUpdateDatabase" />
