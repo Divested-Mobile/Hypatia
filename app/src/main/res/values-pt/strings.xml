@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_copyright">Direitos autorais 2017-2021 Divested Computing Group</string>
+    <string name="app_license">Licença: GPL-3.0</string>
+    <string name="app_version">Versão: %s</string>
+    <string name="app_db_type_clamav">Produzido por assinaturas estilo ClamAV</string>
+
+    <string name="lblOnionRoutingEnabledHint">Baixando via Tor, isto pode demorar um pouco...</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot não está instalado!</string>
+    <string name="lblOnionRoutingNotRunning">Orbot não está iniciado!</string>
+    <string name="lblUpdateDatabase">Atualizar base de dados</string>
+    <string name="lblSelectDatabases">Selecionar base de dados</string>
+    <string name="lblSelectDatabasesTitle">Selecionar base de dados para ativar</string>
+    <string name="lblFullCredits">Créditos</string>
+    <string name="lblScanSystem">Analisar /sistema</string>
+    <string name="lblScanApps">Analisar APKs do App</string>
+    <string name="lblScanInternal">Analisar memória interna</string>
+    <string name="lblScanExternal">Analisar memória externa</string>
+    <string name="lblNotificationMalwareDetectionTitle">Detecção de malwares</string>
+    <string name="lblNotificationMalwareDetectionDescription">Usado para alertar quando um malware é detectado</string>
+    <string name="lblNotificationRealtimeTitle">Análise em tempo real</string>
+    <string name="lblNotificationRealtimeDescription">Usado para mostrar contador de arquivos analisados e manter o serviço de segundo plano</string>
+    <string name="lblNotificationRealtimeText">O malware conhecido será detectado em tempo real</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Análise em tempo real parou</string>
+    <string name="lblNotificationRealtimeDetection">Malware detectado:</string>
+    <string name="lblRealtimeScannerToggle">Analisar em tempo real</string>
+
+    <string name="main_database_updating">Atualizando %s base de dados...</string>
+    <string name="main_database_downloading">Baixando %s</string>
+    <string name="main_database_download_success">Baixado com sucesso</string>
+    <string name="main_database_download_error">Arquivo não baixado, código de resposta %s</string>
+    <string name="main_no_database_available">Sem base de dados disponível, análise não efetuada...</string>
+    <string name="main_database_released_on">Lançado em %s</string>
+    <string name="main_database_not_changed">Arquivo não alterado</string>
+    <string name="main_database_not_modified_since">desde %s</string>
+    <string name="main_database_download_error_logcat">Falha no download, veja logcat</string>
+
+    <string name="main_starting_scan">Iniciando análise...</string>
+    <string name="main_cancelling_scan">Cancelando análise...</string>
+    <string name="main_cancelled_scan">Análise cancelada</string>
+    <string name="main_files_pending_scan">%s arquivos pendentes para analisar</string>
+    <string name="main_database_loading">Carregando base de dados...</string>
+    <string name="main_database_loaded">Carregou base de dados com %s assinaturas</string>
+    <string name="main_hashing_files">Hashing arquivos...</string>
+    <string name="main_hashing_done">Hashes calculados para todos os arquivos</string>
+    <string name="main_hash_scan_done">Verificados todos %s hashes em relação a bade de dados de assinaturas</string>
+    <string name="main_no_hashes_available">Sem %s assinaturas de hashes disponíveis</string>
+    <string name="main_scanning_done">Análise será concluída em %s segundo(s)!</string>
+    <string name="main_files_scanned_count">%s arquivos analisados</string>
+</resources>
