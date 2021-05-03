@@ -34,6 +34,14 @@ Planned Updates
 - Option to quarantine/delete on detection
 - Scan files via share intent
 - Scan newly installed/updated apps
+- Option to let 3rd-party apps invoke scans
+- Custom database support
+- Automatic database updates
+- Automatic database generation
+- Client side database generation
+- Database signature verification
+- Database sanity checks
+- Testing
 - Better GUI
 - Translations
 - Scanning entire system using root (low priority)
