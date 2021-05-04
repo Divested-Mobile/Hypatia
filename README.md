@@ -62,6 +62,7 @@ Credits
 - Jean-Luc Tibaux and Petra Mirelli for the French translations.
 - @dantecpu for the Italian translations.
 - @inkhorn for the Portuguese translations.
+- @q1011 for the Russian translations.
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices
