@@ -1,7 +1,7 @@
 <resources>
     <string name="app_license">Лицензия: GPL-3.0</string>
     <string name="app_version">Версия: %s</string>
-    <string name="app_db_type_clamav">Используются сигнатуры в стиле ClamAV</string>
+    <string name="app_db_type_clamav">Используются сигнатуры от ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Скачать через Tor</string>
     <string name="lblOnionRoutingEnabledHint">Загрузка через Tor может занять некоторое время...</string>
@@ -17,33 +17,33 @@
     <string name="lblScanExternal">Сканировать внешнее хранилище</string>
     <string name="lblNotificationMalwareDetectionTitle">Обнаружение вредоносного ПО</string>
     <string name="lblNotificationMalwareDetectionDescription">Используется для оповещения при обнаружении вредоносного ПО</string>
-    <string name="lblNotificationRealtimeTitle">Сканер в реальном времени</string>
+    <string name="lblNotificationRealtimeTitle">Онлайн-сканер</string>
     <string name="lblNotificationRealtimeDescription">Используется для отображения счетчика просканированных файлов и поддержки фоновой службы</string>
-    <string name="lblNotificationRealtimeText">Известные вредоносные программы будут обнаруживаться в режиме реального времени</string>
+    <string name="lblNotificationRealtimeText">Известное вредоносное ПО обнаруживается в режиме реального времени</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: сканирование в реальном времени остановлено</string>
     <string name="lblNotificationRealtimeDetection">Обнаружено вредоносное ПО:</string>
-    <string name="lblRealtimeScannerToggle">Сканер в реальном времени</string>
+    <string name="lblRealtimeScannerToggle">Онлайн-сканер</string>
 
-    <string name="main_database_updating">Обновление баз данных %s...</string>
+    <string name="main_database_updating">Обновление %s баз данных...</string>
     <string name="main_database_downloading">Загрузка %s</string>
-    <string name="main_database_download_success">Успешно загружено</string>
+    <string name="main_database_download_success">Успешно загружена</string>
     <string name="main_database_download_error">Файл не загружен, код ответа %s</string>
     <string name="main_no_database_available">База данных недоступна, сканирование не выполняется...</string>
     <string name="main_database_released_on">Выпущены %s</string>
     <string name="main_database_not_changed">Файл не изменен</string>
-    <string name="main_database_not_modified_since">от %s</string>
+    <string name="main_database_not_modified_since">%s</string>
     <string name="main_database_download_error_logcat">Не удалось загрузить, проверьте logcat</string>
 
     <string name="main_starting_scan">Запуск сканирования...</string>
     <string name="main_cancelling_scan">Отмена сканирования...</string>
     <string name="main_cancelled_scan">Сканирование отменено</string>
     <string name="main_files_pending_scan">%s файл(-ов) ожидают сканирования</string>
-    <string name="main_database_loading">Загрузка базы данных ...</string>
+    <string name="main_database_loading">Загрузка базы данных...</string>
     <string name="main_database_loaded">Загружена база данных с %s сигнатурами</string>
-    <string name="main_hashing_files">Хеширование файлов ...</string>
+    <string name="main_hashing_files">Хеширование файлов...</string>
     <string name="main_hashing_done">Расчетные хеши для всех файлов</string>
-    <string name="main_hash_scan_done">Проверены все %s хэшей по базам данных сигнатур</string>
+    <string name="main_hash_scan_done">Проверены все хэши %s по базам данных сигнатур</string>
     <string name="main_no_hashes_available">Нет доступных подписей хэшей %s</string>
-    <string name="main_scanning_done">Сканирование завершено за %s секунд!</string>
-    <string name="main_files_scanned_count">Отсканировано %s файлов</string>
+    <string name="main_scanning_done">Сканирование выполнено за %s секунд!</string>
+    <string name="main_files_scanned_count">Просканировано %s файлов</string>
 </resources>
