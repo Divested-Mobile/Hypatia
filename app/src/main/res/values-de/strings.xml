@@ -42,6 +42,6 @@
     <string name="main_hashing_done">Hashes für alle Dateien generiert</string>
     <string name="main_hash_scan_done">Alle %s Hashes wurden mit den Signatur-Datenbanken abgeglichen</string>
     <string name="main_no_hashes_available">Keine %s Hash-Signaturen verfügbar</string>
-    <string name="main_scanning_done">Scan nach %s Sekunden abgeschlossen!</string>
+    <string name="main_scanning_done">Scan nach %s Sekunden abgeschlossen @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s Datei(en) gescannt</string>
 </resources>

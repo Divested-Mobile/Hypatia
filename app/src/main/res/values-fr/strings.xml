@@ -41,6 +41,6 @@
     <string name="main_hashing_files">Hachage de fichiers...</string>
     <string name="main_hashing_done">Hachages calculés pour tous les fichiers</string>
     <string name="main_hash_scan_done">Vérification de tous les hachages %s par rapport aux bases de données de signatures</string>
-    <string name="main_scanning_done">Scan complété en %s secondes !</string>
+    <string name="main_scanning_done">Scan complété en %s secondes @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s fichiers scannés</string>
 </resources>

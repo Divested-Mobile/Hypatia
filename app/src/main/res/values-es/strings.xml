@@ -44,6 +44,6 @@
     <string name="main_hashing_done">Hashes calculados para todos los archivos</string>
     <string name="main_hash_scan_done">Comprobados todos los hashes de %s con las bases de datos de firmas</string>
     <string name="main_no_hashes_available">No hay firmas %s hashes disponibles</string>
-    <string name="main_scanning_done">¡Escaneo completado en %s segundos!</string>
+    <string name="main_scanning_done">¡Escaneo completado en %s segundos @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s archivos escaneados</string>
 </resources>
