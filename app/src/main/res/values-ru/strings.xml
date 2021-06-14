@@ -17,12 +17,12 @@
     <string name="lblScanExternal">Сканировать внешнее хранилище</string>
     <string name="lblNotificationMalwareDetectionTitle">Обнаружение вредоносного ПО</string>
     <string name="lblNotificationMalwareDetectionDescription">Используется для оповещения при обнаружении вредоносного ПО</string>
-    <string name="lblNotificationRealtimeTitle">Онлайн-сканер</string>
+    <string name="lblNotificationRealtimeTitle">Сканер в реальном времени</string>
     <string name="lblNotificationRealtimeDescription">Используется для отображения счетчика просканированных файлов и поддержки фоновой службы</string>
     <string name="lblNotificationRealtimeText">Известное вредоносное ПО обнаруживается в режиме реального времени</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: сканирование в реальном времени остановлено</string>
     <string name="lblNotificationRealtimeDetection">Обнаружено вредоносное ПО:</string>
-    <string name="lblRealtimeScannerToggle">Онлайн-сканер</string>
+    <string name="lblRealtimeScannerToggle">Сканер в реальном времени</string>
 
     <string name="main_database_updating">Обновление %s баз данных...</string>
     <string name="main_database_downloading">Загрузка %s</string>
