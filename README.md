@@ -73,3 +73,7 @@ Notices
 -------
 - Divested Computing Group is not affiliated with Cisco or ESET
 - Hypatia is not sponsored or endorsed by Cisco or ESET
+
+Donate
+-------
+BTC: bc1qkjtp2k7cc4kuv8k9wjdlxkeuqczenrpv5mwasl
