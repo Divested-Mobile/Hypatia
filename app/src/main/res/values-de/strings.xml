@@ -44,4 +44,10 @@
     <string name="main_no_hashes_available">Keine %s Hash-Signaturen verfügbar</string>
     <string name="main_scanning_done">Scan nach %s Sekunden abgeschlossen @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s Datei(en) gescannt</string>
+    <string name="db_desc_license">Lizenz</string>
+    <string name="db_desc_size">Größe</string>
+    <string name="db_desc_source">Quelle</string>
+    <string name="db_desc_size_small">Klein</string>
+    <string name="db_desc_size_medium">Mittel</string>
+    <string name="db_desc_size_large">Groß</string>
 </resources>

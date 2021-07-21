@@ -45,4 +45,10 @@
     <string name="main_no_hashes_available">Nessuna firma hash %s disponibile</string>
     <string name="main_scanning_done">Scansione completata in %s secondi @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s file scansionati</string>
+    <string name="db_desc_license">Licenza</string>
+    <string name="db_desc_size">Dimensione</string>
+    <string name="db_desc_source">"Fonte "</string>
+    <string name="db_desc_size_medium">Medio</string>
+    <string name="db_desc_size_large">Grande</string>
+    <string name="db_desc_size_small">Piccola</string>
 </resources>

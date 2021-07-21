@@ -46,4 +46,10 @@
     <string name="main_no_hashes_available">Sem %s assinaturas de hashes disponíveis</string>
     <string name="main_scanning_done">Análise será concluída em %s segundos @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s arquivos analisados</string>
+    <string name="db_desc_license">Licença</string>
+    <string name="db_desc_size_large">Grande</string>
+    <string name="db_desc_size_medium">Média</string>
+    <string name="db_desc_size_small">Pequena</string>
+    <string name="db_desc_source">Fonte</string>
+    <string name="db_desc_size">Tamanho</string>
 </resources>

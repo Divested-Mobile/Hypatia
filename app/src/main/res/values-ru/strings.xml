@@ -46,4 +46,11 @@
     <string name="main_no_hashes_available">Нет доступных подписей хэшей %s</string>
     <string name="main_scanning_done">Сканирование выполнено за %s секунд @ %sMB/s!</string>
     <string name="main_files_scanned_count">Просканировано %s файлов</string>
+    <string name="db_desc_license">Лицензия</string>
+    <string name="db_desc_author">Автор</string>
+    <string name="db_desc_size">Размер</string>
+    <string name="db_desc_source">Источник</string>
+    <string name="db_desc_size_small">Небольшой</string>
+    <string name="db_desc_size_medium">Середина</string>
+    <string name="db_desc_size_large">Большой</string>
 </resources>

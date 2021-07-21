@@ -48,4 +48,11 @@
     <string name="main_no_hashes_available">No %s hashes signatures available</string>
     <string name="main_scanning_done">Scan completed in %s seconds @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s files scanned</string>
+    <string name="db_desc_author">Author</string>
+    <string name="db_desc_license">License</string>
+    <string name="db_desc_size">Size</string>
+    <string name="db_desc_source">Source</string>
+    <string name="db_desc_size_small">Small</string>
+    <string name="db_desc_size_medium">Medium</string>
+    <string name="db_desc_size_large">Large</string>
 </resources>

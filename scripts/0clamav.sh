@@ -7,9 +7,9 @@ mkdir /tmp/mss
 mkdir /tmp/mss/processed
 cd /tmp/mss
 cp /var/lib/clamav/main.cvd .
-cp /var/lib/clamav/daily.cvd .
+cp /var/lib/clamav/daily.c*d .
 sigtool -u main.cvd
-sigtool -u daily.cvd
+sigtool -u daily.c*d
 
 #MD5
 grep "Andr\\." main.hdb >> Android.hdb

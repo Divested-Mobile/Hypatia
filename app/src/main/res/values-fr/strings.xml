@@ -43,4 +43,10 @@
     <string name="main_hash_scan_done">Vérification de tous les hachages %s par rapport aux bases de données de signatures</string>
     <string name="main_scanning_done">Scan complété en %s secondes @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s fichiers scannés</string>
+    <string name="db_desc_license">Licence</string>
+    <string name="db_desc_size">Taille</string>
+    <string name="db_desc_source">La source</string>
+    <string name="db_desc_size_medium">Moyen</string>
+    <string name="db_desc_size_large">Grande</string>
+    <string name="db_desc_size_small">Petite</string>
 </resources>
