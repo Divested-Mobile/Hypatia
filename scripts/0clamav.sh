@@ -1,13 +1,15 @@
 #!/bin/sh
-#License: GPLv3
+#License: GPL-3.0
+#Description: Hypatia conversion script for ClamAV databases (GPL-2.0)
 
 #sudo freshclam
 mkdir /tmp/mss
+mkdir /tmp/mss/processed
 cd /tmp/mss
 cp /var/lib/clamav/main.cvd .
-cp /var/lib/clamav/daily.cld .
+cp /var/lib/clamav/daily.cvd .
 sigtool -u main.cvd
-sigtool -u daily.cld
+sigtool -u daily.cvd
 
 #MD5
 grep "Andr\\." main.hdb >> Android.hdb
@@ -25,5 +27,13 @@ grep "Unix\\." daily.hsb >> Android.hsb
 grep "Multios\\." main.hsb >> Android.hsb
 grep "Multios\\." daily.hsb >> Android.hsb
 
+databases=("Android.hdb" "Android.hsb" "main.hdb" "main.hsb" "daily.hdb" "daily.hsb");
+for db in "${databases[@]}"
+do
+	sort --parallel=$(nproc) --unique "$db" --output processed/"$db";
+done;
+
 gzip /tmp/mss/*.hdb
 gzip /tmp/mss/*.hsb
+gzip /tmp/mss/processed/*.hdb
+gzip /tmp/mss/processed/*.hsb
