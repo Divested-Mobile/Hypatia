@@ -50,7 +50,7 @@
     <string name="db_desc_author">Автор</string>
     <string name="db_desc_size">Размер</string>
     <string name="db_desc_source">Источник</string>
-    <string name="db_desc_size_small">Небольшой</string>
-    <string name="db_desc_size_medium">Середина</string>
+    <string name="db_desc_size_small">Маленький</string>
+    <string name="db_desc_size_medium">Средний</string>
     <string name="db_desc_size_large">Большой</string>
 </resources>
