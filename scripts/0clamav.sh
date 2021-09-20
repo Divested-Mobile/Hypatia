@@ -2,13 +2,13 @@
 #License: GPL-3.0
 #Description: Hypatia conversion script for ClamAV databases (GPL-2.0)
 
-#sudo freshclam
+#sudo -i freshclam
 mkdir /tmp/mss
 mkdir /tmp/mss/processed
 cd /tmp/mss
-cp /var/lib/clamav/main.cvd .
+cp /var/lib/clamav/main.c*d .
 cp /var/lib/clamav/daily.c*d .
-sigtool -u main.cvd
+sigtool -u main.c*d
 sigtool -u daily.c*d
 
 #MD5
