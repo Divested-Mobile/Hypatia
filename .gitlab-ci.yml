@@ -48,6 +48,7 @@ before_script:
   - popd
   - popd
   - export PATH=$PATH:${ANDROID_SDK_ROOT}/cmdline-tools/tools/bin/
+  - export PATH=$PATH:${ANDROID_SDK_ROOT}/build-tools/${ANDROID_BUILD_TOOLS}/
 
   # Nothing fancy here, just checking sdkManager version
   - sdkmanager --version
@@ -68,6 +69,9 @@ lintDebug:
   stage: build
   script:
     - ./gradlew -Pci --console=plain :app:lintDebug -PbuildDir=lint
+  artifacts:
+    paths:
+      - app/lint/reports/
 
 # Make Project
 assembleDebug:
@@ -75,6 +79,7 @@ assembleDebug:
   stage: build
   script:
     - ./gradlew assembleDebug
+    - apksigner sign --key "debugkey.pk8" --cert "debugkey.x509.pem" app/build/outputs/apk/debug/app-debug.apk
   artifacts:
     paths:
       - app/build/outputs/
