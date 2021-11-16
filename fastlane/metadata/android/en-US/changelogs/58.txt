@@ -1,0 +1,4 @@
+* Don't try to load the database multiple times at once
+* Add the signature count to the notification
+* Format numbers for the locale
+* Improve check for when no databases are available

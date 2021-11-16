@@ -1,0 +1,2 @@
+* Add padding to txtLogOutput
+* Code cleanup

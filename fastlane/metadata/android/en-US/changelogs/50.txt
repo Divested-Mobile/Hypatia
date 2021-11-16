@@ -1,0 +1,2 @@
+* Add the German string translations, credit Petra Mirelli
+* Add the German README, credit Petra Mirelli

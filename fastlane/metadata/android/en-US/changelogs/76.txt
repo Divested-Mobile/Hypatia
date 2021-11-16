@@ -1,0 +1,9 @@
+* Don't find files recursively on main thread
+* Reduce number of threadpools
+* Ensure there are always enough threads available
+* Cap the queue limit on thread pools
+* Do work on main thread if queues are full, thereby blocking
+* Use more thread safe objects
+* Replace some runnables with lambas
+* Code cleanup
+* Typo fixes

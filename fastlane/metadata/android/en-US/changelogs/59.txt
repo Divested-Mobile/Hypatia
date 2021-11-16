@@ -1,0 +1,2 @@
+* More fastlane metadata and screenshots
+* Translation work

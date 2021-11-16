@@ -1,0 +1,3 @@
+* Night mode support
+* AndroidX migration
+* Optimize images

@@ -1,0 +1,1 @@
+* Adding 'versionName' from 'app/gradle.build' to UI

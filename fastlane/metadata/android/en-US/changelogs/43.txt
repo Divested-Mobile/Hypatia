@@ -1,0 +1,1 @@
+* Fix for Scoped Storage enforcement on Q

@@ -1,0 +1,10 @@
+* Fix an exception with the notification counter
+* Ensure the database is really loaded before a scan
+* Inform the user when a scan is cancelled
+* Allow quicker cancelling of scan (when in the middle of hashing)
+* Don't block main thread when updating databases
+* Change the fab color depending on the scan state
+* Add a simple textual progress bar to scans
+* Make text output selectable
+* Add a test signature
+* Small sanity checks
