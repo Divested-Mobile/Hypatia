@@ -76,8 +76,5 @@ Hinweise
 
 Spenden
 -------
-
-Der Maintainer von Hypatia, Tad, hat vor 412 Tagen (Stand: 15. Juli 2021) seine Arbeitstelle verloren und ist auf Spenden angewiesen. Bitte unterstützen sie ihn, falls ihre finanzielle Situation das erlaubt.
-
+-------
 - https://divested.dev/donate
-
