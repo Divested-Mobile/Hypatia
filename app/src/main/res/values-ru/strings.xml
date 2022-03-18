@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_license">Лицензия: GPL-3.0</string>
     <string name="app_version">Версия: %s</string>

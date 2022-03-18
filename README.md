@@ -69,6 +69,7 @@ Credits
 - @inkhorn for the Portuguese translations.
 - @jontaix for Portuguese translations.
 - @q1011 for the Russian translations.
+- Oswald van Ginkel for the Afrikaans translations.
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices

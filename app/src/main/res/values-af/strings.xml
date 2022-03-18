@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Hypatia</string>
     <string name="app_copyright">Kopiereg 2017-2021 Divested Computing Group</string>
     <string name="app_license">Lisensie: GPL-3.0</string>
     <string name="app_version">Weergawe: %s</string>
@@ -7,7 +7,7 @@
 
     <string name="lblOnionRoutingToggle">Laai af deur Tor</string>
     <string name="lblOnionRoutingEnabledHint">Laai tans af deur Tor, dit mag \'n oogknip neem...</string>
-    <string name="lblOnionRoutingNotInstalled">Orbot of InviZible is nie geïnstalleer nie!</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot of InviZible is nie geÃ¯nstalleer nie!</string>
     <string name="lblOnionRoutingNotRunning">Orbot of InviZible is nie aan die loop nie!</string>
     <string name="lblUpdateDatabase">Dateer databasisse op</string>
     <string name="lblSelectDatabases">Kies databasisse</string>
@@ -20,7 +20,7 @@
     <string name="lblNotificationMalwareDetectionTitle">Wanware Opgetel</string>
     <string name="lblNotificationMalwareDetectionDescription">Gebruik om te waarsku wanneer wanware opgetel word</string>
     <string name="lblNotificationRealtimeTitle">Intydse Skandering</string>
-    <string name="lblNotificationRealtimeDescription">Gebruik om aantal lêers wat geskandeer is aan te dui en die agtergrond diens aktief te hou</string>
+    <string name="lblNotificationRealtimeDescription">Gebruik om aantal lÃªers wat geskandeer is aan te dui en die agtergrond diens aktief te hou</string>
     <string name="lblNotificationRealtimeText">Bekende wanware sal intyds opgetel word</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: Intydse Skandering Gestaak</string>
     <string name="lblNotificationRealtimeDetection">Wanware Opgetel:</string>
@@ -29,25 +29,25 @@
     <string name="main_database_updating">Dateer tans %s databasisse op...</string>
     <string name="main_database_downloading">Laai tans %s af</string>
     <string name="main_database_download_success">Suksesvol afgelaai</string>
-    <string name="main_database_download_error">Lêer nie afgelaai nie, respons kode %s</string>
+    <string name="main_database_download_error">LÃªer nie afgelaai nie, respons kode %s</string>
     <string name="main_no_database_available">Geen databasis beskikbaar, skandeer dus nie...</string>
     <string name="main_database_released_on">Vrygestel op %s</string>
-    <string name="main_database_not_changed">Lêer nie verander</string>
+    <string name="main_database_not_changed">LÃªer nie verander</string>
     <string name="main_database_not_modified_since">sedert %s</string>
     <string name="main_database_download_error_logcat">Kon nie aflaai nie, kyk dalk na logcat</string>
 
     <string name="main_starting_scan">Begin tans skandering...</string>
     <string name="main_cancelling_scan">Kanseleer tans skandering...</string>
     <string name="main_cancelled_scan">Skandering gekanseleer</string>
-    <string name="main_files_pending_scan">%s lêers wag hul beurt af</string>
+    <string name="main_files_pending_scan">%s lÃªers wag hul beurt af</string>
     <string name="main_database_loading">Laai tans databasis af...</string>
     <string name="main_database_loaded">Databasis gelaai met %s huts stempels</string>
-    <string name="main_hashing_files">Huts tans lêers...</string>
-    <string name="main_hashing_done">Hutse is bereken vir alle verkose lêers</string>
+    <string name="main_hashing_files">Huts tans lÃªers...</string>
+    <string name="main_hashing_done">Hutse is bereken vir alle verkose lÃªers</string>
     <string name="main_hash_scan_done">Al %s hutse is met die stempel databasis vergelyk</string>
     <string name="main_no_hashes_available">Geen %s huts stempels beskikbaar</string>
-    <string name="main_scanning_done">Skandering voltooid in %s sekondes @ %sMG/s!</string>
-    <string name="main_files_scanned_count">%s lêers geskandeer</string>
+    <string name="main_scanning_done">Skandering voltooid in %s sekondes @ %sMB/s!</string>
+    <string name="main_files_scanned_count">%s lÃªers geskandeer</string>
     <string name="db_desc_author">Outeur</string>
     <string name="db_desc_license">Lisensie</string>
     <string name="db_desc_size">Grootte</string>
