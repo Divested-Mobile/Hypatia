@@ -13,6 +13,7 @@
     <string name="lblUpdateDatabase">Update databases</string>
     <string name="lblSelectDatabases">Select databases</string>
     <string name="lblSelectDatabasesTitle">Select databases to enable</string>
+    <string name="lblDatabaseServer">Database server override</string>
     <string name="lblFullCredits">Credits</string>
     <string name="lblScanSystem">Scan /system</string>
     <string name="lblScanApps">Scan App APKs</string>
@@ -26,8 +27,11 @@
     <string name="lblNotificationRealtimeStopped">Hypatia: Realtime Scanning Stopped</string>
     <string name="lblNotificationRealtimeDetection">Malware Detected:</string>
     <string name="lblRealtimeScannerToggle">Realtime Scanner</string>
+    <string name="lblReset">Reset</string>
+    <string name="lblOverride">Override</string>
 
     <string name="main_database_updating">Updating %s databases...</string>
+    <string name="main_database_override">Using server %s</string>
     <string name="main_database_downloading">Downloading %s</string>
     <string name="main_database_download_success">Successfully downloaded</string>
     <string name="main_database_download_error">File not downloaded, response code %s</string>

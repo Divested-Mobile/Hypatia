@@ -1,0 +1,1 @@
+* Add the option to change server URL. Such replacement must have the same file names. Database generation scripts in source code repository.
