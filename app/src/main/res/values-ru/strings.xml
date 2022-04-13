@@ -7,10 +7,11 @@
     <string name="lblOnionRoutingToggle">Скачать через Tor</string>
     <string name="lblOnionRoutingEnabledHint">Загрузка через Tor может занять некоторое время...</string>
     <string name="lblOnionRoutingNotInstalled">Orbot не установлен!</string>
-    <string name="lblOnionRoutingNotRunning">Орбот не запущен!</string>
+    <string name="lblOnionRoutingNotRunning">Orbot не запущен!</string>
     <string name="lblUpdateDatabase">Обновить базы данных</string>
     <string name="lblSelectDatabases">Выбрать базы данных</string>
     <string name="lblSelectDatabasesTitle">Выберите базы данных для включения</string>
+    <string name="lblDatabaseServer">Переопределение сервера базы данных</string>
     <string name="lblFullCredits">Благодарность</string>
     <string name="lblScanSystem">Сканировать /system</string>
     <string name="lblScanApps">Сканировать APK-файлы приложений</string>
@@ -20,12 +21,15 @@
     <string name="lblNotificationMalwareDetectionDescription">Используется для оповещения при обнаружении вредоносного ПО</string>
     <string name="lblNotificationRealtimeTitle">Сканер в реальном времени</string>
     <string name="lblNotificationRealtimeDescription">Используется для отображения счетчика просканированных файлов и поддержки фоновой службы</string>
-    <string name="lblNotificationRealtimeText">Известное вредоносное ПО обнаруживается в режиме реального времени</string>
+    <string name="lblNotificationRealtimeText">Вредоносное ПО обнаруживается в режиме реального времени</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: сканирование в реальном времени остановлено</string>
     <string name="lblNotificationRealtimeDetection">Обнаружено вредоносное ПО:</string>
     <string name="lblRealtimeScannerToggle">Сканер в реальном времени</string>
+    <string name="lblReset">Сбросить</string>
+    <string name="lblOverride">Переопределить</string>
 
     <string name="main_database_updating">Обновление %s баз данных...</string>
+    <string name="main_database_override">Используется сервер %s</string>
     <string name="main_database_downloading">Загрузка %s</string>
     <string name="main_database_download_success">Успешно загружена</string>
     <string name="main_database_download_error">Файл не загружен, код ответа %s</string>
