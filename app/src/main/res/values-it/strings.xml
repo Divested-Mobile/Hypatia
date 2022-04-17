@@ -4,7 +4,7 @@
     <string name="app_copyright">Copyright 2017-2022 Divested Computing Group</string>
     <string name="app_license">Licenza: GPL-3.0</string>
     <string name="app_version">Versione: %s</string>
-	<string name="app_db_type_clamav">Potenziato dalle firme di stile ClamAV</string>
+    <string name="app_db_type_clamav">Potenziato dalle firme di stile ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Aggiorna tramite Tor</string>
     <string name="lblOnionRoutingEnabledHint">Aggiornamento tramite Tor, potrebbe volerci un po\'...</string>
@@ -13,7 +13,7 @@
     <string name="lblUpdateDatabase">Aggiorna i database</string>
     <string name="lblSelectDatabases">Seleziona un database</string>
     <string name="lblSelectDatabasesTitle">Database disponibili</string>
-	<string name="lblDatabaseServer">Modifica il server dei database</string>
+    <string name="lblDatabaseServer">Modifica il server dei database</string>
     <string name="lblFullCredits">Crediti</string>
     <string name="lblScanSystem">Scansiona le app di sistema</string>
     <string name="lblScanApps">Scansiona le app</string>
@@ -27,11 +27,11 @@
     <string name="lblNotificationRealtimeStopped">Hypatia: La Scansione in Tempo Reale è stata interrotta</string>
     <string name="lblNotificationRealtimeDetection">Malware Rilevato:</string>
     <string name="lblRealtimeScannerToggle">Scansione in Tempo Reale</string>
-	<string name="lblReset">Reset</string>
-	<string name="lblOverride">Modifica</string>
+    <string name="lblReset">Reset</string>
+    <string name="lblOverride">Modifica</string>
 
     <string name="main_database_updating">Aggiornamento database %s...</string>
-	<string name="main_database_override">Utilizza un altro server %s</string>
+    <string name="main_database_override">Utilizza un altro server %s</string>
     <string name="main_database_downloading">Scaricando %s</string>
     <string name="main_database_download_success">Scaricato con successo</string>
     <string name="main_database_download_error">Database non scaricato, errore %s</string>
@@ -53,7 +53,7 @@
     <string name="main_no_hashes_available">Nessuna firma hash %s disponibile</string>
     <string name="main_scanning_done">Scansione completata in %s secondi @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s file scansionati</string>
-	<string name="db_desc_author">Autore</string>
+    <string name="db_desc_author">Autore</string>
     <string name="db_desc_license">Licenza</string>
     <string name="db_desc_size">Dimensione</string>
     <string name="db_desc_source">Fonte</string>
