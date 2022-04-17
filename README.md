@@ -65,7 +65,7 @@ Credits
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
 - Petra Mirelli for the German/Spanish/Italian translations, the app banner/feature graphic, and various tweaks.
 - Jean-Luc Tibaux and Petra Mirelli for the French translations.
-- @dantecpu for the Italian translations.
+- @srccrow for the Italian translations.
 - @inkhorn for the Portuguese translations.
 - @jontaix for Portuguese translations.
 - @q1011 for the Russian translations.
