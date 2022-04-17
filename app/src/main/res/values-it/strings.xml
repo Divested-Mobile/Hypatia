@@ -13,7 +13,7 @@
     <string name="lblUpdateDatabase">Aggiorna i database</string>
     <string name="lblSelectDatabases">Seleziona un database</string>
     <string name="lblSelectDatabasesTitle">Database disponibili</string>
-	<string name="lblDatabaseServer">Modifica il server del database</string>
+	<string name="lblDatabaseServer">Modifica il server dei database</string>
     <string name="lblFullCredits">Crediti</string>
     <string name="lblScanSystem">Scansiona app di sistema</string>
     <string name="lblScanApps">Scansiona le app</string>
@@ -31,7 +31,7 @@
 	<string name="lblOverride">Modifica</string>
 
     <string name="main_database_updating">Aggiornamento database %s...</string>
-	<string name="main_database_override">Utilizza il database sostitutivo %s</string>
+	<string name="main_database_override">Utilizza un altro server %s</string>
     <string name="main_database_downloading">Scaricando %s</string>
     <string name="main_database_download_success">Scaricato con successo</string>
     <string name="main_database_download_error">Database non scaricato, errore %s</string>
