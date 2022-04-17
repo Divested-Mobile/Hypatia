@@ -15,7 +15,7 @@
     <string name="lblSelectDatabasesTitle">Database disponibili</string>
 	<string name="lblDatabaseServer">Modifica il server dei database</string>
     <string name="lblFullCredits">Crediti</string>
-    <string name="lblScanSystem">Scansiona app di sistema</string>
+    <string name="lblScanSystem">Scansiona le app di sistema</string>
     <string name="lblScanApps">Scansiona le app</string>
     <string name="lblScanInternal">Scansiona la Memoria Interna</string>
     <string name="lblScanExternal">Scansiona la Memoria Esterna</string>
