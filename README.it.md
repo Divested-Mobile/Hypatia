@@ -52,7 +52,7 @@ Crediti
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc, Bartek Przybylski
 - Petra Mirelli per le traduzioni in tedesco, il banner/grafica dell'app e varie modifiche.
 - Jean-Luc Tibaux e Petra Mirelli per le traduzioni in francese.
-- @dantecpu per le traduzioni italiane.
+- @srccrow per le traduzioni italiane.
 - Icone: Google/Android/AOSP, Licenza: Apache 2.0, https://google.github.io/material-design-icons/
 
 Avvisi

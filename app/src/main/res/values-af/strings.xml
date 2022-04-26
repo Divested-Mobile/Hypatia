@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Kopiereg 2017-2021 Divested Computing Group</string>
+    <string name="app_copyright">Kopiereg 2017-2022 Divested Computing Group</string>
     <string name="app_license">Lisensie: GPL-3.0</string>
     <string name="app_version">Weergawe: %s</string>
     <string name="app_db_type_clamav">Aangedryf deur ClamAV tipe stempels</string>
