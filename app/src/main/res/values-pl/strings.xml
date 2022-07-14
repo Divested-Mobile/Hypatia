@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_copyright">Prawa autorskie 2017-2022 Divested Computing Group</string>
+    <string name="app_license">Licencja: GPL-3.0</string>
+    <string name="app_version">Wersja: %s</string>
+    <string name="app_db_type_clamav">Oparto o sygnatury w stylu ClamAV</string>
+
+    <string name="lblOnionRoutingToggle">Pobierz przez Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Pobieranie przez Tor, może to zająć chwilę…</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot nie jest zainstalowany!</string>
+    <string name="lblOnionRoutingNotRunning">Orbot nie jest uruchomiony!</string>
+    <string name="lblUpdateDatabase">Aktualizuj bazy danych</string>
+    <string name="lblSelectDatabases">Wybierz bazy danych</string>
+    <string name="lblSelectDatabasesTitle">Wybierz bazy danych do aktywacji</string>
+    <string name="lblDatabaseServer">Zastąpienia serwera bazy danych</string>
+    <string name="lblFullCredits">Uznania</string>
+    <string name="lblScanSystem">Skanuj /system</string>
+    <string name="lblScanApps">Skanuj pliki APK aplikacji</string>
+    <string name="lblScanInternal">Skanuj pamięć wewnętrzną</string>
+    <string name="lblScanExternal">Skanuj pamięć zewnętrzną</string>
+    <string name="lblNotificationMalwareDetectionTitle">Wykrywanie złośliwego oprogramowania</string>
+    <string name="lblNotificationMalwareDetectionDescription">Wykorzystywane do informowania, gdy wykryto złośliwe oprogramowanie</string>
+    <string name="lblNotificationRealtimeTitle">Skaner w czasie rzeczywistym</string>
+    <string name="lblNotificationRealtimeDescription">Wykorzystywane dla wyświetlania licznika skanowanych plików i utrzymywania usługi w tle</string>
+    <string name="lblNotificationRealtimeText">Znane złośliwe oprogramowanie będzie wykrywane w czasie rzeczywistym</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: Zatrzymano skanowanie w czasie rzeczywistym</string>
+    <string name="lblNotificationRealtimeDetection">Wykryto złośliwe oprogramowanie:</string>
+    <string name="lblRealtimeScannerToggle">Skaner w czasie rzeczywistym</string>
+    <string name="lblReset">Resetuj</string>
+    <string name="lblOverride">Nadpisz</string>
+
+    <string name="main_database_updating">Aktualizacja bazy danych %s…</string>
+    <string name="main_database_override">Wykorzystywanie serwera %s</string>
+    <string name="main_database_downloading">Pobieranie %s</string>
+    <string name="main_database_download_success">Pomyślnie pobrano</string>
+    <string name="main_database_download_error">Nie pobrano plikku, kod odpowiedzi %s</string>
+    <string name="main_no_database_available">Baza danych nie jest dostępna, nie skanuję…</string>
+    <string name="main_database_released_on">Wydano %s</string>
+    <string name="main_database_not_changed">Nie zmieniono pliku</string>
+    <string name="main_database_not_modified_since">Od %s</string>
+    <string name="main_database_download_error_logcat">Nie udało się pobrać, sprawdź logcat</string>
+
+    <string name="main_starting_scan">Rozpoczynanie skanowania…</string>
+    <string name="main_cancelling_scan">Anulowanie skanowania…</string>
+    <string name="main_cancelled_scan">Anulowano skanowanie</string>
+    <string name="main_files_pending_scan">%s plików oczekuje na skanowanie</string>
+    <string name="main_database_loading">Ładowanie bazy danych…</string>
+    <string name="main_database_loaded">Załadowano bazę danych z %s sygnaturami</string>
+    <string name="main_hashing_files">Hashowanie plików…</string>
+    <string name="main_hashing_done">Obliczono hashe dla wszystkich plików</string>
+    <string name="main_hash_scan_done">Porównano wszystkie %s hashów z bazą danych sygnatur</string>
+    <string name="main_no_hashes_available">Brak dostępnych %s sygnatur hashów</string>
+    <string name="main_scanning_done">Ukończono skanowanie w %s sekund @ %sMB/s!</string>
+    <string name="main_files_scanned_count">Zeskanowano %s plików</string>
+    <string name="db_desc_author">Autor</string>
+    <string name="db_desc_license">Licencja</string>
+    <string name="db_desc_size">Rozmiar</string>
+    <string name="db_desc_source">Źródło</string>
+    <string name="db_desc_size_small">Small</string>
+    <string name="db_desc_size_medium">Medium</string>
+    <string name="db_desc_size_large">Large</string>
+</resources>

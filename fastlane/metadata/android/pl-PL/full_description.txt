@@ -1,0 +1,15 @@
+<p>Hypatia to pierwszy w świecie FOSS skaner złośliwego oprogramowania na Androida. Jest oparty o bazy danych sygnatur w stylu ClamAV.</p>
+
+<b>Funkcje</b>
+<ul>
+<li>Prawie zerowy wpływ na baterię – nigdy nie zauważysz wpływu na zużycie baterii</li>
+<li>Ekstremalnie szybki – może skanować małe pliki files (1MB) w 20ms, a nawet większe pliki (40MB) w 1000ms.</li>
+<li>Oszczędny dla pamięci – z domyślnymi bazami danych wykorzystuje mniej niż 120MB.</li>
+<li>Zwykłe skanowanie – pozwala wybrać /system, pamięć wewnętrzną, zewnętrzną i zainstalowane aplikacje</li>
+<li>Skaner w czasie rzeczywistym – może wykrywać złośliwe oprogramowanie podczas nadpisywania/zmian nazw w pamięci wewnętrznej</li>
+<li>Całkowicie offline – Internet wykorzystywany jest jedynie do pobierania baz danych sygnatur, pliki nigdy nie opuszczą Twojego urządzenia</li>
+<li>Trwałość – automatycznie restartuje się po uruchomieniu/aktualizacji</li>
+<li>Niewielki kod – zawiera mniej niż 1000 linii kodu, może zostać zaudytowany nawet przez osobę z podstawową wiedzą o programowaniu</li>
+<li>Minimalne zależności – aplikacja wykorzystuje biblioteki jedynie gdy są potrzebne</li>
+<li>Bazy danych sygnatur mogą być włączone/wyłączone na życzenie użytkownika</li>
+</ul>
