@@ -48,7 +48,6 @@
     <string name="main_hashing_files">Hashing dei file...</string>
     <string name="main_hashing_done">Calcolando gli hash per tutti i file</string>
     <string name="main_hash_scan_done">Confrontati tutti gli hash %s con il database delle firme</string>
-    <string name="main_no_hashes_available">Nessuna firma hash %s disponibile</string>
     <string name="main_scanning_done">Scansione completata in %s secondi @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s file scansionati</string>
     <string name="db_desc_author">Autore</string>

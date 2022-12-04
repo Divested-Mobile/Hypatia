@@ -1,0 +1,1 @@
+* Fix inability to fully scan on Android 11 and higher

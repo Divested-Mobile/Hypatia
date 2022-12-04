@@ -74,6 +74,7 @@ Credits
 - Oswald van Ginkel for the Afrikaans translations.
 - huuhaa for the Finnish translations.
 - Marcin Mikołajczak for Polish translations.
+- @senpai33 for the Spanish translations.
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices

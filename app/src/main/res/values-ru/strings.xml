@@ -48,7 +48,6 @@
     <string name="main_hashing_files">Хеширование файлов...</string>
     <string name="main_hashing_done">Расчетные хеши для всех файлов</string>
     <string name="main_hash_scan_done">Проверены все хэши %s по базам данных сигнатур</string>
-    <string name="main_no_hashes_available">Нет доступных подписей хэшей %s</string>
     <string name="main_scanning_done">Сканирование выполнено за %s секунд @ %sMB/s!</string>
     <string name="main_files_scanned_count">Просканировано %s файлов</string>
     <string name="db_desc_license">Лицензия</string>

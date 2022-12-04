@@ -49,7 +49,6 @@
     <string name="main_hashing_files">Hashowanie plików…</string>
     <string name="main_hashing_done">Obliczono hashe dla wszystkich plików</string>
     <string name="main_hash_scan_done">Porównano wszystkie %s hashów z bazą danych sygnatur</string>
-    <string name="main_no_hashes_available">Brak dostępnych %s sygnatur hashów</string>
     <string name="main_scanning_done">Ukończono skanowanie w %s sekund @ %sMB/s!</string>
     <string name="main_files_scanned_count">Zeskanowano %s plików</string>
     <string name="db_desc_author">Autor</string>

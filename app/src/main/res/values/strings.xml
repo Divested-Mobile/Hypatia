@@ -50,7 +50,6 @@
     <string name="main_hashing_files">Hashing files...</string>
     <string name="main_hashing_done">Calculated hashes for all files</string>
     <string name="main_hash_scan_done">Checked all %s hashes against signature databases</string>
-    <string name="main_no_hashes_available">No %s hashes signatures available</string>
     <string name="main_scanning_done">Scan completed in %s seconds @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s files scanned</string>
     <string name="db_desc_author">Author</string>

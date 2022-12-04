@@ -45,7 +45,6 @@
     <string name="main_hashing_files">Huts tans lêers...</string>
     <string name="main_hashing_done">Hutse is bereken vir alle verkose lêers</string>
     <string name="main_hash_scan_done">Al %s hutse is met die stempel databasis vergelyk</string>
-    <string name="main_no_hashes_available">Geen %s huts stempels beskikbaar</string>
     <string name="main_scanning_done">Skandering voltooid in %s sekondes @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s lêers geskandeer</string>
     <string name="db_desc_author">Outeur</string>

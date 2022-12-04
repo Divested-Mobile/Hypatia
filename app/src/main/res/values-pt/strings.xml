@@ -44,7 +44,6 @@
     <string name="main_hashing_files">Hashing arquivos...</string>
     <string name="main_hashing_done">Hashes calculados para todos os arquivos</string>
     <string name="main_hash_scan_done">Verificados todos %s hashes em relação a base de dados de assinaturas</string>
-    <string name="main_no_hashes_available">Sem %s assinaturas de hashes disponíveis</string>
     <string name="main_scanning_done">Análise concluída em %s segundos @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s arquivos analisados</string>
     <string name="db_desc_license">Licença</string>

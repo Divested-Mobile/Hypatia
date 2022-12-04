@@ -47,7 +47,6 @@
     <string name="main_hashing_files">Hashataan tiedostoja...</string>
     <string name="main_hashing_done">Laskettiin hashit kaikille tiedostoille</string>
     <string name="main_hash_scan_done">Tarkistettiin kaikki %s hashit allekirjoitustietokannoista</string>
-    <string name="main_no_hashes_available">Ei %s hash-allekirjoituksia saatavilla</string>
     <string name="main_scanning_done">Tarkistus suoritettu %s sekunnissa @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s tiedostoa tarkistettu</string>
     <string name="db_desc_author">Tekijä</string>
