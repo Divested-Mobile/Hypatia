@@ -1,0 +1,1 @@
+* Add support for the Amnesty International Investgations database
