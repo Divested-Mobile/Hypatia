@@ -3,7 +3,9 @@
 #Description: Hypatia conversion script for ClamAV databases (GPL-2.0)
 
 #sudo -i freshclam
+origDir="$PWD"
 mkdir /tmp/mss
+mkdir /tmp/mss/optimized
 mkdir /tmp/mss/processed
 cd /tmp/mss
 cp /var/lib/clamav/main.c*d .
@@ -30,10 +32,13 @@ grep "Multios\\." daily.hsb >> Android.hsb
 databases=("Android.hdb" "Android.hsb" "main.hdb" "main.hsb" "daily.hdb" "daily.hsb");
 for db in "${databases[@]}"
 do
-	sort --parallel=$(nproc) --unique "$db" --output processed/"$db";
+	#remove unnecessary bits to reduce file size and app memory usage
+	python "$origDir"/optimize.py "$db" >> optimized/"$db";
+	#sort to increase compression efficiency
+	sort -k3 -t ":" --parallel=$(nproc) --output processed/"$db" optimized/"$db";
 done;
 
-gzip /tmp/mss/*.hdb
-gzip /tmp/mss/*.hsb
-gzip /tmp/mss/processed/*.hdb
-gzip /tmp/mss/processed/*.hsb
+gzip -k /tmp/mss/*.hdb
+gzip -k /tmp/mss/*.hsb
+gzip -k /tmp/mss/processed/*.hdb
+gzip -k /tmp/mss/processed/*.hsb
