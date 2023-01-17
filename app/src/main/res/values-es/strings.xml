@@ -2,7 +2,7 @@
 <resources>
     <string name="app_license">Licencia: GPL-3.0</string>
     <string name="app_version">Versión: %s</string>
-    <string name="app_db_type_clamav">Potenciada por firmas de estilo ClamAV</string>
+    <string name="app_db_type_clamav">Potenciada por firmas al estilo de ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Descarga a través de Tor</string>
     <string name="lblOnionRoutingEnabledHint">Descargando a través de Tor, esto puede llevar un tiempo...</string>
@@ -14,7 +14,7 @@
     <string name="lblDatabaseServer">Modificar servidor BBDD</string>
     <string name="lblFullCredits">Créditos</string>
     <string name="lblScanSystem">Escanear /sistema</string>
-    <string name="lblScanApps">Escanear aplicaciones APK</string>
+    <string name="lblScanApps">Escanear aplicaciones APKs</string>
     <string name="lblScanInternal">Escanear almacenamiento interno</string>
     <string name="lblScanExternal">Escanear almacenamiento externo</string>
     <string name="lblNotificationMalwareDetectionTitle">Detección de malware</string>
@@ -52,9 +52,9 @@
     <string name="main_files_scanned_count">%s archivos escaneados</string>
     <string name="db_desc_author">Autor</string>
     <string name="db_desc_license">Licencia</string>
-    <string name="db_desc_size_large">Grande</string>
-    <string name="db_desc_size_medium">Media</string>
-    <string name="db_desc_size_small">Pequeña</string>
-    <string name="db_desc_source">Fuente</string>
     <string name="db_desc_size">Tamaño</string>
+    <string name="db_desc_source">Fuente</string>
+    <string name="db_desc_size_small">Pequeña</string>
+    <string name="db_desc_size_medium">Mediana</string>
+    <string name="db_desc_size_large">Grande</string>
 </resources>
