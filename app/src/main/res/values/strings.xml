@@ -59,4 +59,5 @@
     <string name="db_desc_size_small">Small</string>
     <string name="db_desc_size_medium">Medium</string>
     <string name="db_desc_size_large">Large</string>
+    <string name="scan_control">Scan Control</string>
 </resources>
