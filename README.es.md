@@ -75,7 +75,7 @@ Créditos
 - Oswald van Ginkel por las traducciones al afrikaans.
 - huuhaa por las traducciones al finé.
 - Marcin Mikołajczak por las traducciones al polaco.
-- @senpai33 "Manuel-Senpai" por las traducciones al español.
+- Manuel-Senpai por las traducciones al español.
 - Iconos: Google/Android/AOSP, Licencia: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notas
