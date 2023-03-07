@@ -6,8 +6,8 @@ android {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
         targetSdkVersion 32
-        versionCode 95
-        versionName "2.29"
+        versionCode 96
+        versionName "2.30"
         resConfigs 'en', 'af', 'de', 'es', 'fi', 'fr', 'it', 'pl', 'pt', 'ru'
     }
     buildTypes {
