@@ -17,6 +17,7 @@
         <item>• Amnesty International: Signature Databases</item>
         <item>• Echap: Signature Databases</item>
         <item>• RecursiveFileObserver.java: Daniel Gultsch, ownCloud Inc., Bartek Przybylski</item>
+        <item>• GPGDetachedSignatureVerifier.java: Federico Fissore, Arduino LLC</item>
         <item>• Google: App Icon</item>
     </string-array>
 </resources>
