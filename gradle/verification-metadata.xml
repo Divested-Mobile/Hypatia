@@ -76,6 +76,7 @@
          <trusted-key id="fa77dcfef2ee6eb2debedd2c012579464d01c06a" group="org.apache" name="apache"/>
          <trusted-key id="fa7929f83ad44c4590f6cc6815c71c0a4e0b8edd" group="net.java.dev.jna"/>
          <trusted-key id="fc411cd3cb7dcb0abc9801058118b3bcdb1a5000" group="jakarta.xml.bind"/>
+         <trusted-key id="ff6e2c001948c5f2f38b0cc385911f425ec61b51" group="org.junit" name="junit-bom" version="5.7.2"/>
       </trusted-keys>
    </configuration>
    <components>
