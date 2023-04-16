@@ -43,7 +43,6 @@ Geplante Updates
 - Automatische Datenbank-Updates
 - Automatische Datenbankerstellung
 - Client-seitige Datenbank-Generierung
-- Überprüfung der Datenbanksignatur
 - Datenbank-Sanity-Checks
 - Prüfung
 - Bessere GUI

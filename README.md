@@ -45,7 +45,6 @@ Planned Updates
 - Automatic database updates
 - Automatic database generation
 - Client side database generation
-- Database signature verification
 - Database sanity checks
 - Testing
 - Better GUI
@@ -66,7 +65,8 @@ Credits
 - Nex (@botherder) for extra databases (CC BY-SA 4.0)
 - Amnesty International for extra databases (CC BY 2.0)
 - Echap for extra databases (CC BY 4.0)
-- RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
+- RecursiveFileObserver.java (GPL-3.0-or-later): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
+- GPGDetachedSignatureVerifier.java (GPL-2.0-or-later): Federico Fissore, Arduino LLC
 - Petra Mirelli for the German/Spanish/Italian translations, the app banner/feature graphic, and various tweaks.
 - Jean-Luc Tibaux and Petra Mirelli for the French translations.
 - @srccrow for the Italian translations.

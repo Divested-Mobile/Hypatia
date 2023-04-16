@@ -43,7 +43,6 @@ Planowane aktualizacje
 - Automatyczne aktualizacje baz danych
 - Automatyczne generowanie baz danych
 - Generowanie baz danych przez klienta
-- Weryfikacja podpisów baz danych
 - Kontrola poprawności baz danych
 - Testy
 - Lepsze GUI
