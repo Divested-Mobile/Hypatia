@@ -6,7 +6,7 @@ android {
         applicationId "us.spotco.malwarescanner"
         minSdkVersion 16
         targetSdkVersion 32
-        versionCode 98
+        versionCode 99
         versionName "2.31"
         resConfigs 'en', 'af', 'de', 'es', 'fi', 'fr', 'it', 'pl', 'pt', 'ru'
     }
@@ -29,6 +29,6 @@ android {
 }
 
 dependencies {
-    implementation 'commons-io:commons-io:2.11.0'
+    implementation 'commons-io:commons-io:2.5'
     implementation 'org.bouncycastle:bcpg-jdk15to18:1.73'
 }

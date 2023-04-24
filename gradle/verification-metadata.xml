@@ -43,6 +43,7 @@
             <trusting group="^com[.]fasterxml($|([.].*))" regex="true"/>
          </trusted-key>
          <trusted-key id="694621a7227d8d5289699830abe9f3126bb741c1" group="^com[.]google($|([.].*))" regex="true"/>
+         <trusted-key id="6bdaca2c0493cca133b372d09c4f7e9d98b1cc53" group="commons-io"/>
          <trusted-key id="6dd3b8c64ef75253beb2c53ad908a43fb7ec07ac" group="jakarta.activation"/>
          <trusted-key id="6f538074ccebf35f28af9b066a0975f8b1127b83" group="org.jetbrains.kotlin"/>
          <trusted-key id="7615ad56144df2376f49d98b1669c4bb543e0445" group="com.google.errorprone"/>
@@ -1112,6 +1113,11 @@
             <pgp value="6bdaca2c0493cca133b372d09c4f7e9d98b1cc53"/>
          </artifact>
       </component>
+      <component group="org.apache" name="apache" version="16">
+         <artifact name="apache-16.pom">
+            <pgp value="0cde80149711eb46dff17ae421a24b3f8b0f594a"/>
+         </artifact>
+      </component>
       <component group="org.apache" name="apache" version="18">
          <artifact name="apache-18.pom">
             <pgp value="190d5a957ff22273e601f7a7c92c5fec70161c62"/>
@@ -1131,6 +1137,11 @@
       <component group="org.apache.commons" name="commons-parent" version="35">
          <artifact name="commons-parent-35.pom">
             <pgp value="2db4f1ef0fa761ecc4ea935c86fdc7e2a11262cb"/>
+         </artifact>
+      </component>
+      <component group="org.apache.commons" name="commons-parent" version="39">
+         <artifact name="commons-parent-39.pom">
+            <pgp value="808d78b17a5a2d7c3668e31fbffc9b54721244ad"/>
          </artifact>
       </component>
       <component group="org.apache.commons" name="commons-parent" version="48">
