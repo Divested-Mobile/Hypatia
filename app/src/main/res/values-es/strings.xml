@@ -59,4 +59,5 @@
     <string name="db_desc_size_large">Grande</string>
     <string name="scan_control">Control de escaneo</string>
     <string name="lblScanRunning">Saltarse la acción, ¡se está ejecutando un escaneo!</string>
+    <string name="lblSigningKey">Clave de firma de BBDD</string>
 </resources>
