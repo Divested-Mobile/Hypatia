@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fullCredits">
+        <item>• Petra Mirelli: Almanca/İspanyolca/Fransızca/İtalyanca Tercüme, Uygulama Afişi, Çeşitli Değişiklikler</item>
+        <item>• Jean-Luc Tibaux: Fransızca Tercüme</item>
+        <item>• @srccrow: İtalyanca Tercüme</item>
+        <item>• @inkhorn: Portekizce Tercüme</item>
+        <item>• @jontaix: Portekizce Tercüme</item>
+        <item>• @q1011: Rusça Tercüme</item>
+        <item>• Oswald van Ginkel: Afrikaanca Tercüme</item>>
+        <item>• huuhaa: Fince Tercüme</item>
+        <item>• Marcin Mikołajczak: Lehçe Tercüme</item>
+        <item>• @senpai33: İspanyolca Tercüme</item>
+        <item>• Cisco tarafından ClamAV: İmza Veri Tabanları</item>
+        <item>• ESET: İmza Veri Tabanları</item>
+        <item>• Nex (@botherder): İmza Veri Tabanları</item>
+        <item>• Uluslararası Af Örgütü: İmza Veri Tabanları</item>
+        <item>• Echap: İmza Veri Tabanları</item>
+        <item>• RecursiveFileObserver.java: Daniel Gultsch, ownCloud Inc., Bartek Przybylski</item>
+        <item>• GPGDetachedSignatureVerifier.java: Federico Fissore, Arduino LLC</item>
+        <item>• Google: Uygulama İkonu</item>
+    </string-array>
+</resources>
