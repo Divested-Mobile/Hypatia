@@ -52,7 +52,7 @@ Crédits
 - ESET pour les bases de données supplémentaires (BSD 2-Clause)
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc, Bartek Przybylski
 - Petra Mirelli pour les traductions allemandes et la bannière/le graphique de l'application.
-- Symboles : Google/Android/AOSP, Licence: Apache 2.0, https://google.github.io/material-design-icons/
+- Symboles: Google/Android/AOSP, Licence: Apache 2.0, https://google.github.io/material-design-icons/
 
 Avis
 -------
