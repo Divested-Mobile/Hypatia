@@ -1,2 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="fullCredits">
+        <item>• Petra Mirelli : traductions en allemand/espagnol/français/italien, bannière de l'application, ajustements divers</item>
+        <item>• Jean-Luc Tibaux : traduction française</item>
+        <item>• @srccrow : traduction italienne</item>
+        <item>• @inkhorn : traduction portugaise</item>
+        <item>• @jontaix : traduction portugaise</item>
+        <item>• @q1011 : traduction russe</item>
+        <item>• Oswald van Ginkel : traduction en afrikaans</item>>
+        <item>• huuhaa : traduction finlandaise</item>
+        <item>• Marcin Mikołajczak : traduction polonaise</item>
+        <item>• @senpai33 : traduction espagnole</item>
+        <item>• ClamAV par Cisco : bases de données de signatures</item>
+        <item>• ESET : bases de données de signatures</item>
+        <item>• Nex (@botherder) : bases de données de signatures</item>
+        <item>• Amnesty International : bases de données de signatures</item>
+        <item>• Echap : bases de données de signatures</item>
+        <item>• RecursiveFileObserver.java : Daniel Gultsch, ownCloud Inc., Bartek Przybylski</item>
+        <item>• GPGDetachedSignatureVerifier.java : Federico Fissore, Arduino LLC</item>
+        <item>• Google : icône de l'application</item>
+    </string-array>
+</resources>
