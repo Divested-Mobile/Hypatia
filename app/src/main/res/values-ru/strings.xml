@@ -57,4 +57,7 @@
     <string name="db_desc_size_small">Маленький</string>
     <string name="db_desc_size_medium">Средний</string>
     <string name="db_desc_size_large">Большой</string>
+    <string name="scan_control">Контроль сканирования</string>
+    <string name="lblScanRunning">Пропускаем действие, выполняется сканирование!</string>
+    <string name="lblSigningKey">Ключ подписи базы данных</string>
 </resources>
