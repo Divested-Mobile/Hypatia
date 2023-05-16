@@ -78,7 +78,7 @@ Credits
 - Marcin Mikołajczak for Polish translations.
 - @Manuel-Senpai for the Spanish translations.
 - @Balthazar1234 for German translations.
-- Sdarfeesh Sdarfeesh for the simplified Chinese translations.
+- @Sdarfeesh for the simplified Chinese translations.
 - @cardpuncher for French and the Turkish translations.
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
