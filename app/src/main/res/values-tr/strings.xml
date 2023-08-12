@@ -13,7 +13,7 @@
     <string name="lblUpdateDatabase">Veri tabanlarını güncelle</string>
     <string name="lblSelectDatabases">Veri tabanlarını seç</string>
     <string name="lblSelectDatabasesTitle">Etkinleştirilecek veri tabanlarını seç</string>
-    <string name="lblDatabaseServer">Veri tabanı sunucusu yerine koyuş</string>
+    <string name="lblDatabaseServer">Veri tabanı sunucusu yerine koy</string>
     <string name="lblFullCredits">Katkıda bulunanlar</string>
     <string name="lblScanSystem">Sistemi /tara</string>
     <string name="lblScanApps">Uygulama APK\'larını tara</string>
