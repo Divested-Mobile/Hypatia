@@ -45,7 +45,6 @@ Planned Updates
 - Automatic database updates
 - Automatic database generation
 - Client side database generation
-- Database signature verification
 - Database sanity checks
 - Testing
 - Better GUI
@@ -65,7 +64,9 @@ Credits
 - ESET for extra databases (BSD 2-Clause)
 - Nex (@botherder) for extra databases (CC BY-SA 4.0)
 - Amnesty International for extra databases (CC BY 2.0)
-- RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
+- Echap for extra databases (CC BY 4.0)
+- RecursiveFileObserver.java (GPL-3.0-or-later): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
+- GPGDetachedSignatureVerifier.java (GPL-2.0-or-later): Federico Fissore, Arduino LLC
 - Petra Mirelli for the German/Spanish/Italian translations, the app banner/feature graphic, and various tweaks.
 - Jean-Luc Tibaux and Petra Mirelli for the French translations.
 - @srccrow for the Italian translations.
@@ -75,7 +76,12 @@ Credits
 - Oswald van Ginkel for the Afrikaans translations.
 - huuhaa for the Finnish translations.
 - Marcin Mikołajczak for Polish translations.
-- @senpai33 for the Spanish translations.
+- @Manuel-Senpai for the Spanish translations.
+- @Balthazar1234 for German translations.
+- @Sdarfeesh for the simplified Chinese translations.
+- @cardpuncher for French and the Turkish translations.
+- Tommaso Fonda for Italian translations.
+- Dimitris Vagiakakos for the Greek translations.
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices

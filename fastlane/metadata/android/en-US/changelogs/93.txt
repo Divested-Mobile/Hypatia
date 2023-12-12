@@ -1,0 +1,1 @@
+* Don't trim hashes as much to reduce false positives

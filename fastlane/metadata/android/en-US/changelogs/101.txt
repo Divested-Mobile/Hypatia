@@ -1,0 +1,5 @@
+* This release brings new and updated translations:
+* @Manuel-Senpai for updated Spanish translations.
+* @Balthazar1234 for updated German translations.
+* @Sdarfeesh for new Simplified Chinese translations.
+* @cardpuncher for new Turkish and updated French translations.

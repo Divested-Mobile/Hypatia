@@ -1,0 +1,2 @@
+* Make the app smalller
+* Colorize the manual scan button when possible

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Hypatia</string>
+    <string name="app_copyright">版权所有 2017-2023 Divested Computing Group</string>
+    <string name="app_license">许可证：GPL-3.0</string>
+    <string name="app_version">版本：%s</string>
+    <string name="app_db_type_clamav">由 ClamAV 数据库特征码提供支持</string>
+
+    <string name="lblOnionRoutingToggle">通过 Tor 下载</string>
+    <string name="lblOnionRoutingEnabledHint">正在通过 Tor 下载，这可能需要一段时间...</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot 未安装！</string>
+    <string name="lblOnionRoutingNotRunning">Orbot 未运行！</string>
+    <string name="lblUpdateDatabase">更新数据库</string>
+    <string name="lblSelectDatabases">选择数据库</string>
+    <string name="lblSelectDatabasesTitle">选择要启用的数据库</string>
+    <string name="lblDatabaseServer">数据库服务器覆盖</string>
+    <string name="lblFullCredits">致谢名单</string>
+    <string name="lblScanSystem">扫描 /system</string>
+    <string name="lblScanApps">扫描应用软件包</string>
+    <string name="lblScanInternal">扫描内部存储空间</string>
+    <string name="lblScanExternal">扫描外部存储空间</string>
+    <string name="lblNotificationMalwareDetectionTitle">恶意程序检测</string>
+    <string name="lblNotificationMalwareDetectionDescription">用于在检测到恶意程序时发出警报</string>
+    <string name="lblNotificationRealtimeTitle">实时扫描</string>
+    <string name="lblNotificationRealtimeDescription">用于显示已扫描文件数量和维护后台服务</string>
+    <string name="lblNotificationRealtimeText">实时检测已知恶意程序</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia：实时扫描已停止</string>
+    <string name="lblNotificationRealtimeDetection">检测到恶意程序：</string>
+    <string name="lblRealtimeScannerToggle">实时扫描</string>
+    <string name="lblReset">重置</string>
+    <string name="lblOverride">覆盖</string>
+
+    <string name="main_database_updating">正在更新 %s 个数据库...</string>
+    <string name="main_database_override">使用服务器 %s</string>
+    <string name="main_database_downloading">正在下载 %s</string>
+    <string name="main_database_download_success">下载成功</string>
+    <string name="main_database_download_error">文件未下载，响应代码 %s</string>
+    <string name="main_no_database_available">无可用数据库，不执行扫描...</string>
+    <string name="main_database_released_on">发布于 %s</string>
+    <string name="main_database_not_changed">文件无变更</string>
+    <string name="main_database_not_modified_since">（%s 以来）</string>
+    <string name="main_database_download_error_logcat">下载失败，查看 Logcat</string>
+
+    <string name="main_starting_scan">开始扫描...</string>
+    <string name="main_cancelling_scan">正在取消扫描...</string>
+    <string name="main_cancelled_scan">扫描已取消</string>
+    <string name="main_files_pending_scan">%s 个文件等待扫描</string>
+    <string name="main_database_loading">正在加载数据库...</string>
+    <string name="main_database_loaded">已加载带有 %s 个特征码的数据库</string>
+    <string name="main_hashing_files">正在计算文件哈希值...</string>
+    <string name="main_hashing_done">已计算所有文件的哈希值</string>
+    <string name="main_hash_scan_done">已根据特征码数据库检查全部 %s 哈希值</string>
+    <string name="main_scanning_done">扫描在 %s 秒内完成 @ %sMB/s!</string>
+    <string name="main_files_scanned_count">已扫描 %s 个文件</string>
+    <string name="db_desc_author">作者</string>
+    <string name="db_desc_license">许可证</string>
+    <string name="db_desc_size">大小</string>
+    <string name="db_desc_source">来源</string>
+    <string name="db_desc_size_small">小</string>
+    <string name="db_desc_size_medium">中</string>
+    <string name="db_desc_size_large">大</string>
+    <string name="scan_control">扫描控制</string>
+    <string name="lblScanRunning">跳过操作，扫描正在运行！</string>
+</resources>

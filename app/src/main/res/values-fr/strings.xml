@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name" translatable="false">Hypatia</string>
+    <string name="app_copyright">Copyright 2017-2023 Divested Computing Group</string>
     <string name="app_license">Licence: GPL-3.0</string>
     <string name="app_version">Numéro de version: %s</string>
     <string name="app_db_type_clamav">Propulsé par les signatures de style ClamAV</string>
@@ -10,43 +12,53 @@
     <string name="lblOnionRoutingNotRunning">Orbot n\'est pas en marche !</string>
     <string name="lblUpdateDatabase">Mise à jour des bases de données</string>
     <string name="lblSelectDatabases">Sélectionner les bases de données</string>
-    <string name="lblSelectDatabasesTitle">Sélectionner les bases de données pour permettre</string>
-    <string name="lblScanApps">Scanner les APK de l\'applis</string>
-    <string name="lblScanInternal">Scanner la mémoire interne</string>
-    <string name="lblScanExternal">Scanner la mémoire externe</string>
-    <string name="lblNotificationMalwareDetectionTitle">Détection des malwares</string>
+    <string name="lblSelectDatabasesTitle">Sélectionner les bases de données à activer</string>
+    <string name="lblDatabaseServer">Remplacer le serveur de base de données</string>
+    <string name="lblFullCredits">Crédits</string>
+    <string name="lblScanSystem">Analyser le /système</string>
+    <string name="lblScanApps">Analyser les APK des applis</string>
+    <string name="lblScanInternal">Analyser la mémoire interne</string>
+    <string name="lblScanExternal">Analyser la mémoire externe</string>
+    <string name="lblNotificationMalwareDetectionTitle">Détection des logiciels malveillants</string>
     <string name="lblNotificationMalwareDetectionDescription">Utilisé pour alerter lorsqu\'un logiciel malveillant est détecté</string>
-    <string name="lblNotificationRealtimeTitle">Scanner en temps réel</string>
+    <string name="lblNotificationRealtimeTitle">Analyser en temps réel</string>
     <string name="lblNotificationRealtimeDescription">Utilisé pour montrer les fichiers scannés compteur et maintenir le service de fond</string>
     <string name="lblNotificationRealtimeText">Les logiciels malveillants connus seront détectés en temps réel</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: Scanner en temps réel a été arrêté</string>
-    <string name="lblNotificationRealtimeDetection">Malware détecté:</string>
+    <string name="lblNotificationRealtimeDetection">Logiciel malveillant détecté :</string>
     <string name="lblRealtimeScannerToggle">Scanner en temps réel</string>
+    <string name="lblReset">Réinitialiser</string>
+    <string name="lblOverride">Remplacer</string>
 
-    <string name="main_database_updating">Mise à jour des %s bases de données ...</string>
+    <string name="main_database_updating">Mise à jour des %s bases de données...</string>
+    <string name="main_database_override">Utilisation du serveur %s</string>
     <string name="main_database_downloading">Télécharger %s</string>
-    <string name="main_database_download_success">Télédéchargement réussi</string>
+    <string name="main_database_download_success">Téléchargement réussi</string>
     <string name="main_database_download_error">Fichier non téléchargé, code de réponse %s</string>
-    <string name="main_no_database_available">Pas de base de données disponible, pas de scannage...</string>
-    <string name="main_database_released_on">Publié le %s</string>
+    <string name="main_no_database_available">Pas de base de données disponible, pas d\'analyse...</string>
+    <string name="main_database_released_on">Publiée le %s</string>
     <string name="main_database_not_changed">Fichier non modifié</string>
     <string name="main_database_not_modified_since">depuis le %s</string>
     <string name="main_database_download_error_logcat">Téléchargement échoué, vérifier le logcat</string>
 
-    <string name="main_starting_scan">Démarrage du scan...</string>
-    <string name="main_cancelling_scan">Le scan est annulé...</string>
-    <string name="main_cancelled_scan">Le scan a été annulé</string>
+    <string name="main_starting_scan">Démarrage de l\'analyse...</string>
+    <string name="main_cancelling_scan">L\'analyse est annulée...</string>
+    <string name="main_cancelled_scan">L\'analyse a été annulée</string>
     <string name="main_files_pending_scan">%s dossiers en attente de scan</string>
     <string name="main_database_loaded">Base de données chargée de %s signatures</string>
     <string name="main_hashing_files">Hachage de fichiers...</string>
     <string name="main_hashing_done">Hachages calculés pour tous les fichiers</string>
     <string name="main_hash_scan_done">Vérification de tous les hachages %s par rapport aux bases de données de signatures</string>
-    <string name="main_scanning_done">Scan complété en %s secondes @ %sMB/s!</string>
-    <string name="main_files_scanned_count">%s fichiers scannés</string>
+    <string name="main_scanning_done">Analyse complétée en %s secondes @ %sMo/s!</string>
+    <string name="main_files_scanned_count">%s fichiers analysés</string>
+    <string name="db_desc_author">Auteur</string>
     <string name="db_desc_license">Licence</string>
     <string name="db_desc_size">Taille</string>
     <string name="db_desc_source">La source</string>
-    <string name="db_desc_size_medium">Moyen</string>
+    <string name="db_desc_size_medium">Moyenne</string>
     <string name="db_desc_size_large">Grande</string>
     <string name="db_desc_size_small">Petite</string>
+    <string name="scan_control">Contrôle de l\'analyse</string>
+    <string name="lblScanRunning">Action ignorée, une analyse est en cours !</string>
+    <string name="lblSigningKey">Signature utilisée pour signer la base de données</string>
 </resources>

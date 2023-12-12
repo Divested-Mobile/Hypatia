@@ -3,6 +3,11 @@
     tools:context="us.spotco.malwarescanner.MainActivity">
 
     <item
+        android:id="@+id/btnStartScan"
+        android:title="@string/scan_control"
+        android:icon="@android:drawable/ic_media_play"
+        android:showAsAction="always"/>
+    <item
         android:id="@+id/toggleOnionRouting"
         android:title="@string/lblOnionRoutingToggle"
         android:checkable="true" />
@@ -15,6 +20,9 @@
     <item
         android:id="@+id/mnuDatabaseServer"
         android:title="@string/lblDatabaseServer" />
+    <item
+        android:id="@+id/mnuSigningKey"
+        android:title="@string/lblSigningKey" />
     <item
         android:id="@+id/toggleRealtime"
         android:title="@string/lblRealtimeScannerToggle"

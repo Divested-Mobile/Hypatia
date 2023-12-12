@@ -1,0 +1,4 @@
+* Databases are now verified using GPG signatures
+* Users must use "Update databases" before use after installing this update
+* Databases that are not signed or fail to verify will be ignored
+* A custom database key is allowed to maintain support for third party database repos

@@ -10,12 +10,19 @@
         <item>• Oswald van Ginkel: Afrikaans Translations</item>>
         <item>• huuhaa: Finnish Translations</item>
         <item>• Marcin Mikołajczak: Polish Translations</item>
-        <item>• @senpai33: Spanish Translations</item>
+        <item>• @Manuel-Senpai: Spanish Translations</item>
+        <item>• @Balthazar1234: German Translations</item>
+        <item>• @Sdarfeesh: Simplified Chinese Translations</item>
+        <item>• @cardpuncher: French/Turkish Translations</item>
+        <item>• Tommaso Fonda: Italian Translations</item>
+        <item>• Dimitris Vagiakakos: Greek Translations</item>
         <item>• ClamAV by Cisco: Signature Databases</item>
         <item>• ESET: Signature Databases</item>
         <item>• Nex (@botherder): Signature Databases</item>
         <item>• Amnesty International: Signature Databases</item>
+        <item>• Echap: Signature Databases</item>
         <item>• RecursiveFileObserver.java: Daniel Gultsch, ownCloud Inc., Bartek Przybylski</item>
+        <item>• GPGDetachedSignatureVerifier.java: Federico Fissore, Arduino LLC</item>
         <item>• Google: App Icon</item>
     </string-array>
 </resources>

@@ -1,0 +1,2 @@
+* Fix crash on Android <8.0
+* Skip certain actions when a manual scan is running
