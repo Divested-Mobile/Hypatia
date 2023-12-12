@@ -64,21 +64,28 @@ Créditos
 - ClamAV por las bases de datos (GPLv2)
 - ESET por las bases de datos extra (BSD 2-Clause)
 - Nex (@botherder) por las bases de datos adicionales (CC BY-SA 4.0)
-- Amnistía Internacional por las bases de datos adicionale (CC BY 2.0)
+- Amnistía Internacional por las bases de datos adicionales (CC BY 2.0)
+- Echap por las bases de datos adicionales (CC BY 4.0)
 - RecursiveFileObserver.java (GPLv3): Daniel Gultsch, ownCloud Inc., Bartek Przybylski
-- Petra Mirelli por las traducciones al alemán/español/italiano, el gráfico del banner/característica de la aplicación y varios retoques.
+- GPGDetachedSignatureVerifier.java (GPL-2.0-o-posterior): Federico Fissore, Arduino LLC
+- Petra Mirelli por las traducciones alemán/español/francés/italiano, banner de la aplicación y ajustes varios.
 - Jean-Luc Tibaux y Petra Mirelli por las traducciones al francés.
 - @srccrow por las traducciones al italiano.
 - @inkhorn por las traducciones al portugués.
 - @jontaix por las traducciones al portugués.
 - @q1011 por las traducciones al ruso.
 - Oswald van Ginkel por las traducciones al afrikaans.
-- huuhaa por las traducciones al finé.
+- huuhaa por las traducciones al finés.
 - Marcin Mikołajczak por las traducciones al polaco.
-- Manuel-Senpai por las traducciones al español.
+- @Manuel-Senpai por las traducciones al español.
+- @Balthazar1234 por las traducciones al alemán.
+- @Sdarfeesh por las traducciones al chino simplificado.
+- @cardpuncher por las traducciones al francés y al turco.
+- Tommaso Fonda por las traducciones al italiano.
+- Dimitris Vagiakakos por las traducciones al griego.
 - Iconos: Google/Android/AOSP, Licencia: Apache 2.0, https://google.github.io/material-design-icons/
 
-Notas
+Avisos
 -----
 - Divested Computing Group no está afiliado a Cisco ni a ESET
 - Hypatia no está patrocinado ni respaldado por Cisco o ESET
