@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string-array name="fullCredits">
+        <item>• Petra Mirelli: Traducciones alemán/español/francés/italiano, banner de la aplicación y ajustes varios</item>
+        <item>• Jean-Luc Tibaux: Traducciones al francés</item>
+        <item>• @srccrow: Traducciones al italiano</item>
+        <item>• @inkhorn: Traducciones al portugués</item>
+        <item>• @jontaix: Traducciones al portugués</item>
+        <item>• @q1011: Traducciones al ruso</item>
+        <item>• Oswald van Ginkel: Traducciones al afrikaans</item>>
+        <item>• huuhaa: Traducciones al finés</item>
+        <item>• Marcin Mikołajczak: Traducciones al polaco</item>
+        <item>• @Manuel-Senpai: Traducciones al español</item>
+        <item>• @Balthazar1234: Traducciones al alemán</item>
+        <item>• @Sdarfeesh: Traducciones al chino simplificado</item>
+        <item>• @cardpuncher: Traducciones francés/turco</item>
+        <item>• Tommaso Fonda: Traducciones al italiano</item>
+        <item>• Dimitris Vagiakakos: Traducciones al griego</item>
+        <item>• ClamAV de Cisco: Bases de datos de firmas</item>
+        <item>• ESET: Bases de datos de firmas</item>
+        <item>• Nex (@botherder): Bases de datos de firmas</item>
+        <item>• Amnesty International: Bases de datos de firmas</item>
+        <item>• Echap: Bases de datos de firmas</item>
+        <item>• RecursiveFileObserver.java: Daniel Gultsch, ownCloud Inc., Bartek Przybylski</item>
+        <item>• GPGDetachedSignatureVerifier.java: Federico Fissore, Arduino LLC</item>
+        <item>• Google: Icono de la aplicación</item>
+    </string-array>
+</resources>
