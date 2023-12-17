@@ -5,6 +5,7 @@
 processHashes() {
 	local name=$(basename $1);
 	if [ -f $1/samples.$2 ]; then
+		dos2unix $1/samples.$2
 		while IFS= read -r line
 		do
 			echo "$line":0:ESET."$name" >> ./eset.$3;
