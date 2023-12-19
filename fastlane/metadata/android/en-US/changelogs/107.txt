@@ -1,0 +1,2 @@
+* New database with 60k+ signatures from MalwareBazaar by abuse.ch
+* @Manuel-Senpai for updated Spanish translations.
