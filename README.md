@@ -28,7 +28,7 @@ Technical Details
 ------------------
 - Signature databases are ClamAV .hdb (MD5 hashes) and .hsb (SHA-1/SHA-256) format
 - Signature databases will not be redownloaded if the file hasn't changed on the server (304 not modified)
-- Signatures are stored using HashMaps for O(1) lookup
+- Signatures are stored using BloomFilters for O(k) lookup
 - Files have their MD5/SHA-1/SHA-256 hashes calculated in one pass
 - Realtime scanner is multithreaded and will use half of the device's core count for scanning multiple files asynchronously
 - Realtime scanning powered by a recursive FileObserver
