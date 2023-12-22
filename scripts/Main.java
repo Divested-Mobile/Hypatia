@@ -55,7 +55,7 @@ public class Main {
                             if (databaseLocation.getName().contains(".hdb")) {//.hdb format: md5, size, name
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        String[] lineS = line.trim().split(":");
+                                        String[] lineS = line.trim().toLowerCase().split(":");
                                         if (lineS[0].length() > 0) {
                                             if (signaturesMD5.put(lineS[0])) {
                                                 amtSignaturesMD5++;
@@ -67,7 +67,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".hsb")) {//.hsb format: sha256, size, name
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        String[] lineS = line.trim().split(":");
+                                        String[] lineS = line.trim().toLowerCase().split(":");
                                         if (lineS[0].length() == 32) {
                                             if (signaturesSHA1.put(lineS[0])) {
                                                 amtSignaturesSHA1++;
@@ -84,7 +84,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".md5")) {//one signature per line
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        if (signaturesMD5.put(line.trim())) {
+                                        if (signaturesMD5.put(line.trim().toLowerCase())) {
                                             amtSignaturesMD5++;
                                         }
                                         amtSignaturesRead++;
@@ -93,7 +93,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".sha1")) {//one signature per line
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        if (signaturesSHA1.put(line.trim())) {
+                                        if (signaturesSHA1.put(line.trim().toLowerCase())) {
                                             amtSignaturesSHA1++;
                                         }
                                         amtSignaturesRead++;
@@ -102,7 +102,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".sha256")) {//one signature per line
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        if (signaturesSHA256.put(line.trim())) {
+                                        if (signaturesSHA256.put(line.trim().toLowerCase())) {
                                             amtSignaturesSHA256++;
                                         }
                                         amtSignaturesRead++;
@@ -117,6 +117,10 @@ public class Main {
             }
             signaturesMD5.put("44d88612fea8a8f36de82e1278abb02f"); //Eicar test file
             signaturesSHA256.put("6a0b4866f143c32e651662cebf7f380d27b0db809db3b6a34cf34c7436ab6bbf"); //Hypatia test file
+
+            signaturesMD5.put("903616d0dbe074aa363d2d49c03f7362"); //Hypatia self-test canaries (echo -n "HypatiaHypatiaHypatia" | sum)
+            signaturesSHA1.put("fc4a3e802894cc2229be77ec6f082d1aab744e54");
+            signaturesSHA256.put("df44844a0e99ddd935e8419257440a2ca7ef3243435a67416fcbb6cd3ae560c3");
 
             System.out.println("Total: " + amtSignaturesRead);
             System.out.println("Mismatch: " + (amtSignaturesRead-amtSignaturesMD5-amtSignaturesSHA1-amtSignaturesSHA256));

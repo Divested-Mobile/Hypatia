@@ -63,4 +63,8 @@
     <string name="lblScanRunning">Skipping action, a scan is running!</string>
     <string name="lblSigningKey">Database signing key</string>
     <string name="lblNoNetwork">No network connected!</string>
+    <string name="self_test_result_success">Self test successful.</string>
+    <string name="self_test_result_failure">Self test failed!</string>
+    <string name="lblDatabaseLoading">Database is loading, not updating!</string>
+    <string name="lblDatabasesUpdated">All databases updated!</string>
 </resources>
