@@ -1,0 +1,2 @@
+* Elimiates all local database conversion
+* Server now serves up the optimized bloom filters directly for smaller downloads

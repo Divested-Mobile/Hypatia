@@ -15,9 +15,6 @@
         android:id="@+id/mnuUpdateDatabase"
         android:title="@string/lblUpdateDatabase" />
     <item
-        android:id="@+id/mnuSelectDatabases"
-        android:title="@string/lblSelectDatabases" />
-    <item
         android:id="@+id/mnuDatabaseServer"
         android:title="@string/lblDatabaseServer" />
     <item
