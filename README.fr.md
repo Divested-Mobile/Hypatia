@@ -22,7 +22,7 @@ Détails techniques
 ------------------
 - Les bases de données de signatures sont au format ClamAV .hdb (hachages MD5) et .hsb (SHA-1/SHA-256)
 - Les bases de données de signatures ne seront pas rechargées si le fichier n'a pas été modifié sur le serveur (code 304 - non modifié)
-- Les signatures sont stockées à l'aide de HashMaps pour la recherche O(1)
+- Les signatures sont stockées à l'aide de BloomFilters pour la recherche O(k)
 - Les fichiers ont leurs hachages MD5/SHA-1/SHA-256 calculés en un seul passage
 - Le scanner en temps réel est multifilaire et utilisera la moitié du nombre d'éléments de l'appareil pour analyser plusieurs fichiers de manière asynchrone.
 - Analyse en temps réel grâce à un FileObserver récursif

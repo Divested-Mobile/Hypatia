@@ -22,7 +22,7 @@ Dettagli tecnici
 ------------------
 - I database delle firme sono in formato ClamAV .hdb (hash MD5) e .hsb (SHA-1/SHA-256)
 - I database delle firme non saranno riscaricati se il file non è cambiato sul server (304 non modificato)
-- Le firme sono memorizzate usando HashMaps per una ricerca O(1)
+- Le firme sono memorizzate usando BloomFilters per una ricerca O(k)
 - I file hanno i loro hash MD5/SHA-1/SHA-256 calcolati in un solo passaggio
 - Lo scanner in tempo reale è multithreaded e utilizzerà metà del numero di core del dispositivo per la scansione di più file in modo asincrono
 - Scansione in tempo reale alimentata da un FileObserver ricorsivo

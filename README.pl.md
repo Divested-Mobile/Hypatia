@@ -26,7 +26,7 @@ Technical Details
 ------------------
 - Sygnatury bazy danych używają formatu ClamAV .hdb (MD5 hashes) i .hsb (SHA-1/SHA-256)
 - Sygnatury bazy danych nie będą pobierane, jeżeli plik nie został zmieniony na serwerze (304 not modified)
-- Sygnatury są przechowywane z wyorzystaniem HashMap dla wyszukiwania o złożoności O(1)
+- Sygnatury są przechowywane z wyorzystaniem BloomFilters dla wyszukiwania o złożoności O(k)
 - Hashe MD5/SHA-1/SHA-256 plików są obliczane jednocześnie
 - Skaner w czasie rzeczywistym używa wielu wątków i wykorzystuje połowę rdzeni urządzenia dla skanowania wielu plików asynchronicznie
 - Skaner w czasie rzeczywistym wykorzystuje rekurencyjny FileObserver
@@ -39,10 +39,8 @@ Planowane aktualizacje
 - Skanowanie plików przez opcję udostępnienia
 - Skanowanie nowo zainstalowanych/aktualizowanych aplikacji
 - Możlwiość wywołania skanowania przez aplikacje trzecie
-- Obsługa niestandardowych baz danych
 - Automatyczne aktualizacje baz danych
 - Automatyczne generowanie baz danych
-- Generowanie baz danych przez klienta
 - Kontrola poprawności baz danych
 - Testy
 - Lepsze GUI

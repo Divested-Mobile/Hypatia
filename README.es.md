@@ -28,7 +28,7 @@ Detalles técnicos
 -----------------
 - Las bases de datos de firmas tienen formato ClamAV .hdb (hashes MD5) y .hsb (SHA-1/SHA-256)
 - Las bases de datos de firmas no se volverán a descargar si el archivo no ha cambiado en el servidor (304 no modificado)
-- Las firmas se almacenan utilizando HashMaps para O(1) su consulta
+- Las firmas se almacenan utilizando BloomFilters para O(k) su consulta
 - Los hashes MD5/SHA-1/SHA-256 de los archivos se calculan de una sola vez
 - El escáner en tiempo real es multihilo y utilizará la mitad del número de núcleos del dispositivo para escanear múltiples archivos de forma asíncrona
 - El escaneo en tiempo real es impulsado por un FileObserver recursivo
@@ -41,11 +41,8 @@ Actualizaciones previstas
 - Escanear archivos al intentar compartirlos
 - Escanear aplicaciones recién instaladas/actualizadas
 - Opción de permitir que aplicaciones de terceros invoquen escaneos
-- Soporte de bases de datos personalizadas
 - Actualización automática de bases de datos
 - Generación automática de bases de datos
-- Generación de bases de datos en el lado del cliente
-- Verificación de la firma de las bases de datos
 - Comprobación de la integridad de la base de datos
 - Pruebas
 - Mejorar la GUI

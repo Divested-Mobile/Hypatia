@@ -26,7 +26,7 @@ Technische Details
 ------------------
 - Signaturdatenbanken sind ClamAV .hdb (MD5-Hashes) und .hsb (SHA-1/SHA-256) Format
 - Signaturdatenbanken werden nicht erneut heruntergeladen, wenn sich die Datei auf dem Server nicht geändert hat (HTTP-Code 304 -> nicht modifiziert)
-- Signaturen werden mit HashMaps für O(1) Lookup gespeichert
+- Signaturen werden mit BloomFilters für O(k) Lookup gespeichert
 - Dateien haben ihre MD5/SHA-1/SHA-256-Hashes in einem Durchgang berechnet
 - Der Echtzeit-Scanner ist multithreaded und nutzt die Hälfte der Kernanzahl des Geräts für das asynchrone Scannen mehrerer Dateien
 - Echtzeit-Scanning wird von einem rekursiven FileObserver unterstützt
@@ -39,10 +39,8 @@ Geplante Updates
 - Scannen von Dateien über Share Intent
 - Scannen neu installierter/aktualisierter Anwendungen
 - Option zum Aufrufen von Scans durch Drittanbieter-Apps
-- Unterstützung für benutzerdefinierte Datenbanken
 - Automatische Datenbank-Updates
 - Automatische Datenbankerstellung
-- Client-seitige Datenbank-Generierung
 - Datenbank-Sanity-Checks
 - Prüfung
 - Bessere GUI
