@@ -55,7 +55,7 @@ public class Main {
                             if (databaseLocation.getName().contains(".hdb")) {//.hdb format: md5, size, name
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        String[] lineS = line.split(":");
+                                        String[] lineS = line.trim().split(":");
                                         if (lineS[0].length() > 0) {
                                             if (signaturesMD5.put(lineS[0])) {
                                                 amtSignaturesMD5++;
@@ -67,7 +67,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".hsb")) {//.hsb format: sha256, size, name
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        String[] lineS = line.split(":");
+                                        String[] lineS = line.trim().split(":");
                                         if (lineS[0].length() == 32) {
                                             if (signaturesSHA1.put(lineS[0])) {
                                                 amtSignaturesSHA1++;
@@ -84,7 +84,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".md5")) {//one signature per line
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        if (signaturesMD5.put(line)) {
+                                        if (signaturesMD5.put(line.trim())) {
                                             amtSignaturesMD5++;
                                         }
                                         amtSignaturesRead++;
@@ -93,7 +93,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".sha1")) {//one signature per line
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        if (signaturesSHA1.put(line)) {
+                                        if (signaturesSHA1.put(line.trim())) {
                                             amtSignaturesSHA1++;
                                         }
                                         amtSignaturesRead++;
@@ -102,7 +102,7 @@ public class Main {
                             } else if (databaseLocation.getName().contains(".sha256")) {//one signature per line
                                 while ((line = reader.readLine()) != null) {
                                     if (line.length() > 0) {
-                                        if (signaturesSHA256.put(line)) {
+                                        if (signaturesSHA256.put(line.trim())) {
                                             amtSignaturesSHA256++;
                                         }
                                         amtSignaturesRead++;
