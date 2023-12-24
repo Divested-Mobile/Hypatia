@@ -1,0 +1,8 @@
+* Fix scanning all apps on Android 11 and higher
+* Many database downloader changes:
+* Store the new database separately and move into place
+* Check for network connection before trying to download
+* Don't immediately delete the database on download start
+* Only delete new database on download failure
+* Wait until all downloads complete before attempting reload
+* Inform the user when all downloads are finished

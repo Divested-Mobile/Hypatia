@@ -67,4 +67,19 @@
     <string name="self_test_result_failure">Self test failed!</string>
     <string name="lblDatabaseLoading">Database is loading, not updating!</string>
     <string name="lblDatabasesUpdated">All databases updated!</string>
+    <string name="lookupVT">Lookup</string>
+    <string name="deleteFile">Delete</string>
+    <string name="deleted">Deleted!</string>
+    <string name="ignoreDetection">Ignore</string>
+    <string name="detections_none">No matches found :)</string>
+    <string name="detections_found">Matches found! :(</string>
+    <string name="confirm_lookup_title">Confirm lookup</string>
+    <string name="confirm_lookup_summary">Are you sure you want to open VirusTotal.com in your web browser with the following hash?</string>
+    <string name="confirm_delete_title">Confirm deletion</string>
+    <string name="confirm_delete_summary">Are you sure you want to delete the following file?</string>
+    <string name="delete_failed">Failed to delete!</string>
+    <string name="ignored">Ignored!</string>
+    <string name="confirm_uninstall_title">Confirm uninstall</string>
+    <string name="confirm_uninstall_summary">Are you sure you want to uninstall the following app?</string>
+    <string name="uninstallApp">Uninstall</string>
 </resources>

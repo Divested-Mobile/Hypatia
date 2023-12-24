@@ -29,13 +29,19 @@ import java.util.zip.GZIPInputStream;
 
 public class Main {
 
-    public static int amtSignaturesRead = 0;
     public static BloomFilter<String> signaturesMD5 = null;
-    public static int amtSignaturesMD5 = 0;
     public static BloomFilter<String> signaturesSHA1 = null;
-    public static int amtSignaturesSHA1 = 0;
     public static BloomFilter<String> signaturesSHA256 = null;
+
+    public static int amtSignaturesRead = 0;
+
+    public static int amtSignaturesMD5 = 0;
+    public static int amtSignaturesSHA1 = 0;
     public static int amtSignaturesSHA256 = 0;
+
+    public static int amtPreviousSignaturesMD5 = 0;
+    public static int amtPreviousSignaturesSHA1 = 0;
+    public static int amtPreviousSignaturesSHA256 = 0;
 
     public static void main(String[] args) {
             signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.US_ASCII), 150000, 0.00001); //150k
@@ -44,6 +50,9 @@ public class Main {
 
            for (File databaseLocation : new File(args[0]).listFiles()) {
            	 System.out.println("Processing: " + databaseLocation);
+                 amtPreviousSignaturesMD5 = amtSignaturesMD5;
+                 amtPreviousSignaturesSHA1 = amtSignaturesSHA1;
+                 amtPreviousSignaturesSHA256 = amtSignaturesSHA256;
                     try {
                             BufferedReader reader;
                             if (databaseLocation.getName().endsWith(".gz")) {
@@ -110,7 +119,7 @@ public class Main {
                                 }
                             }
                             reader.close();
-                            System.out.println("\tmd5: " + amtSignaturesMD5 + ", sha1: " + amtSignaturesSHA1 + ", sha256: " + amtSignaturesSHA256);
+                            System.out.println("\tmd5: " + (amtSignaturesMD5-amtPreviousSignaturesMD5) + ", sha1: " + (amtSignaturesSHA1-amtPreviousSignaturesSHA1) + ", sha256: " + (amtSignaturesSHA256-amtPreviousSignaturesSHA256));
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -122,10 +131,10 @@ public class Main {
             signaturesSHA1.put("fc4a3e802894cc2229be77ec6f082d1aab744e54");
             signaturesSHA256.put("df44844a0e99ddd935e8419257440a2ca7ef3243435a67416fcbb6cd3ae560c3");
 
+            System.out.println("Result: md5: " + amtSignaturesMD5 + ", sha1: " + amtSignaturesSHA1 + ", sha256: " + amtSignaturesSHA256);
             System.out.println("Total: " + amtSignaturesRead);
             System.out.println("Mismatch: " + (amtSignaturesRead-amtSignaturesMD5-amtSignaturesSHA1-amtSignaturesSHA256));
-            System.out.println("Loaded all databases - md5: " + amtSignaturesMD5 + ", sha1: " + amtSignaturesSHA1 + ", sha256: " + amtSignaturesSHA256);
-            System.out.println("Expected false postive rate - md5: " + signaturesMD5.expectedFpp() + ", sha1: " + signaturesSHA1.expectedFpp() + ", sha256: " + signaturesSHA256.expectedFpp());
+            System.out.println("Expected false postive rate: md5: " + signaturesMD5.expectedFpp() + ", sha1: " + signaturesSHA1.expectedFpp() + ", sha256: " + signaturesSHA256.expectedFpp());
             try {
                     FileOutputStream fileSignaturesMD5 = new FileOutputStream(new File(args[0]) + "/hypatia-md5-bloom.bin");
                     signaturesMD5.writeTo(fileSignaturesMD5);

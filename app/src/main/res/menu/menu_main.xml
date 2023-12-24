@@ -6,7 +6,7 @@
         android:id="@+id/btnStartScan"
         android:title="@string/scan_control"
         android:icon="@android:drawable/ic_media_play"
-        android:showAsAction="always"/>
+        android:showAsAction="always" />
     <item
         android:id="@+id/toggleOnionRouting"
         android:title="@string/lblOnionRoutingToggle"

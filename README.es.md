@@ -37,7 +37,6 @@ Detalles técnicos
 Actualizaciones previstas
 -------------------------
 - Opción de escanear al acceder
-- Opción de cuarentena/eliminación en caso de detección
 - Escanear archivos al intentar compartirlos
 - Escanear aplicaciones recién instaladas/actualizadas
 - Opción de permitir que aplicaciones de terceros invoquen escaneos

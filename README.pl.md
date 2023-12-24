@@ -35,7 +35,6 @@ Technical Details
 Planowane aktualizacje
 ----------------
 - Opcja skanowania przy dostępie
-- Opcja usunięcia/kwarantanny po wykryciu
 - Skanowanie plików przez opcję udostępnienia
 - Skanowanie nowo zainstalowanych/aktualizowanych aplikacji
 - Możlwiość wywołania skanowania przez aplikacje trzecie

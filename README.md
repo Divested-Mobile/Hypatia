@@ -37,7 +37,6 @@ Technical Details
 Planned Updates
 ----------------
 - Option to scan on access
-- Option to quarantine/delete on detection
 - Scan files via share intent
 - Scan newly installed/updated apps
 - Option to let 3rd-party apps invoke scans

@@ -35,7 +35,6 @@ Technische Details
 Geplante Updates
 ----------------
 - Option zum Scannen beim Zugriff
-- Option zur Quarantäne/Löschung bei Erkennung
 - Scannen von Dateien über Share Intent
 - Scannen neu installierter/aktualisierter Anwendungen
 - Option zum Aufrufen von Scans durch Drittanbieter-Apps

@@ -1,0 +1,3 @@
+* Handle all detections via notifications
+* Add the ability to lookup, delete/uninstall, or ignore detections
+* After a manual scan inform the user if there were matches or not

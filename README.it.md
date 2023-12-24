@@ -31,7 +31,6 @@ Dettagli tecnici
 Aggiornamenti pianificati
 ----------------
 - Opzione di scansione all'accesso
-- Opzione per mettere in quarantena/eliminare al rilevamento
 - Scansione dei file tramite intento di condivisione
 - Scansione delle app appena installate/aggiornate
 - Migliore interfaccia grafica

@@ -32,7 +32,6 @@ Détails techniques
 Mises à jour prévues
 ----------------
 - Possibilité de scanner sur l'accès
-- Possibilité de mise en quarantaine ou de suppression en cas de détection
 - Scanner des fichiers via l'intention de partage
 - Scanner les applications nouvellement installées/mises à jour
 - Une meilleure interface graphique
