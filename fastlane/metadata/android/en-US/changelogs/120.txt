@@ -1,0 +1,1 @@
+* Fixup signature count miscalculation when database already loaded
