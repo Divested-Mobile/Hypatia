@@ -1,0 +1,4 @@
+* Show the approximate signature count
+* Unbreak hash processing: md5 & sha1 were getting mixed up for years
+* Add many checks to database processing
+* Ignore hashes of empty content
