@@ -45,6 +45,9 @@
         android:checkable="true"
         android:checked="false" />
     <item
+        android:id="@+id/mnuSelfTestReal"
+        android:title="@string/lblSelfTest" />
+    <item
         android:id="@+id/mnuFullCredits"
         android:title="@string/lblFullCredits" />
 

@@ -82,4 +82,5 @@
     <string name="confirm_uninstall_title">Confirm uninstall</string>
     <string name="confirm_uninstall_summary">Are you sure you want to uninstall the following app?</string>
     <string name="uninstallApp">Uninstall</string>
+    <string name="lblSelfTest">Write self test files</string>
 </resources>

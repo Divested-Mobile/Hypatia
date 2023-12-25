@@ -1,0 +1,4 @@
+* Fixup SHA1 hash calculation
+* Show full notification text when expanded
+* Make basic self test more robust
+* Add a self test option that actually writes files
