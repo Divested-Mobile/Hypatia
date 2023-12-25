@@ -27,6 +27,8 @@ import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.zip.GZIPInputStream;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
 
@@ -34,11 +36,17 @@ public class Main {
     public static BloomFilter<String> signaturesSHA1 = null;
     public static BloomFilter<String> signaturesSHA256 = null;
 
-    public static int amtSignaturesRead = 0;
+    public static int amtLinesValid = 0;
+    public static int amtLinesInvalid = 0;
 
-    public static int amtSignaturesMD5 = 0;
-    public static int amtSignaturesSHA1 = 0;
-    public static int amtSignaturesSHA256 = 0;
+
+    public static int amtSignaturesReadMD5 = 0;
+    public static int amtSignaturesReadSHA1 = 0;
+    public static int amtSignaturesReadSHA256 = 0;
+
+    public static int amtSignaturesAddedMD5 = 0;
+    public static int amtSignaturesAddedSHA1 = 0;
+    public static int amtSignaturesAddedSHA256 = 0;
 
     public static int amtPreviousSignaturesMD5 = 0;
     public static int amtPreviousSignaturesSHA1 = 0;
@@ -52,9 +60,9 @@ public class Main {
         System.out.println("Processing:");
         for (File databaseLocation : new File(args[0]).listFiles()) {
             System.out.println("\t" + databaseLocation);
-            amtPreviousSignaturesMD5 = amtSignaturesMD5;
-            amtPreviousSignaturesSHA1 = amtSignaturesSHA1;
-            amtPreviousSignaturesSHA256 = amtSignaturesSHA256;
+            amtPreviousSignaturesMD5 = amtSignaturesAddedMD5;
+            amtPreviousSignaturesSHA1 = amtSignaturesAddedSHA1;
+            amtPreviousSignaturesSHA256 = amtSignaturesAddedSHA256;
             try {
                 BufferedReader reader;
                 if (databaseLocation.getName().endsWith(".gz")) {
@@ -79,16 +87,16 @@ public class Main {
                     }
                 }
                 reader.close();
-                System.out.println("\t\tmd5: " + (amtSignaturesMD5 - amtPreviousSignaturesMD5) + ", sha1: " + (amtSignaturesSHA1 - amtPreviousSignaturesSHA1) + ", sha256: " + (amtSignaturesSHA256 - amtPreviousSignaturesSHA256));
+                System.out.println("\t\tmd5: " + (amtSignaturesAddedMD5 - amtPreviousSignaturesMD5) + ", sha1: " + (amtSignaturesAddedSHA1 - amtPreviousSignaturesSHA1) + ", sha256: " + (amtSignaturesAddedSHA256 - amtPreviousSignaturesSHA256));
             } catch (Exception e) {
                 e.printStackTrace();
             }
         }
 
-        System.out.println("Lines read: " + amtSignaturesRead);
-        System.out.println("Added count: md5: " + amtSignaturesMD5 + ", sha1: " + amtSignaturesSHA1 + ", sha256: " + amtSignaturesSHA256);
-        System.out.println("Read vs Added mismatch: " + (amtSignaturesRead - amtSignaturesMD5 - amtSignaturesSHA1 - amtSignaturesSHA256));
-        System.out.println("Added vs Expected mismatch: md5: " + (amtSignaturesMD5 - signaturesMD5.approximateElementCount()) + ", sha1: " + (amtSignaturesSHA1 - signaturesSHA1.approximateElementCount()) + ", sha256: " + (amtSignaturesSHA256 - signaturesSHA256.approximateElementCount()));
+        System.out.println("Lines read: valid: " + amtLinesValid + ", invalid: " + amtLinesInvalid);
+        System.out.println("Read count: md5: " + amtSignaturesReadMD5 + ", sha1: " + amtSignaturesReadSHA1 + ", sha256: " + amtSignaturesReadSHA256);
+        System.out.println("Added count: md5: " + amtSignaturesAddedMD5 + ", sha1: " + amtSignaturesAddedSHA1 + ", sha256: " + amtSignaturesAddedSHA256);
+        System.out.println("Approximate count: md5: " + signaturesMD5.approximateElementCount() + ", sha1: " + signaturesSHA1.approximateElementCount() + ", sha256: " + signaturesSHA256.approximateElementCount());
         System.out.println("Expected false postive rate: md5: " + signaturesMD5.expectedFpp() + ", sha1: " + signaturesSHA1.expectedFpp() + ", sha256: " + signaturesSHA256.expectedFpp());
         try {
             FileOutputStream fileSignaturesMD5 = new FileOutputStream(new File(args[0]) + "/hypatia-md5-bloom.bin");
@@ -107,29 +115,43 @@ public class Main {
         }
     }
 
+    //Credit: https://stackoverflow.com/a/13667522
+    private static final Pattern HEXADECIMAL_PATTERN = Pattern.compile("\\p{XDigit}+");
+
+    private static boolean isHexadecimal(String input) {
+        final Matcher matcher = HEXADECIMAL_PATTERN.matcher(input);
+        return matcher.matches();
+    }
+
     private static void addChecked(String potentialHash) {
-        boolean isAscii = CharMatcher.ascii().matchesAllOf(potentialHash);
-        if(isAscii && !potentialHash.startsWith("#")) {
-            if (potentialHash.length() == 32) {
-                if (signaturesMD5.put(potentialHash)) {
-                    amtSignaturesMD5++;
+        if (!potentialHash.startsWith("#") && potentialHash.length() >= 4) {
+            if (isHexadecimal(potentialHash)) {
+                if (potentialHash.length() == 32) {
+                    if (signaturesMD5.put(potentialHash)) {
+                        amtSignaturesAddedMD5++;
+                    }
+                    amtSignaturesReadMD5++;
+                    amtLinesValid++;
+                } else if (potentialHash.length() == 40) {
+                    if (signaturesSHA1.put(potentialHash)) {
+                        amtSignaturesAddedSHA1++;
+                    }
+                    amtSignaturesReadSHA1++;
+                    amtLinesValid++;
+                } else if (potentialHash.length() == 64) {
+                    if (signaturesSHA256.put(potentialHash)) {
+                        amtSignaturesAddedSHA256++;
+                    }
+                    amtSignaturesReadSHA256++;
+                    amtLinesValid++;
+                } else {
+                    amtLinesInvalid++;
+                    System.out.println("\t\tINVALID LENGTH: " + potentialHash);
                 }
-                amtSignaturesRead++;
-            } else if (potentialHash.length() == 40) {
-                if (signaturesSHA1.put(potentialHash)) {
-                    amtSignaturesSHA1++;
-                }
-                amtSignaturesRead++;
-            } else if (potentialHash.length() == 64) {
-                if (signaturesSHA256.put(potentialHash)) {
-                    amtSignaturesSHA256++;
-                }
-                amtSignaturesRead++;
             } else {
-                //System.out.println("INVALID LENGTH: " + potentialHash);
+                amtLinesInvalid++;
+                System.out.println("\t\tNOT HEXADECIMAL: " + potentialHash);
             }
-        } else {
-            //System.out.println("NOT ASCII: " + potentialHash);
         }
     }
 }
