@@ -4,10 +4,10 @@ android {
     compileSdkVersion 33
     defaultConfig {
         applicationId "us.spotco.malwarescanner"
-        minSdkVersion 19
+        minSdkVersion 16
         targetSdkVersion 32
-        versionCode 301
-        versionName "3.01"
+        versionCode 302
+        versionName "3.02"
         resConfigs 'en', 'af', 'de', 'el', 'es', 'fi', 'fr', 'it', 'pl', 'pt', 'ru', 'tr', 'zh-rCN'
     }
     buildTypes {

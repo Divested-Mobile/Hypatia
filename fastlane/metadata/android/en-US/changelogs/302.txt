@@ -1,0 +1,2 @@
+* Restore support for Android 4.1 / Jelly Bean
+* Code cleanup

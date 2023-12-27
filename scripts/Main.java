@@ -16,6 +16,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
 import com.google.common.base.CharMatcher;
+import com.google.common.base.Charsets;
 import com.google.common.hash.BloomFilter;
 import com.google.common.hash.Funnels;
 
@@ -25,7 +26,6 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 import java.util.zip.GZIPInputStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -53,9 +53,9 @@ public class Main {
     public static int amtPreviousSignaturesSHA256 = 0;
 
     public static void main(String[] args) {
-        signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.US_ASCII), 4500000, 0.00001); //4.5m
-        signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.US_ASCII), 10000, 0.00001); //10k
-        signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(StandardCharsets.US_ASCII), 800000, 0.00001); //800k
+        signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 5800000, 0.00001); //5.8m
+        signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 10000, 0.00001); //10k
+        signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 800000, 0.00001); //800k
 
         System.out.println("Processing:");
         for (File databaseLocation : new File(args[0]).listFiles()) {

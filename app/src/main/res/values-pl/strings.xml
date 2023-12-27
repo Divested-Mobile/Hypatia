@@ -8,10 +8,7 @@
     <string name="lblOnionRoutingToggle">Pobierz przez Tor</string>
     <string name="lblOnionRoutingEnabledHint">Pobieranie przez Tor, może to zająć chwilę…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot nie jest zainstalowany!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot nie jest uruchomiony!</string>
     <string name="lblUpdateDatabase">Aktualizuj bazy danych</string>
-    <string name="lblSelectDatabases">Wybierz bazy danych</string>
-    <string name="lblSelectDatabasesTitle">Wybierz bazy danych do aktywacji</string>
     <string name="lblDatabaseServer">Zastąpienia serwera bazy danych</string>
     <string name="lblFullCredits">Uznania</string>
     <string name="lblScanSystem">Skanuj /system</string>
@@ -31,7 +28,6 @@
 
     <string name="main_database_updating">Aktualizacja bazy danych %s…</string>
     <string name="main_database_override">Wykorzystywanie serwera %s</string>
-    <string name="main_database_downloading">Pobieranie %s</string>
     <string name="main_database_download_success">Pomyślnie pobrano</string>
     <string name="main_database_download_error">Nie pobrano plikku, kod odpowiedzi %s</string>
     <string name="main_no_database_available">Baza danych nie jest dostępna, nie skanuję…</string>
@@ -42,7 +38,6 @@
 
     <string name="main_starting_scan">Rozpoczynanie skanowania…</string>
     <string name="main_cancelling_scan">Anulowanie skanowania…</string>
-    <string name="main_cancelled_scan">Anulowano skanowanie</string>
     <string name="main_files_pending_scan">%s plików oczekuje na skanowanie</string>
     <string name="main_database_loading">Ładowanie bazy danych…</string>
     <string name="main_database_loaded">Załadowano bazę danych z %s sygnaturami</string>
@@ -51,11 +46,4 @@
     <string name="main_hash_scan_done">Porównano wszystkie %s hashów z bazą danych sygnatur</string>
     <string name="main_scanning_done">Ukończono skanowanie w %s sekund @ %sMB/s!</string>
     <string name="main_files_scanned_count">Zeskanowano %s plików</string>
-    <string name="db_desc_author">Autor</string>
-    <string name="db_desc_license">Licencja</string>
-    <string name="db_desc_size">Rozmiar</string>
-    <string name="db_desc_source">Źródło</string>
-    <string name="db_desc_size_small">Small</string>
-    <string name="db_desc_size_medium">Medium</string>
-    <string name="db_desc_size_large">Large</string>
 </resources>

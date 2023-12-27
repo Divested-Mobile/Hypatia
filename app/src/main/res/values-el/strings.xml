@@ -6,12 +6,9 @@
     <string name="app_db_type_clamav">Υποστηρίζεται από υπογραφές τύπου ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Πραγματοποιείται Λήψη μέσω Tor</string>
-    <string name="lblOnionRoutingEnabledHint">Λήψη μέσω Tor, αυτό μπορεί να πάρει κάποιο χρόνο...</string>
+    <string name="lblOnionRoutingEnabledHint">Λήψη μέσω Tor, αυτό μπορεί να πάρει κάποιο χρόνο…</string>
     <string name="lblOnionRoutingNotInstalled">Το Orbot δεν είναι εγκατεστημένο!</string>
-    <string name="lblOnionRoutingNotRunning">Το Orbot δεν εκτελείται!</string>
     <string name="lblUpdateDatabase">Ενημέρωση βάσεων δεδομένων</string>
-    <string name="lblSelectDatabases">Επιλογή βάσεων δεδομένων</string>
-    <string name="lblSelectDatabasesTitle">Επιλέξτε τις βάσεις δεδομένων που θέλετε να ενεργοποιήσετε</string>
     <string name="lblDatabaseServer">Παράκαμψη διακομιστή βάσης δεδομένων</string>
     <string name="lblFullCredits">Credits</string>
     <string name="lblScanSystem">Σάρωση /system</string>
@@ -29,35 +26,26 @@
     <string name="lblReset">Επαναφορά</string>
     <string name="lblOverride">Παράκαμψη</string>
 
-    <string name="main_database_updating">Ενημέρωση %s βάσεων δεδομένων...</string>
+    <string name="main_database_updating">Ενημέρωση %s βάσεων δεδομένων…</string>
     <string name="main_database_override">Χρήση διακομιστή %s</string>
-    <string name="main_database_downloading">Λήψη %s</string>
     <string name="main_database_download_success">Επιτυχής λήψη</string>
     <string name="main_database_download_error">Δεν έγινε η λήψη του αρχείου, κωδικός απόκρισης %s</string>
-    <string name="main_no_database_available">Δεν υπάρχει διαθέσιμη βάση δεδομένων, δεν γίνεται σάρωση...</string>
+    <string name="main_no_database_available">Δεν υπάρχει διαθέσιμη βάση δεδομένων, δεν γίνεται σάρωση…</string>
     <string name="main_database_released_on">Δημοσιεύτηκε στις %s</string>
     <string name="main_database_not_changed">Το αρχείο δεν άλλαξε</string>
     <string name="main_database_not_modified_since">από %s</string>
     <string name="main_database_download_error_logcat">Αποτυχία λήψης, ελέγξτε το logcat</string>
 
-    <string name="main_starting_scan">Έναρξη σάρωσης...</string>
-    <string name="main_cancelling_scan">Ακύρωση σάρωσης...</string>
-    <string name="main_cancelled_scan">Ακυρώθηκε η σάρωση</string>
+    <string name="main_starting_scan">Έναρξη σάρωσης…</string>
+    <string name="main_cancelling_scan">Ακύρωση σάρωσης…</string>
     <string name="main_files_pending_scan">%s αρχεία περιμένουν σάρωση</string>
-    <string name="main_database_loading">Φόρτωση βάσης δεδομένων...</string>
+    <string name="main_database_loading">Φόρτωση βάσης δεδομένων…</string>
     <string name="main_database_loaded">Φορτώθηκε βάση δεδομένων με %s υπογραφές</string>
-    <string name="main_hashing_files">Καταγραφή αρχείων...</string>
+    <string name="main_hashing_files">Καταγραφή αρχείων…</string>
     <string name="main_hashing_done">Υπολογίστηκαν τα hashes για όλα τα αρχεία</string>
     <string name="main_hash_scan_done">Έλεγθηκαν και τα %s hashes ως προς τις βάσεις υπογραφών</string>
     <string name="main_scanning_done">Η σάρωση ολοκληρώθηκε σε %s δευτερόλεπτα @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s αρχεία σαρώθηκαν</string>
-    <string name="db_desc_author">Συντάκτης</string>
-    <string name="db_desc_license">Άδεια</string>
-    <string name="db_desc_size">Μέγεθος</string>
-    <string name="db_desc_source">Πηγή</string>
-    <string name="db_desc_size_small">Μικρό</string>
-    <string name="db_desc_size_medium">Μεσαίο</string>
-    <string name="db_desc_size_large">Μεγάλο</string>
     <string name="scan_control">Έλεγχος σάρωσης</string>
     <string name="lblScanRunning">Παράλειψη ενέργειας, μια σάρωση βρίσκεται ήδη σε εξέλιξη!</string>
     <string name="lblSigningKey">Κλειδί υπογραφής της βάσης δεδομένων</string>

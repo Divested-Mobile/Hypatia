@@ -5,12 +5,9 @@
     <string name="app_db_type_clamav">Basato su firme in stile ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Aggiorna tramite Tor</string>
-    <string name="lblOnionRoutingEnabledHint">Aggiornamento tramite Tor, potrebbe volerci un po\'...</string>
+    <string name="lblOnionRoutingEnabledHint">Aggiornamento tramite Tor, potrebbe volerci un po\'…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot non è installato!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot non è in esecuzione!</string>
     <string name="lblUpdateDatabase">Aggiorna i database</string>
-    <string name="lblSelectDatabases">Seleziona database</string>
-    <string name="lblSelectDatabasesTitle">Seleziona i database da abilitare</string>
     <string name="lblDatabaseServer">Modifica il server dei database</string>
     <string name="lblFullCredits">Crediti</string>
     <string name="lblScanSystem">Scansiona le app di sistema</string>
@@ -28,35 +25,26 @@
     <string name="lblReset">Reset</string>
     <string name="lblOverride">Modifica</string>
 
-    <string name="main_database_updating">Aggiornamento database %s...</string>
+    <string name="main_database_updating">Aggiornamento database %s…</string>
     <string name="main_database_override">Utilizza un altro server %s</string>
-    <string name="main_database_downloading">Scaricando %s</string>
     <string name="main_database_download_success">Scaricato con successo</string>
     <string name="main_database_download_error">Database non scaricato, errore %s</string>
-    <string name="main_no_database_available">Nessun database selezionato, scansione annullata...</string>
+    <string name="main_no_database_available">Nessun database selezionato, scansione annullata…</string>
     <string name="main_database_released_on">Aggiornato il %s</string>
     <string name="main_database_not_changed">Database non modificato</string>
     <string name="main_database_not_modified_since">dal %s</string>
     <string name="main_database_download_error_logcat">Impossibile aggiornare, controlla il logcat</string>
 
-    <string name="main_starting_scan">Avviamento scansione...</string>
-    <string name="main_cancelling_scan">Annullamento scansione...</string>
-    <string name="main_cancelled_scan">Scansione annullata</string>
+    <string name="main_starting_scan">Avviamento scansione…</string>
+    <string name="main_cancelling_scan">Annullamento scansione…</string>
     <string name="main_files_pending_scan">%s file da scansionare</string>
-    <string name="main_database_loading">Caricamento database...</string>
+    <string name="main_database_loading">Caricamento database…</string>
     <string name="main_database_loaded">Database caricato con %s firme</string>
-    <string name="main_hashing_files">Hashing dei file...</string>
+    <string name="main_hashing_files">Hashing dei file…</string>
     <string name="main_hashing_done">Calcolando gli hash per tutti i file</string>
     <string name="main_hash_scan_done">Confrontati tutti gli hash %s con il database delle firme</string>
     <string name="main_scanning_done">Scansione completata in %s secondi @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s file scansionati</string>
-    <string name="db_desc_author">Autore</string>
-    <string name="db_desc_license">Licenza</string>
-    <string name="db_desc_size">Dimensione</string>
-    <string name="db_desc_source">Fonte</string>
-    <string name="db_desc_size_medium">Medio</string>
-    <string name="db_desc_size_large">Grande</string>
-    <string name="db_desc_size_small">Piccola</string>
     <string name="scan_control">Controllo scansione</string>
     <string name="lblScanRunning">Azione saltata, è in corso una scansione!</string>
     <string name="lblSigningKey">Chiave di firma del database</string>

@@ -6,12 +6,9 @@
     <string name="app_db_type_clamav">Aangedryf deur ClamAV tipe stempels</string>
 
     <string name="lblOnionRoutingToggle">Laai af deur Tor</string>
-    <string name="lblOnionRoutingEnabledHint">Laai tans af deur Tor, dit mag \'n oogknip neem...</string>
+    <string name="lblOnionRoutingEnabledHint">Laai tans af deur Tor, dit mag \'n oogknip neem…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot of InviZible is nie geïnstalleer nie!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot of InviZible is nie aan die loop nie!</string>
     <string name="lblUpdateDatabase">Dateer databasisse op</string>
-    <string name="lblSelectDatabases">Kies databasisse</string>
-    <string name="lblSelectDatabasesTitle">Kies die databassisse om te aktiveer</string>
     <string name="lblFullCredits">Erkennings</string>
     <string name="lblScanSystem">Skandeer sisteem</string>
     <string name="lblScanApps">Skandeer APKs</string>
@@ -26,32 +23,23 @@
     <string name="lblNotificationRealtimeDetection">Wanware Opgetel:</string>
     <string name="lblRealtimeScannerToggle">Intydse Skandeerder</string>
 
-    <string name="main_database_updating">Dateer tans %s databasisse op...</string>
-    <string name="main_database_downloading">Laai tans %s af</string>
+    <string name="main_database_updating">Dateer tans %s databasisse op…</string>
     <string name="main_database_download_success">Suksesvol afgelaai</string>
     <string name="main_database_download_error">Lêer nie afgelaai nie, respons kode %s</string>
-    <string name="main_no_database_available">Geen databasis beskikbaar, skandeer dus nie...</string>
+    <string name="main_no_database_available">Geen databasis beskikbaar, skandeer dus nie…</string>
     <string name="main_database_released_on">Vrygestel op %s</string>
     <string name="main_database_not_changed">Lêer nie verander</string>
     <string name="main_database_not_modified_since">sedert %s</string>
     <string name="main_database_download_error_logcat">Kon nie aflaai nie, kyk dalk na logcat</string>
 
-    <string name="main_starting_scan">Begin tans skandering...</string>
-    <string name="main_cancelling_scan">Kanseleer tans skandering...</string>
-    <string name="main_cancelled_scan">Skandering gekanseleer</string>
+    <string name="main_starting_scan">Begin tans skandering…</string>
+    <string name="main_cancelling_scan">Kanseleer tans skandering…</string>
     <string name="main_files_pending_scan">%s lêers wag hul beurt af</string>
-    <string name="main_database_loading">Laai tans databasis af...</string>
+    <string name="main_database_loading">Laai tans databasis af…</string>
     <string name="main_database_loaded">Databasis gelaai met %s huts stempels</string>
-    <string name="main_hashing_files">Huts tans lêers...</string>
+    <string name="main_hashing_files">Huts tans lêers…</string>
     <string name="main_hashing_done">Hutse is bereken vir alle verkose lêers</string>
     <string name="main_hash_scan_done">Al %s hutse is met die stempel databasis vergelyk</string>
     <string name="main_scanning_done">Skandering voltooid in %s sekondes @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s lêers geskandeer</string>
-    <string name="db_desc_author">Outeur</string>
-    <string name="db_desc_license">Lisensie</string>
-    <string name="db_desc_size">Grootte</string>
-    <string name="db_desc_source">Bron</string>
-    <string name="db_desc_size_small">Klein</string>
-    <string name="db_desc_size_medium">Medium</string>
-    <string name="db_desc_size_large">Groot</string>
 </resources>

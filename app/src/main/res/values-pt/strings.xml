@@ -5,12 +5,9 @@
     <string name="app_version">Versão: %s</string>
     <string name="app_db_type_clamav">Produzido por assinaturas estilo ClamAV</string>
 
-    <string name="lblOnionRoutingEnabledHint">Baixando via Tor, isto pode demorar um pouco...</string>
+    <string name="lblOnionRoutingEnabledHint">Baixando via Tor, isto pode demorar um pouco…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot não está instalado!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot não está iniciado!</string>
     <string name="lblUpdateDatabase">Atualizar base de dados</string>
-    <string name="lblSelectDatabases">Selecionar base de dados</string>
-    <string name="lblSelectDatabasesTitle">Selecionar base de dados para ativar</string>
     <string name="lblFullCredits">Créditos</string>
     <string name="lblScanSystem">Analisar /sistema</string>
     <string name="lblScanApps">Analisar APKs do App</string>
@@ -25,31 +22,23 @@
     <string name="lblNotificationRealtimeDetection">Malware detectado:</string>
     <string name="lblRealtimeScannerToggle">Analisar em tempo real</string>
 
-    <string name="main_database_updating">Atualizando %s base de dados...</string>
-    <string name="main_database_downloading">Baixando %s</string>
+    <string name="main_database_updating">Atualizando %s base de dados…</string>
     <string name="main_database_download_success">Baixado com sucesso</string>
     <string name="main_database_download_error">Arquivo não baixado, código de resposta %s</string>
-    <string name="main_no_database_available">Sem base de dados disponível, análise não efetuada...</string>
+    <string name="main_no_database_available">Sem base de dados disponível, análise não efetuada…</string>
     <string name="main_database_released_on">Lançado em %s</string>
     <string name="main_database_not_changed">Arquivo não alterado</string>
     <string name="main_database_not_modified_since">desde %s</string>
     <string name="main_database_download_error_logcat">Falha no download, veja logcat</string>
 
-    <string name="main_starting_scan">Iniciando análise...</string>
-    <string name="main_cancelling_scan">Cancelando análise...</string>
-    <string name="main_cancelled_scan">Análise cancelada</string>
+    <string name="main_starting_scan">Iniciando análise…</string>
+    <string name="main_cancelling_scan">Cancelando análise…</string>
     <string name="main_files_pending_scan">%s arquivos pendentes para analisar</string>
-    <string name="main_database_loading">Carregando base de dados...</string>
+    <string name="main_database_loading">Carregando base de dados…</string>
     <string name="main_database_loaded">Carregou base de dados com %s assinaturas</string>
-    <string name="main_hashing_files">Hashing arquivos...</string>
+    <string name="main_hashing_files">Hashing arquivos…</string>
     <string name="main_hashing_done">Hashes calculados para todos os arquivos</string>
     <string name="main_hash_scan_done">Verificados todos %s hashes em relação a base de dados de assinaturas</string>
     <string name="main_scanning_done">Análise concluída em %s segundos @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s arquivos analisados</string>
-    <string name="db_desc_license">Licença</string>
-    <string name="db_desc_size_large">Grande</string>
-    <string name="db_desc_size_medium">Média</string>
-    <string name="db_desc_size_small">Pequena</string>
-    <string name="db_desc_source">Fonte</string>
-    <string name="db_desc_size">Tamanho</string>
 </resources>

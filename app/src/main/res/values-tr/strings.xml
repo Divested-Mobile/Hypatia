@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Hypatia</string>
     <string name="app_copyright">Telif hakkı 2017-2023 Divested Computing Group</string>
     <string name="app_license">Lisans: GPL-3.0</string>
     <string name="app_version">Sürüm: %s</string>
     <string name="app_db_type_clamav">ClamAV tarzı imzalarla güçlendirilmiştir</string>
 
     <string name="lblOnionRoutingToggle">Tor üzerinden indir</string>
-    <string name="lblOnionRoutingEnabledHint">Tor üzerinden indiriliyor, bu uzun sürebilir...</string>
+    <string name="lblOnionRoutingEnabledHint">Tor üzerinden indiriliyor, bu uzun sürebilir…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot kurulu değil!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot çalışır hâlde değil!</string>
     <string name="lblUpdateDatabase">Veri tabanlarını güncelle</string>
-    <string name="lblSelectDatabases">Veri tabanlarını seç</string>
-    <string name="lblSelectDatabasesTitle">Etkinleştirilecek veri tabanlarını seç</string>
     <string name="lblDatabaseServer">Veri tabanı sunucusu yerine koy</string>
     <string name="lblFullCredits">Katkıda bulunanlar</string>
     <string name="lblScanSystem">Sistemi /tara</string>
@@ -30,35 +26,26 @@
     <string name="lblReset">Sıfırla</string>
     <string name="lblOverride">Yerine Koy</string>
 
-    <string name="main_database_updating">%s veri tabanı güncelleniyor...</string>
+    <string name="main_database_updating">%s veri tabanı güncelleniyor…</string>
     <string name="main_database_override">%s sunucusu kullanılıyor</string>
-    <string name="main_database_downloading">%s indiriliyor</string>
     <string name="main_database_download_success">Başarıyla indirildi</string>
     <string name="main_database_download_error">Dosya indirilmedi, cevap kodu %s</string>
-    <string name="main_no_database_available">Hiçbir veri tabanı mevcut değil, tarama yapılmıyor...</string>
+    <string name="main_no_database_available">Hiçbir veri tabanı mevcut değil, tarama yapılmıyor…</string>
     <string name="main_database_released_on">%s tarihinde yayınlandı</string>
     <string name="main_database_not_changed">Dosya değiştirilmedi</string>
     <string name="main_database_not_modified_since">%s tarihinden beri</string>
     <string name="main_database_download_error_logcat">İndirme başarısız, logcat kontrolü yapın</string>
 
-    <string name="main_starting_scan">Tarama başlatılıyor...</string>
-    <string name="main_cancelling_scan">Tarama iptal ediliyor...</string>
-    <string name="main_cancelled_scan">Tarama iptal edildi</string>
+    <string name="main_starting_scan">Tarama başlatılıyor…</string>
+    <string name="main_cancelling_scan">Tarama iptal ediliyor…</string>
     <string name="main_files_pending_scan">%s dosya taranmayı bekliyor</string>
-    <string name="main_database_loading">Veri tabanı yükleniyor...</string>
+    <string name="main_database_loading">Veri tabanı yükleniyor…</string>
     <string name="main_database_loaded">Veri tabanı, %s imza ile yüklendi</string>
-    <string name="main_hashing_files">Dosyaların karma değeri hesaplanıyor...</string>
+    <string name="main_hashing_files">Dosyaların karma değeri hesaplanıyor…</string>
     <string name="main_hashing_done">Tüm dosyaların karma değeri hesaplandı</string>
     <string name="main_hash_scan_done">Tüm %s karma değer imza veri tabanlarıyla karşılaştırıldı</string>
     <string name="main_scanning_done">Tarama % saniyede %sMB/s hızla tamamlandı!</string>
     <string name="main_files_scanned_count">%s dosya tarandı</string>
-    <string name="db_desc_author">Yazar</string>
-    <string name="db_desc_license">Lisans</string>
-    <string name="db_desc_size">Boyut</string>
-    <string name="db_desc_source">Kaynak</string>
-    <string name="db_desc_size_small">Küçük</string>
-    <string name="db_desc_size_medium">Orta</string>
-    <string name="db_desc_size_large">Büyük</string>
     <string name="scan_control">Tarama Kontrolü</string>
     <string name="lblScanRunning">Faaliyet es geçiliyor, bir tarama devam etmekte!</string>
     <string name="lblSigningKey">Veri tabanı imzalama anahtarı</string>

@@ -5,12 +5,9 @@
     <string name="app_db_type_clamav">Используются сигнатуры от ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Скачать через Tor</string>
-    <string name="lblOnionRoutingEnabledHint">Загрузка через Tor может занять некоторое время...</string>
+    <string name="lblOnionRoutingEnabledHint">Загрузка через Tor может занять некоторое время…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot не установлен!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot не запущен!</string>
     <string name="lblUpdateDatabase">Обновить базы данных</string>
-    <string name="lblSelectDatabases">Выбрать базы данных</string>
-    <string name="lblSelectDatabasesTitle">Выберите базы данных для включения</string>
     <string name="lblDatabaseServer">Переопределение сервера базы данных</string>
     <string name="lblFullCredits">Благодарность</string>
     <string name="lblScanSystem">Сканировать /system</string>
@@ -28,35 +25,26 @@
     <string name="lblReset">Сбросить</string>
     <string name="lblOverride">Переопределить</string>
 
-    <string name="main_database_updating">Обновление %s баз данных...</string>
+    <string name="main_database_updating">Обновление %s баз данных…</string>
     <string name="main_database_override">Используется сервер %s</string>
-    <string name="main_database_downloading">Загрузка %s</string>
     <string name="main_database_download_success">Успешно загружена</string>
     <string name="main_database_download_error">Файл не загружен, код ответа %s</string>
-    <string name="main_no_database_available">База данных недоступна, сканирование не выполняется...</string>
+    <string name="main_no_database_available">База данных недоступна, сканирование не выполняется…</string>
     <string name="main_database_released_on">Выпущены %s</string>
     <string name="main_database_not_changed">Файл не изменен</string>
     <string name="main_database_not_modified_since">%s</string>
     <string name="main_database_download_error_logcat">Не удалось загрузить, проверьте logcat</string>
 
-    <string name="main_starting_scan">Запуск сканирования...</string>
-    <string name="main_cancelling_scan">Отмена сканирования...</string>
-    <string name="main_cancelled_scan">Сканирование отменено</string>
+    <string name="main_starting_scan">Запуск сканирования…</string>
+    <string name="main_cancelling_scan">Отмена сканирования…</string>
     <string name="main_files_pending_scan">%s файл(-ов) ожидают сканирования</string>
-    <string name="main_database_loading">Загрузка базы данных...</string>
+    <string name="main_database_loading">Загрузка базы данных…</string>
     <string name="main_database_loaded">Загружена база данных с %s сигнатурами</string>
-    <string name="main_hashing_files">Хеширование файлов...</string>
+    <string name="main_hashing_files">Хеширование файлов…</string>
     <string name="main_hashing_done">Расчетные хеши для всех файлов</string>
     <string name="main_hash_scan_done">Проверены все хэши %s по базам данных сигнатур</string>
     <string name="main_scanning_done">Сканирование выполнено за %s секунд @ %sMB/s!</string>
     <string name="main_files_scanned_count">Просканировано %s файлов</string>
-    <string name="db_desc_license">Лицензия</string>
-    <string name="db_desc_author">Автор</string>
-    <string name="db_desc_size">Размер</string>
-    <string name="db_desc_source">Источник</string>
-    <string name="db_desc_size_small">Маленький</string>
-    <string name="db_desc_size_medium">Средний</string>
-    <string name="db_desc_size_large">Большой</string>
     <string name="scan_control">Контроль сканирования</string>
     <string name="lblScanRunning">Пропускаем действие, выполняется сканирование!</string>
     <string name="lblSigningKey">Ключ подписи базы данных</string>

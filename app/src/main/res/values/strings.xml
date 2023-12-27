@@ -7,12 +7,9 @@
     <string name="app_db_type_clamav">Powered by ClamAV style signatures</string>
 
     <string name="lblOnionRoutingToggle">Download over Tor</string>
-    <string name="lblOnionRoutingEnabledHint">Downloading over Tor, this may take a while...</string>
+    <string name="lblOnionRoutingEnabledHint">Downloading over Tor, this may take a while…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot is not installed!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot is not running!</string>
     <string name="lblUpdateDatabase">Update databases</string>
-    <string name="lblSelectDatabases">Select databases</string>
-    <string name="lblSelectDatabasesTitle">Select databases to enable</string>
     <string name="lblDatabaseServer">Database server override</string>
     <string name="lblFullCredits">Credits</string>
     <string name="lblScanSystem">Scan /system</string>
@@ -30,35 +27,26 @@
     <string name="lblReset">Reset</string>
     <string name="lblOverride">Override</string>
 
-    <string name="main_database_updating">Updating %s databases...</string>
+    <string name="main_database_updating">Updating %s databases…</string>
     <string name="main_database_override">Using server %s</string>
-    <string name="main_database_downloading">Downloading %s</string>
     <string name="main_database_download_success">Successfully downloaded</string>
     <string name="main_database_download_error">File not downloaded, response code %s</string>
-    <string name="main_no_database_available">No database available, not scanning...</string>
+    <string name="main_no_database_available">No database available, not scanning…</string>
     <string name="main_database_released_on">Released on %s</string>
     <string name="main_database_not_changed">File not changed</string>
     <string name="main_database_not_modified_since">since %s</string>
     <string name="main_database_download_error_logcat">Failed to download, check logcat</string>
 
-    <string name="main_starting_scan">Starting scan...</string>
-    <string name="main_cancelling_scan">Cancelling scan...</string>
-    <string name="main_cancelled_scan">Cancelled scan</string>
+    <string name="main_starting_scan">Starting scan…</string>
+    <string name="main_cancelling_scan">Cancelling scan…</string>
     <string name="main_files_pending_scan">%s files pending scan</string>
-    <string name="main_database_loading">Loading database...</string>
+    <string name="main_database_loading">Loading database…</string>
     <string name="main_database_loaded">Loaded database with %s signatures</string>
-    <string name="main_hashing_files">Hashing files...</string>
+    <string name="main_hashing_files">Hashing files…</string>
     <string name="main_hashing_done">Calculated hashes for all files</string>
     <string name="main_hash_scan_done">Checked all %s hashes against signature databases</string>
     <string name="main_scanning_done">Scan completed in %s seconds @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s files scanned</string>
-    <string name="db_desc_author">Author</string>
-    <string name="db_desc_license">License</string>
-    <string name="db_desc_size">Size</string>
-    <string name="db_desc_source">Source</string>
-    <string name="db_desc_size_small">Small</string>
-    <string name="db_desc_size_medium">Medium</string>
-    <string name="db_desc_size_large">Large</string>
     <string name="scan_control">Scan Control</string>
     <string name="lblScanRunning">Skipping action, a scan is running!</string>
     <string name="lblSigningKey">Database signing key</string>
@@ -79,8 +67,6 @@
     <string name="confirm_delete_summary">Are you sure you want to delete the following file?</string>
     <string name="delete_failed">Failed to delete!</string>
     <string name="ignored">Ignored!</string>
-    <string name="confirm_uninstall_title">Confirm uninstall</string>
-    <string name="confirm_uninstall_summary">Are you sure you want to uninstall the following app?</string>
     <string name="uninstallApp">Uninstall</string>
     <string name="lblSelfTest">Write self test files</string>
 </resources>

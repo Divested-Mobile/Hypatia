@@ -4,12 +4,9 @@
     <string name="app_db_type_clamav">Powered by ClamAV tyylin allekirjoitukset</string>
 
     <string name="lblOnionRoutingToggle">Lataa käyttäen Tor-verkkoa</string>
-    <string name="lblOnionRoutingEnabledHint">Ladataan käyttäen Tor-verkkoa, tämä voi kestää jonkin aikaa...</string>
+    <string name="lblOnionRoutingEnabledHint">Ladataan käyttäen Tor-verkkoa, tämä voi kestää jonkin aikaa…</string>
     <string name="lblOnionRoutingNotInstalled">Orbot:ia ei ole asennettu!</string>
-    <string name="lblOnionRoutingNotRunning">Orbot ei ole käynnissä!</string>
     <string name="lblUpdateDatabase">Päivitä tietokannat</string>
-    <string name="lblSelectDatabases">Valitse tietokannat</string>
-    <string name="lblSelectDatabasesTitle">Valitse käytettävät tietokannat</string>
     <string name="lblDatabaseServer">Tietokantapalvelimen ohitus</string>
     <string name="lblFullCredits">Krediitit</string>
     <string name="lblScanSystem">Tarkista /järjestelmä</string>
@@ -27,33 +24,24 @@
     <string name="lblReset">Palauta</string>
     <string name="lblOverride">Ohita</string>
 
-    <string name="main_database_updating">Päivitetään %s tietokanta(a)...</string>
+    <string name="main_database_updating">Päivitetään %s tietokanta(a)…</string>
     <string name="main_database_override">Käytetään palvelinta %s</string>
-    <string name="main_database_downloading">Ladataan %s</string>
     <string name="main_database_download_success">Ladattiin onnistuneesti</string>
     <string name="main_database_download_error">Tiedostoa ei ladattu, vastauskoodi %s</string>
-    <string name="main_no_database_available">Tietokantaa ei ole käytettävissä, ei tarkistusta...</string>
+    <string name="main_no_database_available">Tietokantaa ei ole käytettävissä, ei tarkistusta…</string>
     <string name="main_database_released_on">Julkaistu %s</string>
     <string name="main_database_not_changed">Tiedostoa ei ole muutettu</string>
     <string name="main_database_not_modified_since">%s jälkeen</string>
     <string name="main_database_download_error_logcat">Lataus epäonnistui, tarkista logcat</string>
 
-    <string name="main_starting_scan">Aloitetaan tarkistus...</string>
-    <string name="main_cancelling_scan">Perutaan tarkistus...</string>
-    <string name="main_cancelled_scan">Tarkistus peruttu</string>
+    <string name="main_starting_scan">Aloitetaan tarkistus…</string>
+    <string name="main_cancelling_scan">Perutaan tarkistus…</string>
     <string name="main_files_pending_scan">%s tarkistettavaa tiedostoa</string>
-    <string name="main_database_loading">Ladataan tietokantaa...</string>
+    <string name="main_database_loading">Ladataan tietokantaa…</string>
     <string name="main_database_loaded">Ladattiin tietokanta %s allekirjoituksella</string>
-    <string name="main_hashing_files">Hashataan tiedostoja...</string>
+    <string name="main_hashing_files">Hashataan tiedostoja…</string>
     <string name="main_hashing_done">Laskettiin hashit kaikille tiedostoille</string>
     <string name="main_hash_scan_done">Tarkistettiin kaikki %s hashit allekirjoitustietokannoista</string>
     <string name="main_scanning_done">Tarkistus suoritettu %s sekunnissa @ %sMB/s!</string>
     <string name="main_files_scanned_count">%s tiedostoa tarkistettu</string>
-    <string name="db_desc_author">Tekijä</string>
-    <string name="db_desc_license">Lisenssi</string>
-    <string name="db_desc_size">Koko</string>
-    <string name="db_desc_source">Lähde</string>
-    <string name="db_desc_size_small">Pieni</string>
-    <string name="db_desc_size_medium">Keskikokoinen</string>
-    <string name="db_desc_size_large">Suuri</string>
 </resources>
