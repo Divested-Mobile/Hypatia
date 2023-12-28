@@ -1,5 +1,5 @@
 #!/bin/bash
-#License: GPLv3
+#License: CC0
 #Description: Hypatia conversion script for https://github.com/AssoEchap/stalkerware-indicators (CC BY 4.0)
 
 while IFS=, read -r col1SHA col2Package col3Certificate col4Version col5Name
@@ -10,5 +10,3 @@ do
 done < samples.csv;
 
 sed -i '1d' stalkerware.hsb;
-
-gzip stalkerware.hsb;

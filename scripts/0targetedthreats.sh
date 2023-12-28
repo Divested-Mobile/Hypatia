@@ -1,5 +1,5 @@
 #!/bin/bash
-#License: GPLv3
+#License: CC0
 #Description: Hypatia conversion script for https://github.com/botherder/targetedthreats (CC BY-SA 4.0)
 
 while IFS=, read -r col1MD5 col2SHA256 col3Family col4Actor col5Country col6Report
@@ -30,6 +30,3 @@ done < samples.csv;
 
 sed -i '1d' targetedthreats.hdb;
 sed -i '1d' targetedthreats.hsb;
-
-gzip targetedthreats.hdb;
-gzip targetedthreats.hsb;

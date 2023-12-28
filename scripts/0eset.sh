@@ -1,5 +1,5 @@
 #!/bin/bash
-#License: GPLv3
+#License: CC0
 #Description: Hypatia conversion script for https://github.com/eset/malware-ioc (BSD-2-Clause)
 
 processHashes() {

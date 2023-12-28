@@ -26,39 +26,61 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.InputStreamReader;
+import java.util.*;
+import java.util.Arrays;
 import java.util.zip.GZIPInputStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Main {
 
-    public static BloomFilter<String> signaturesMD5 = null;
-    public static BloomFilter<String> signaturesSHA1 = null;
-    public static BloomFilter<String> signaturesSHA256 = null;
+    private static BloomFilter<String> signaturesMD5 = null;
+    private static BloomFilter<String> signaturesSHA1 = null;
+    private static BloomFilter<String> signaturesSHA256 = null;
 
-    public static int amtLinesValid = 0;
-    public static int amtLinesInvalid = 0;
+    private static int amtLinesValid = 0;
+    private static int amtLinesInvalid = 0;
 
+    private static int amtSignaturesReadMD5 = 0;
+    private static int amtSignaturesReadSHA1 = 0;
+    private static int amtSignaturesReadSHA256 = 0;
 
-    public static int amtSignaturesReadMD5 = 0;
-    public static int amtSignaturesReadSHA1 = 0;
-    public static int amtSignaturesReadSHA256 = 0;
+    private static int amtSignaturesAddedMD5 = 0;
+    private static int amtSignaturesAddedSHA1 = 0;
+    private static int amtSignaturesAddedSHA256 = 0;
 
-    public static int amtSignaturesAddedMD5 = 0;
-    public static int amtSignaturesAddedSHA1 = 0;
-    public static int amtSignaturesAddedSHA256 = 0;
+    private static int amtPreviousSignaturesMD5 = 0;
+    private static int amtPreviousSignaturesSHA1 = 0;
+    private static int amtPreviousSignaturesSHA256 = 0;
 
-    public static int amtPreviousSignaturesMD5 = 0;
-    public static int amtPreviousSignaturesSHA1 = 0;
-    public static int amtPreviousSignaturesSHA256 = 0;
+    private static ArrayList<String> arrExclusions = new ArrayList<String>();
 
     public static void main(String[] args) {
-        signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 5800000, 0.00001); //5.8m
-        signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 10000, 0.00001); //10k
-        signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 800000, 0.00001); //800k
+        signaturesMD5 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 6000000, 0.00001); //6m
+        signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 50000, 0.00001); //50k
+        signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 2000000, 0.00001); //2m
+
+        try {
+            File exclusionDatabase = new File(args[0] + "../excluded.hashes");
+            if(exclusionDatabase.exists()) {
+                Scanner s = new Scanner(exclusionDatabase);
+                while(s.hasNextLine()) {
+                    String line = s.nextLine().trim();
+                    if(!line.startsWith("#") && (line.length() == 32 || line.length() == 40 || line.length() == 64)) {
+                        arrExclusions.add(line);
+                    }
+                }
+                s.close();
+                System.out.println("Loaded " + arrExclusions.size() + " excluded hashes");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         System.out.println("Processing:");
-        for (File databaseLocation : new File(args[0]).listFiles()) {
+        File[] databases = new File(args[0]).listFiles();
+        Arrays.sort(databases);
+        for (File databaseLocation : databases) {
             System.out.println("\t" + databaseLocation);
             amtPreviousSignaturesMD5 = amtSignaturesAddedMD5;
             amtPreviousSignaturesSHA1 = amtSignaturesAddedSHA1;
@@ -71,19 +93,27 @@ public class Main {
                     reader = new BufferedReader(new FileReader(databaseLocation));
                 }
                 String line;
-                if (databaseLocation.getName().contains(".hdb") //.hdb format: md5, size, name
-                        || databaseLocation.getName().contains(".hsb")) {//.hsb format: sha256, size, name
+                if (databaseLocation.getName().endsWith(".hdb") //.hdb/.hsb format: hash:size:name:version
+                        || databaseLocation.getName().endsWith(".hsb")) {
                     while ((line = reader.readLine()) != null) {
                         if (line.length() > 0 && line.contains(":")) {
                             String[] lineS = line.trim().toLowerCase().split(":");
-                            addChecked(lineS[0]);
+                            addChecked(lineS[0].trim());
                         }
                     }
-                } else if (databaseLocation.getName().contains(".md5")
-                        || databaseLocation.getName().contains(".sha1")
-                        || databaseLocation.getName().contains(".sha256")) {//one signature per line
+                } else if (databaseLocation.getName().endsWith(".md5")
+                        || databaseLocation.getName().endsWith(".sha1")
+                        || databaseLocation.getName().endsWith(".sha256")
+                        || databaseLocation.getName().endsWith(".hashes")) {//one signature per line
                     while ((line = reader.readLine()) != null) {
                         addChecked(line.trim().toLowerCase());
+                    }
+                } else if (databaseLocation.getName().endsWith(".loki")) {//.loki format: hash;comment
+                    while ((line = reader.readLine()) != null) {
+                        if (line.length() > 0 && line.contains(";")) {
+                            String[] lineS = line.trim().toLowerCase().split(";");
+                            addChecked(lineS[0].trim());
+                        }
                     }
                 }
                 reader.close();
@@ -126,6 +156,10 @@ public class Main {
     private static void addChecked(String potentialHash) {
         if (!potentialHash.startsWith("#") && potentialHash.length() >= 4) {
             if (isHexadecimal(potentialHash)) {
+                if(arrExclusions.contains(potentialHash)) {
+                    System.out.println("\t\tSkipping excluded hash: " + potentialHash);
+                    return;
+                }
                 if (potentialHash.length() == 32) {
                     if (signaturesMD5.put(potentialHash)) {
                         amtSignaturesAddedMD5++;
