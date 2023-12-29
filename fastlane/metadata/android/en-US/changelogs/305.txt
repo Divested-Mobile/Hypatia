@@ -1,0 +1,10 @@
+* Fix signature count reseting on update but not changed
+* Better handle reloads when extended DB is enabled
+* Metered connection warning
+* Block all actions when appropriate
+* Use a wakelock instead of keeping the screen on
+* Increase max scan sizes: 500MB manual, 250MB realtime
+* Always check if files can be read before scanning
+* Resolve true paths to avoid duplicates from symlinks
+* Scan more app paths
+* Scan more system paths

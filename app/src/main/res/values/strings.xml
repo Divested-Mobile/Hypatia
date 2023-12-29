@@ -53,7 +53,7 @@
     <string name="lblNoNetwork">No network connected!</string>
     <string name="self_test_result_success">Self test successful.</string>
     <string name="self_test_result_failure">Self test failed!</string>
-    <string name="lblDatabaseLoading">Database is loading, not updating!</string>
+    <string name="lblDatabaseLoading">Skipping action, database is loading!</string>
     <string name="lblDatabasesUpdated">All databases updated!</string>
     <string name="lookupVT">Lookup</string>
     <string name="deleteFile">Delete</string>
@@ -71,5 +71,8 @@
     <string name="lblSelfTest">Write self test files</string>
     <string name="lblExtendedDatabaseToggle">Extended datatabase</string>
     <string name="confirm_extended_title">Enable extended database?</string>
-    <string name="confirm_extended_summary">This will enable detection of an additional ~40 million signatures.\nThis requires a 125MB download, will slow down startup by over two minutes, will increase app RAM usage, and will increase the false positive rate.\nThis database only updates quarterly.</string>
+    <string name="confirm_extended_summary">[EXPERIMENTAL]\nThis will enable detection of an additional ~40 million signatures.\nThis requires a 125MB download, will slow down startup by over two minutes, will increase app RAM usage, and will increase the false positive rate.\nThis database only updates quarterly.</string>
+    <string name="confirm_update_title">Confirm download</string>
+    <string name="confirm_update_summary">You appear to be on a metered connection. Are you sure you want to update the databases?\nIt may download up to %s megabytes of data.</string>
+    <string name="lblUpdateRunning">Skipping action, an update is running!</string>
 </resources>
