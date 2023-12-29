@@ -65,8 +65,8 @@ public class Main {
             if(exclusionDatabase.exists()) {
                 Scanner s = new Scanner(exclusionDatabase);
                 while(s.hasNextLine()) {
-                    String line = s.nextLine().trim();
-                    if(!line.startsWith("#") && (line.length() == 32 || line.length() == 40 || line.length() == 64)) {
+                    String line = s.nextLine().trim().toLowerCase();
+                    if(!line.startsWith("#") && isHexadecimal(line) && (line.length() == 32 || line.length() == 40 || line.length() == 64)) {
                         arrExclusions.add(line);
                     }
                 }

@@ -20,7 +20,7 @@ android {
             shrinkResources true
             minifyEnabled true
             zipAlignEnabled true
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
     lint {
@@ -30,6 +30,6 @@ android {
 
 dependencies {
     implementation 'commons-io:commons-io:2.5'
-    implementation 'org.bouncycastle:bcpg-jdk15to18:1.73'
+    implementation 'org.bouncycastle:bcpg-jdk15to18:1.77'
     implementation 'com.google.guava:guava:33.0.0-jre'
 }
