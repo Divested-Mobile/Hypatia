@@ -75,4 +75,5 @@
     <string name="confirm_update_title">Confirm download</string>
     <string name="confirm_update_summary">You appear to be on a metered connection. Are you sure you want to update the databases?\nIt may download up to %s megabytes of data.</string>
     <string name="lblUpdateRunning">Skipping action, an update is running!</string>
+    <string name="lblWroteTestFiles">Wrote test files!</string>
 </resources>
