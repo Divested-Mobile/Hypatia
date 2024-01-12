@@ -60,28 +60,35 @@ public class Main {
         signaturesSHA1 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 50000, 0.00001); //50k
         signaturesSHA256 = BloomFilter.create(Funnels.stringFunnel(Charsets.US_ASCII), 2000000, 0.00001); //2m
 
-        try {
-            File exclusionDatabase = new File(args[0] + "../excluded.hashes");
-            if(exclusionDatabase.exists()) {
+        System.out.println("Processing exclusions:");
+        File[] exclusions = new File(args[0] + "../exclusions/").listFiles();
+        Arrays.sort(exclusions);
+        for (File exclusionDatabase : exclusions) {
+            try {
+                System.out.println("\t" + exclusionDatabase.getName());
                 Scanner s = new Scanner(exclusionDatabase);
                 while(s.hasNextLine()) {
                     String line = s.nextLine().trim().toLowerCase();
+                    if(line.contains(":")) {
+                        line = line.split(":")[0];
+                    }
                     if(!line.startsWith("#") && isHexadecimal(line) && (line.length() == 32 || line.length() == 40 || line.length() == 64)) {
                         arrExclusions.add(line);
+                        //System.out.println("\t\tAdded: " + line);
                     }
                 }
                 s.close();
-                System.out.println("Loaded " + arrExclusions.size() + " excluded hashes");
+            } catch (Exception e) {
+                e.printStackTrace();
             }
-        } catch (Exception e) {
-            e.printStackTrace();
         }
+        System.out.println("Loaded " + arrExclusions.size() + " excluded hashes");
 
-        System.out.println("Processing:");
+        System.out.println("Processing signatures:");
         File[] databases = new File(args[0]).listFiles();
         Arrays.sort(databases);
         for (File databaseLocation : databases) {
-            System.out.println("\t" + databaseLocation);
+            System.out.println("\t" + databaseLocation.getName());
             amtPreviousSignaturesMD5 = amtSignaturesAddedMD5;
             amtPreviousSignaturesSHA1 = amtSignaturesAddedSHA1;
             amtPreviousSignaturesSHA256 = amtSignaturesAddedSHA256;
