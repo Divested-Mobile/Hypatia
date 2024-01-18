@@ -28,6 +28,7 @@ import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.util.*;
 import java.util.Arrays;
+import java.util.stream.Stream;
 import java.util.zip.GZIPInputStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -86,47 +87,57 @@ public class Main {
 
         System.out.println("Processing signatures:");
         File[] databases = new File(args[0]).listFiles();
+        File extras = new File(args[0] + "../extras/");
+        if(extras.exists()) {
+            databases = Stream.concat(Arrays.stream(databases), Arrays.stream(extras.listFiles())).toArray(File[]::new);
+        }
         Arrays.sort(databases);
         for (File databaseLocation : databases) {
-            System.out.println("\t" + databaseLocation.getName());
-            amtPreviousSignaturesMD5 = amtSignaturesAddedMD5;
-            amtPreviousSignaturesSHA1 = amtSignaturesAddedSHA1;
-            amtPreviousSignaturesSHA256 = amtSignaturesAddedSHA256;
-            try {
-                BufferedReader reader;
-                if (databaseLocation.getName().endsWith(".gz")) {
-                    reader = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(databaseLocation))));
-                } else {
-                    reader = new BufferedReader(new FileReader(databaseLocation));
-                }
-                String line;
-                if (databaseLocation.getName().endsWith(".hdb") //.hdb/.hsb format: hash:size:name:version
-                        || databaseLocation.getName().endsWith(".hsb")) {
-                    while ((line = reader.readLine()) != null) {
-                        if (line.length() > 0 && line.contains(":")) {
-                            String[] lineS = line.trim().toLowerCase().split(":");
-                            addChecked(lineS[0].trim());
+            if(databaseLocation.isFile()) {
+                System.out.println("\t" + databaseLocation.getName());
+                amtPreviousSignaturesMD5 = amtSignaturesAddedMD5;
+                amtPreviousSignaturesSHA1 = amtSignaturesAddedSHA1;
+                amtPreviousSignaturesSHA256 = amtSignaturesAddedSHA256;
+                try {
+                    BufferedReader reader;
+                    if (databaseLocation.getName().endsWith(".gz")) {
+                        reader = new BufferedReader(new InputStreamReader(new GZIPInputStream(new FileInputStream(databaseLocation))));
+                    } else {
+                        reader = new BufferedReader(new FileReader(databaseLocation));
+                    }
+                    String line;
+                    if (databaseLocation.getName().endsWith(".hdb") //.hdb/.hsb format: hash:size:name:version
+                            || databaseLocation.getName().endsWith(".hsb")) {
+                        while ((line = reader.readLine()) != null) {
+                            if (line.length() > 0 && line.contains(":")) {
+                                String[] lineS = line.trim().toLowerCase().split(":");
+                                addChecked(lineS[0].trim(), true);
+                            }
+                        }
+                    } else if (databaseLocation.getName().endsWith(".md5")
+                            || databaseLocation.getName().endsWith(".sha1")
+                            || databaseLocation.getName().endsWith(".sha256")
+                            || databaseLocation.getName().endsWith(".hashes")) {//one signature per line
+                        while ((line = reader.readLine()) != null) {
+                            addChecked(line.trim().toLowerCase(), true);
+                        }
+                    } else if (databaseLocation.getName().endsWith(".loki")) {//.loki format: hash;comment
+                        while ((line = reader.readLine()) != null) {
+                            if (line.length() > 0 && line.contains(";")) {
+                                String[] lineS = line.trim().toLowerCase().split(";");
+                                addChecked(lineS[0].trim(), true);
+                            }
+                        }
+                    } else if (databaseLocation.getName().endsWith(".txt")) {//best effort
+                        while ((line = reader.readLine()) != null) {
+                            addChecked(line.trim().toLowerCase(), false);
                         }
                     }
-                } else if (databaseLocation.getName().endsWith(".md5")
-                        || databaseLocation.getName().endsWith(".sha1")
-                        || databaseLocation.getName().endsWith(".sha256")
-                        || databaseLocation.getName().endsWith(".hashes")) {//one signature per line
-                    while ((line = reader.readLine()) != null) {
-                        addChecked(line.trim().toLowerCase());
-                    }
-                } else if (databaseLocation.getName().endsWith(".loki")) {//.loki format: hash;comment
-                    while ((line = reader.readLine()) != null) {
-                        if (line.length() > 0 && line.contains(";")) {
-                            String[] lineS = line.trim().toLowerCase().split(";");
-                            addChecked(lineS[0].trim());
-                        }
-                    }
+                    reader.close();
+                    System.out.println("\t\tmd5: " + (amtSignaturesAddedMD5 - amtPreviousSignaturesMD5) + ", sha1: " + (amtSignaturesAddedSHA1 - amtPreviousSignaturesSHA1) + ", sha256: " + (amtSignaturesAddedSHA256 - amtPreviousSignaturesSHA256));
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
-                reader.close();
-                System.out.println("\t\tmd5: " + (amtSignaturesAddedMD5 - amtPreviousSignaturesMD5) + ", sha1: " + (amtSignaturesAddedSHA1 - amtPreviousSignaturesSHA1) + ", sha256: " + (amtSignaturesAddedSHA256 - amtPreviousSignaturesSHA256));
-            } catch (Exception e) {
-                e.printStackTrace();
             }
         }
 
@@ -160,7 +171,7 @@ public class Main {
         return matcher.matches();
     }
 
-    private static void addChecked(String potentialHash) {
+    private static void addChecked(String potentialHash, boolean report) {
         if (!potentialHash.startsWith("#") && potentialHash.length() >= 4) {
             if (isHexadecimal(potentialHash)) {
                 if(arrExclusions.contains(potentialHash)) {
@@ -187,11 +198,11 @@ public class Main {
                     amtLinesValid++;
                 } else {
                     amtLinesInvalid++;
-                    System.out.println("\t\tINVALID LENGTH: " + potentialHash);
+                    if(report) System.out.println("\t\tINVALID LENGTH: " + potentialHash);
                 }
             } else {
                 amtLinesInvalid++;
-                System.out.println("\t\tNOT HEXADECIMAL: " + potentialHash);
+                if(report) System.out.println("\t\tNOT HEXADECIMAL: " + potentialHash);
             }
         }
     }
