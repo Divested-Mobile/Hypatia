@@ -1,0 +1,15 @@
+<p>Hypatia es el primer escáner de código malicioso FOSS del mundo para Android. Funciona con bases de datos de firmas al estilo ClamAV.</p>
+
+<b>Características</b>
+<ul>
+<li>Impacto casi nulo en la batería: no notará en absoluto ningún impacto en la batería</li>
+<li>Extremadamente rápido: puede escanear archivos pequeños (1 MB) en 20 ms, e incluso archivos grandes (40 MB) en 1.000 ms.</li>
+<li>Eficiente con la memoria: las bases de datos activadas por defecto utiliza menos de 120 MB.</li>
+<li>El análisis: permite seleccionar el sistema, el almacenamiento interno, el almacenamiento externo y las aplicaciones instaladas.</li>
+<li>El análisis en tiempo real: puede detectar malware en tiempo real al escribir y renombrar en el almacenamiento interno.</li>
+<li>Completamente sin conexión: Internet sólo se utiliza para descargar las bases de datos de las firmas, los archivos nunca saldrán de tu dispositivo.</li>
+<li>Persistencia: se reiniciará automáticamente al arrancar/actualizar.</li>
+<li>Código base minúsculo: con menos de 1.000 sloc, puede ser auditado incluso por alguien con una experiencia básica en programación.</li>
+<li>Dependencias mínimas: la aplicación sólo utiliza las bibliotecas cuando es necesario.</li>
+<li>Las bases de datos de las firmas pueden activarse o desactivarse a petición del usuario.</li>
+</ul>
