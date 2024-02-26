@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Hypatia</string>
+    <string name="app_copyright">Copyright 2017-2023 Divested Computing Group</string>
+    <string name="app_license">Licence: GPL-3.0</string>
+    <string name="app_version">Verze: %s</string>
+    <string name="app_db_type_clamav">Využívá podpisy ve stylu ClamAV</string>
+
+    <string name="lblOnionRoutingToggle">Stáhnout přes síť Tor</string>
+    <string name="lblOnionRoutingEnabledHint">Stahování přes síť Tor, může to chvíli trvat…</string>
+    <string name="lblOnionRoutingNotInstalled">Orbot není nainstalován!</string>
+    <string name="lblUpdateDatabase">Aktualizovat databáze</string>
+    <string name="lblDatabaseServer">Přepsání databázového serveru</string>
+    <string name="lblFullCredits">Poděkování</string>
+    <string name="lblScanSystem">Skenovat /system</string>
+    <string name="lblScanApps">Skenovat APK aplikací</string>
+    <string name="lblScanInternal">Skenovat interní úložiště</string>
+    <string name="lblScanExternal">Skenovat externí úložiště</string>
+    <string name="lblNotificationMalwareDetectionTitle">Detekce malware</string>
+    <string name="lblNotificationMalwareDetectionDescription">Používáno při detekci malware</string>
+    <string name="lblNotificationRealtimeTitle">Sken v reálném čase</string>
+    <string name="lblNotificationRealtimeDescription">Používáno pro zobrazení počtu oskenovaných souborů a správu služby na pozadí</string>
+    <string name="lblNotificationRealtimeText">Známý malware bude detekován v reálném čase</string>
+    <string name="lblNotificationRealtimeStopped">Hypatia: skenování v reálném čase zakázáno</string>
+    <string name="lblNotificationRealtimeDetection">Detekován malware:</string>
+    <string name="lblRealtimeScannerToggle">Sken v reálném čase</string>
+    <string name="lblReset">Resetovat</string>
+    <string name="lblOverride">Přepsat</string>
+
+    <string name="main_database_updating">Aktualizace %s databází</string>
+    <string name="main_database_override">Použitý server: %s</string>
+    <string name="main_database_download_success">Successfully downloaded</string>
+    <string name="main_database_download_error">Soubor není stažen, kód odpovědi %s</string>
+    <string name="main_no_database_available">Není dostupná databáze, neprovádím sken…</string>
+    <string name="main_database_released_on">Vydáno %s</string>
+    <string name="main_database_not_changed">Soubor nebyl změněn</string>
+    <string name="main_database_not_modified_since">od %s</string>
+    <string name="main_database_download_error_logcat">Nepodařilo se stáhnout, zkontrolujte protokol</string>
+
+    <string name="main_starting_scan">Spouštění skenu…</string>
+    <string name="main_cancelling_scan">Rušení skenu…</string>
+    <string name="main_files_pending_scan">Zbývá %s souborů k oskenování</string>
+    <string name="main_database_loading">Načítání databáze…</string>
+    <string name="main_database_loaded">Načtena databáze s %s podpisy</string>
+    <string name="main_hashing_files">Hašování souborů…</string>
+    <string name="main_hashing_done">Vypočítány haše všech souborů</string>
+    <string name="main_hash_scan_done">Zkontrolováno všech %s hašů oproti databázi podpisů</string>
+    <string name="main_scanning_done">Sken dokončen za %s sekund rychlostí %sMB/s!</string>
+    <string name="main_files_scanned_count">%s souborů oskenováno</string>
+    <string name="scan_control">Ovládání skenu</string>
+    <string name="lblScanRunning">Přeskakuji akci, probíhá sken!</string>
+    <string name="lblSigningKey">Podpisový klíč databáze</string>
+    <string name="lblNoNetwork">Není připojena žádná síť!</string>
+    <string name="self_test_result_success">Vlastní test byl úspěšný.</string>
+    <string name="self_test_result_failure">Vlastní test selhal!</string>
+    <string name="lblDatabaseLoading">Přeskakuji akci, načítá se databáze!</string>
+    <string name="lblDatabasesUpdated">Všechny databáze aktualizovány!</string>
+    <string name="lookupVT">Vyhledat</string>
+    <string name="deleteFile">Smazat</string>
+    <string name="deleted">Smazáno!</string>
+    <string name="ignoreDetection">Ignorovat</string>
+    <string name="detections_none">Nenalezeny žádné shody :)</string>
+    <string name="detections_found">Nalezeny shody! :(</string>
+    <string name="confirm_lookup_title">Potvrdit vyhledání</string>
+    <string name="confirm_lookup_summary">Opravdu chcete ve vašem webovém prohlížeči otevřít web VirusTotal.com s následujícím hašem?</string>
+    <string name="confirm_delete_title">Potvrdit smazání</string>
+    <string name="confirm_delete_summary">Opravdu chcete smazat následující soubor?</string>
+    <string name="delete_failed">Nepodařilo se smazat soubor!</string>
+    <string name="ignored">Ignorováno!</string>
+    <string name="uninstallApp">Odinstalovat</string>
+    <string name="lblSelfTest">Zapsat soubory vlastního testu</string>
+    <string name="lblExtendedDatabaseToggle">Rozšířená databáze</string>
+    <string name="confirm_extended_title">Zapnout rozšířenou databázi?</string>
+    <string name="confirm_extended_summary">[EXPERIMENTÁLNÍ]\nTouto akcí zapnete detekci dalších ~40 milionů podpisů.\nTato akce vyžaduje stažení 125 MB dat, zpomalí spuštění aplikace až o dvě minuty, zvýší využití RAM, a zvýší množství falešných pozitiv.\nTato databáze je aktualizována jednou za čtvrt roku.</string>
+    <string name="confirm_update_title">Potvrdit stažení</string>
+    <string name="confirm_update_summary">Vypadá to, že se nacházíte na měřeném připojení. Opravdu chcete aktualizovat databáze?\nMůže být staženo až %s megabajtů dat.</string>
+    <string name="lblUpdateRunning">Přeskakuji akci, probíhá aktualizace!</string>
+    <string name="lblWroteTestFiles">Testovací soubory zapsány!</string>
+</resources>
