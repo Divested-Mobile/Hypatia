@@ -1,0 +1,15 @@
+<p>Hypatia je první FOSS malware skener na světě. Využívá databáze podpisů ve stylu ClamAV.</p>
+
+<b>Funkce</b>
+<ul>
+<li>Téměř žádný vliv na baterii: vlivu na baterii si vůbec nevšimnete</li>
+<li>Extrémně rychlý: umí skenovat malé soubory (1 MB) do 20 ms, a velké soubory (40 MB) do 1000 ms.</li>
+<li>Efektivní využití paměti: se zapnutými výchozími databázemi využívá méně než 120 MB.</li>
+<li>Klasický sken: zapnutí skenování adresáře /system, interního i externího úložiště a nainstalovaných aplikací</li>
+<li>Sken v reálném čase: umí detekovat malware v reálném čase při zápisu/přejmenování v interním úložišti</li>
+<li>Kompletně offline: internet je použit pouze pro stažení databází podpisů, soubory nikdy neopustí vaše zařízení</li>
+<li>Perzistence: automaticky se restartuje při spuštění systému / aktualizaci</li>
+<li>Malé množství kódu: s méně než 1000 sloc jej může auditovat kdokoli i se základní znalostí programování</li>
+<li>Minimální závislosti: aplikace používá knihovny pouze, když je to nutné</li>
+<li>Databáze podpisů lze na v aplikaci zapnout/vypnout</li>
+</ul>
