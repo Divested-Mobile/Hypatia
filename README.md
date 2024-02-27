@@ -26,13 +26,14 @@ Features
 
 Technical Details
 ------------------
-- Signature databases are ClamAV .hdb (MD5 hashes) and .hsb (SHA-1/SHA-256) format
+- Signature databases are serialized Guava BloomFilter object format
 - Signature databases will not be redownloaded if the file hasn't changed on the server (304 not modified)
 - Signatures are stored using BloomFilters for O(k) lookup
 - Files have their MD5/SHA-1/SHA-256 hashes calculated in one pass
 - Realtime scanner is multithreaded and will use half of the device's core count for scanning multiple files asynchronously
 - Realtime scanning powered by a recursive FileObserver
-- Network connections will be made to the following: https://divested.dev/MalwareScannerSignatures/*.h*b.gz
+- Network connections will be made to the following: https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
+- Statistics & generation output of the current database is available via https://divested.dev/MalwareScannerSignatures/
 
 Planned Updates
 ----------------
@@ -80,6 +81,8 @@ Credits
 - @cardpuncher for French and the Turkish translations.
 - Tommaso Fonda for Italian translations.
 - Dimitris Vagiakakos for the Greek translations.
+- @gallegonovato for the Spanish translations.
+- @Fjuro for the Czech translations.
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
 Notices

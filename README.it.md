@@ -26,7 +26,7 @@ Dettagli tecnici
 - I file hanno i loro hash MD5/SHA-1/SHA-256 calcolati in un solo passaggio
 - Lo scanner in tempo reale è multithreaded e utilizzerà metà del numero di core del dispositivo per la scansione di più file in modo asincrono
 - Scansione in tempo reale alimentata da un FileObserver ricorsivo
-- Le connessioni di rete saranno effettuate su: https://divested.dev/MalwareScannerSignatures/*.h*b.gz
+- Le connessioni di rete saranno effettuate su: https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
 
 Aggiornamenti pianificati
 ----------------

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">版权所有 2017-2023 Divested Computing Group</string>
+    <string name="app_copyright">版权所有 2017-2024 Divested Computing Group</string>
     <string name="app_license">许可证：GPL-3.0</string>
     <string name="app_version">版本：%s</string>
     <string name="app_db_type_clamav">由 ClamAV 数据库特征码提供支持</string>

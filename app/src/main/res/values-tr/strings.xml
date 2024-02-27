@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_copyright">Telif hakkı 2017-2023 Divested Computing Group</string>
+    <string name="app_copyright">Telif hakkı 2017-2024 Divested Computing Group</string>
     <string name="app_license">Lisans: GPL-3.0</string>
     <string name="app_version">Sürüm: %s</string>
     <string name="app_db_type_clamav">ClamAV tarzı imzalarla güçlendirilmiştir</string>

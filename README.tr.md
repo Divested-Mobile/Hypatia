@@ -32,7 +32,7 @@ Teknik Ayrıntılar
 - Dosyaların MD5/SHA-1/SHA-256 karma değerleri tek geçişte hesaplanır
 - Gerçek zamanlı tarayıcı çoklu izlek kullanır ve birçok dosyayı eşzamansız olarak taramak için cihazın çekirdek sayısının yarısını kullanacaktır
 - Gerçek zamanlı tarama özyinelemeli bir FileObserver (DosyaGözlemcisi) tarafından desteklenmektedir
-- Şebeke bağlantıları şu adreslere yapılır: https://divested.dev/MalwareScannerSignatures/*.h*b.gz
+- Şebeke bağlantıları şu adreslere yapılır: https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
 
 Planlanan Güncellemeler
 ----------------

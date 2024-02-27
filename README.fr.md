@@ -26,7 +26,7 @@ Détails techniques
 - Les fichiers ont leurs hachages MD5/SHA-1/SHA-256 calculés en un seul passage
 - Le scanner en temps réel est multifilaire et utilisera la moitié du nombre d'éléments de l'appareil pour analyser plusieurs fichiers de manière asynchrone.
 - Analyse en temps réel grâce à un FileObserver récursif
-- Les connexions au réseau seront effectuées aux adresses de type suivant: https://divested.dev/MalwareScannerSignatures/*.h*b.gz
+- Les connexions au réseau seront effectuées aux adresses de type suivant: https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
 
 
 Mises à jour prévues

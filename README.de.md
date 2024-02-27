@@ -30,7 +30,7 @@ Technische Details
 - Dateien haben ihre MD5/SHA-1/SHA-256-Hashes in einem Durchgang berechnet
 - Der Echtzeit-Scanner ist multithreaded und nutzt die Hälfte der Kernanzahl des Geräts für das asynchrone Scannen mehrerer Dateien
 - Echtzeit-Scanning wird von einem rekursiven FileObserver unterstützt
-- Netzwerkverbindungen werden zu Adressen nach dem Folgendem Muster hergestellt: https://divested.dev/MalwareScannerSignatures/*.h*b.gz
+- Netzwerkverbindungen werden zu Adressen nach dem Folgendem Muster hergestellt: https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
 
 Geplante Updates
 ----------------

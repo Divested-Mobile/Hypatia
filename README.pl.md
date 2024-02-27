@@ -30,7 +30,7 @@ Technical Details
 - Hashe MD5/SHA-1/SHA-256 plików są obliczane jednocześnie
 - Skaner w czasie rzeczywistym używa wielu wątków i wykorzystuje połowę rdzeni urządzenia dla skanowania wielu plików asynchronicznie
 - Skaner w czasie rzeczywistym wykorzystuje rekurencyjny FileObserver
-- Połączenia z internetem są dokonywane z adresem https://divested.dev/MalwareScannerSignatures/*.h*b.gz
+- Połączenia z internetem są dokonywane z adresem https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
 
 Planowane aktualizacje
 ----------------

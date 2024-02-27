@@ -33,7 +33,7 @@ Datos técnicos
 - Los hashes MD5/SHA-1/SHA-256 de los archivos se calculan en una sola pasada.
 - El escáner en tiempo real es multihilo y utilizará la mitad del número de núcleos del dispositivo para escanear varios archivos de forma asíncrona.
 - Escaneo en tiempo real impulsado por un FileObserver recursivo
-- Se establecerán conexiones de red a: https://divested. dev/MalwareScannerSignatures/*. h*b. gz
+- Se establecerán conexiones de red a: https://divested.dev/MalwareScannerSignatures/hypatia-*-bloom.bin{,.sig}
 
 Actualizaciones previstas
 -----------------------
