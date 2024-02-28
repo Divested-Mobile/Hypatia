@@ -69,7 +69,7 @@
     <string name="ignored">Ignored!</string>
     <string name="uninstallApp">Uninstall</string>
     <string name="lblSelfTest">Write self test files</string>
-    <string name="lblExtendedDatabaseToggle">Extended datatabase</string>
+    <string name="lblExtendedDatabaseToggle">Extended database</string>
     <string name="confirm_extended_title">Enable extended database?</string>
     <string name="confirm_extended_summary">[EXPERIMENTAL]\nThis will enable detection of an additional ~40 million signatures.\nThis requires a 125MB download, will slow down startup by over two minutes, will increase app RAM usage, and will increase the false positive rate.\nThis database only updates quarterly.</string>
     <string name="confirm_update_title">Confirm download</string>
