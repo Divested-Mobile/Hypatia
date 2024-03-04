@@ -5,8 +5,8 @@
 <li>Nahezu keine Auswirkungen auf den Akku: Sie werden keinerlei Auswirkungen auf den Akku bemerken</li>
 <li>Extrem schnell: kleine Dateien (1MB) werden in 20ms gescannt, große Dateien (40MB) in 1000ms.</li>
 <li>Speichereffizient: mit den standardmäßig aktivierten Datenbanken verbraucht Hypatia weniger als 120MB.</li>
-<li>Regelmäßiger Scan: erlaubt die Auswahl von /system, internem Speicher, externem Speicher und installierten Apps</li>
-<li>Echtzeit-Scanner: kann Malware in Echtzeit beim Schreiben/Umbenennen im internen Speicher erkennen</li>
+<li>Manueller Scan: erlaubt die Auswahl von /system, internem Speicher, externem Speicher und installierten Apps</li>
+<li>Echtzeit-Scanner: kann Malware direkt bei neugeschriebenen oder unbenannten Dateien im internen Speicher erkennen</li>
 <li>Vollständig offline: Das Internet wird nur zum Herunterladen von Signatur-Datenbanken verwendet, die Dateien verlassen niemals Ihr Gerät</li>
 <li>Persistenz: automatischer Neustart beim Booten/Update</li>
 <li>Winzige Codebasis: mit weniger als 1000 sloc kann sie sogar von jemandem mit grundlegenden Programmierkenntnissen geprüft werden</li>
