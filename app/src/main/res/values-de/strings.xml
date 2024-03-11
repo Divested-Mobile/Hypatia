@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_license">Lizenz: GPL-3.0</string>
+    <string name="app_copyright">Urheberrecht 2017-2024 Divested Computing Group</string>
     <string name="app_version">Versionsnummer: %s</string>
     <string name="app_db_type_clamav">Basierend auf Signaturen im Stil von ClamAV</string>
 
     <string name="lblOnionRoutingToggle">Über Tor laden</string>
-    <string name="lblOnionRoutingEnabledHint">Herunterladen wird zur Anonymisierung über das Tor-Netzwerk geleitet und kann daher länger dauern.</string>
+    <string name="lblOnionRoutingEnabledHint">Downloads werden zur Anonymisierung über das Tor-Netzwerk geleitet und können daher länger dauern.</string>
     <string name="lblOnionRoutingNotInstalled">Orbot ist nicht installiert!</string>
     <string name="lblUpdateDatabase">Datenbank aktualisieren</string>
     <string name="lblDatabaseServer">Datenbankserver überschreiben</string>
@@ -15,9 +16,9 @@
     <string name="lblScanInternal">Internen Speicher scannen</string>
     <string name="lblScanExternal">Externen Speicher scannen</string>
     <string name="lblNotificationMalwareDetectionTitle">Schadsoftware-Erkennung</string>
-    <string name="lblNotificationMalwareDetectionDescription">Dient zur Warnung in Echtzeit wenn Schadsoftware erkannt wird</string>
+    <string name="lblNotificationMalwareDetectionDescription">Dient zur direkten Warnung bei erkannter Schadsoftware</string>
     <string name="lblNotificationRealtimeTitle">Echtzeit-Scanner</string>
-    <string name="lblNotificationRealtimeDescription">Dient dazu bereits durchsuchte Dateien aufzuzählen und den Echtzeit-Scanner aktiv zu halten</string>
+    <string name="lblNotificationRealtimeDescription">Dient zur Aufzählung bereits dursuchter Dateien und der Aufrechthaltung des aktiven Scan's im Hintergrund</string>
     <string name="lblNotificationRealtimeText">Bekannte Schadsoftware wird in Echtzeit erkannt</string>
     <string name="lblNotificationRealtimeStopped">Hypatia: Echtzeit-Scanner wurde gestoppt</string>
     <string name="lblNotificationRealtimeDetection">Schadsoftware gefunden:</string>
@@ -33,7 +34,7 @@
     <string name="main_database_released_on">Veröffentlicht am %s</string>
     <string name="main_database_not_changed">Keine Veränderung der Datenbank(en)</string>
     <string name="main_database_not_modified_since">seit %s</string>
-    <string name="main_database_download_error_logcat">Herunterladen ist fehlgeschlagen. Details können im logcat eingesehen werden</string>
+    <string name="main_database_download_error_logcat">Download ist fehlgeschlagen. Details können im logcat eingesehen werden</string>
 
     <string name="main_starting_scan">Schadsoftware-Prüfung startet…</string>
     <string name="main_cancelling_scan">Prüfung wird abgebrochen…</string>
@@ -43,6 +44,34 @@
     <string name="main_hashing_files">Generiere Prüfsummen der Dateien…</string>
     <string name="main_hashing_done">Prüfsummen für alle Dateien generiert</string>
     <string name="main_hash_scan_done">Alle %s Prüfsummen wurden mit den Signaturen der Datenbank(en) verglichen</string>
-    <string name="main_scanning_done">Überprüfung nach %s Sekunden abgeschlossen @ %sMB/s!</string>
+    <string name="main_scanning_done">Überprüfung nach %s Sekunden und bei %sMB/s abgeschlossen</string>
     <string name="main_files_scanned_count">%s Dateien überprüft</string>
+    <string name="scan_control">Scan Steuerung</string>
+    <string name="lblScanRunning">Vorhaben wurde übersprungen, ein aktiver Scan läuft bereits!</string>
+    <string name="lblSigningKey">Datenbank Signierschlüssel</string>
+    <string name="lblNoNetwork">Mit keinem Netzwerk verbunden!</string>
+    <string name="self_test_result_success">Der Selbsttest war erfolgreich.</string>
+    <string name="self_test_result_failure">Der Selbsttest ist fehlgeschlagen!</string>
+    <string name="lblDatabaseLoading">Vorhaben wurde übersprungen, Datenbank wird geladen!</string>
+    <string name="lblDatabasesUpdated">Alle Datenbanken wurden aktualisiert!</string>
+    <string name="lookupVT">Suchen</string>
+    <string name="deleteFile">Löschen</string>
+    <string name="deleted">Gelöscht!</string>
+    <string name="ignoreDetection">Ignorieren</string>
+    <string name="detections_none">Keine Schadsoftware gefunden :)</string>
+    <string name="detections_found">Schadsoftware erkannt! :(</string>
+    <string name="confirm_lookup_title">Suche bestätigen</string>
+    <string name="confirm_lookup_summary">Wollen Sie wirklich VirusTotal.com in Ihrem Web Browser mit der Folgenden Signatur öffnen?</string>
+    <string name="confirm_delete_title">Löschen bestätigen</string>
+    <string name="confirm_delete_summary">Wollen Sie wirklich die Folgende(n) Datei(en) Löschen?</string>
+    <string name="delete_failed">Löschen fehlgeschlagen!</string>
+    <string name="ignored">Ignoriert!</string>
+    <string name="uninstallApp">Deinstallieren</string>
+    <string name="lblSelfTest">Selbsttest Dateien plazieren</string>
+    <string name="lblExtendedDatabaseToggle">Erweiterte Datenbank laden</string>
+    <string name="confirm_extended_title">Erweiterte Datenbank aktivieren?</string>
+    <string name="confirm_extended_summary">[EXPERIMENTELL]\nDiese Funktion ermöglicht das erkennen weiterer ~40 Millionen Signaturen.\nDies erfordert den Download von 125MB, eine über zweiminütige vorbereitung beim jeweiligen ersten Scan und eine hohe Anzahl falscher Schadsoftware funde.\nDiese Datenbank wird nur vierteljährlich aktualisiert.</string>
+    <string name="confirm_update_summary">Sie laufen wahrscheinlich über eine getaktete Verbindung. Wollen Sie die Datenbanken wirklich aktualisieren? Es werden bis zu %s Megabytes heruntergeladen.</string>
+    <string name="lblUpdateRunning">Vorhaben wurde übersprungen, ein aktiver Update läuft bereits!</string>
+    <string name="lblWroteTestFiles">Selbsttest Dateien wurden geschrieben!</string>
 </resources>
